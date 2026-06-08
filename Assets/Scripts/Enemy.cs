@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public int maxHealth = 100; // Darah maksimal
     private int currentHealth;
 
+    
     void Start()
     {
         // Saat game mulai, darah musuh penuh

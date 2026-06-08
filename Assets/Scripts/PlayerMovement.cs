@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     private Vector2 movement;
+    public Animator anim;
 
     [Header("Pengaturan Dash")]
     public float dashSpeed = 15f; // Kecepatan saat dash
@@ -20,9 +21,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isDashing) return; // Kalau sedang dash, blokir input lain sementara
 
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        movement = movement.normalized;
+            // 1. TANGKAP INPUT DARI KEYBOARD (WASD / Panah)
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+            
+            if (movement.x != 0 || movement.y != 0){
+            // Mengirim nilai input keyboard ke parameter Animator
+            anim.SetFloat("MoveX", movement.x); // ganti 'movement.x' sesuai nama variabel inputmu
+            anim.SetFloat("MoveY", movement.y); // ganti 'movement.y' sesuai nama variabel inputmu
+            }
+            
+        anim.SetFloat("Speed", movement.sqrMagnitude);
 
         // Jika tombol Shift ditekan dan dash sedang tidak cooldown
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)

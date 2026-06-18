@@ -1,50 +1,125 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// AI gerak musuh: mengejar player, berhenti & menyerang saat dalam jarak
+/// serang (berbasis jarak, bukan sekadar tabrakan), dengan "separation" agar
+/// musuh tidak menumpuk jadi satu. Kecepatan menyesuaikan tingkat kesulitan.
+/// </summary>
 public class EnemyMovement : MonoBehaviour
 {
-    [Header("Pengaturan Gerak Musuh")]
-    public float speed = 2f; // Kecepatan musuh
-    
-    private Transform player; // Target yang akan dikejar
-    private PlayerHealth playerHealth; // Mengingat script nyawa player
+    [Header("Gerak (basis sebelum difficulty)")]
+    public float speed = 2f;
+    [Tooltip("Jarak mulai menyerang")]
+    public float attackRange = 0.9f;
+    [Tooltip("Jarak berhenti mendekat")]
+    public float stopDistance = 0.7f;
+    public float attackCooldown = 1.5f;
+
+    [Header("Anti-Numpuk (separation)")]
+    public float separationRadius = 0.6f;
+    public float separationStrength = 1.2f;
+    [Tooltip("Set ke layer 'Enemy' di Inspector")]
+    public LayerMask enemyMask;
+
+    Transform player;
+    PlayerHealth playerHealth;
+    Enemy enemy;
+    Animator anim;
+    Rigidbody2D rb;
+    float nextAttackTime = 0f;
+    float speedMult = 1f;
 
     void Start()
     {
-        // Begitu musuh muncul, dia mencari objek ber-tag "Player"
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        enemy = GetComponent<Enemy>();
+
+        var playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
         {
             player = playerObj.transform;
-            // Langsung simpan script PlayerHealth-nya di awal biar mesin tidak capek mencari
-            playerHealth = playerObj.GetComponent<PlayerHealth>(); 
+            playerHealth = playerObj.GetComponent<PlayerHealth>();
         }
+
+        if (GameManager.Instance != null)
+            speedMult = GameManager.Instance.Profile.enemySpeedMult;
     }
+
+    bool PlayerActive => player != null && playerHealth != null && !playerHealth.IsDead;
 
     void Update()
     {
-        // Jika player ditemukan DAN status isDead-nya masih false (belum mati)
-        if (player != null && playerHealth != null && !playerHealth.isDead)
+        if (!PlayerActive) { SafeSetFloat("Speed", 0f); return; }
+
+        float dist = Vector2.Distance(transform.position, player.position);
+        Vector2 toPlayer = ((Vector2)player.position - (Vector2)transform.position).normalized;
+
+        SafeSetFloat("MoveX", toPlayer.x);
+        SafeSetFloat("MoveY", toPlayer.y);
+
+        if (dist <= attackRange)
         {
-            // Musuh pelan-pelan bergeser mendekati posisi player
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            SafeSetFloat("Speed", 0f);
+            TryAttack();
         }
-        // Kalau isDead bernilai true, kode di atas tidak akan dijalankan sehingga musuh otomatis diam.
+        else
+        {
+            SafeSetFloat("Speed", 1f);
+        }
     }
 
-    // Fungsi bawaan Unity untuk mendeteksi tabrakan fisik
-    private void OnCollisionEnter2D(Collision2D collision)
+    void FixedUpdate()
     {
-        // Cek apakah yang ditabrak adalah objek ber-tag "Player"
-        if (collision.gameObject.CompareTag("Player"))
+        if (!PlayerActive) return;
+
+        float dist = Vector2.Distance(transform.position, player.position);
+        if (dist <= stopDistance) return;
+
+        Vector2 toPlayer = ((Vector2)player.position - (Vector2)transform.position).normalized;
+        Vector2 move = (toPlayer + Separation() * separationStrength).normalized;
+        float step = speed * speedMult * Time.fixedDeltaTime;
+        Vector2 target = (Vector2)transform.position + move * step;
+
+        if (rb != null && rb.simulated) rb.MovePosition(target);
+        else transform.position = target;
+    }
+
+    Vector2 Separation()
+    {
+        Vector2 sum = Vector2.zero;
+        int count = 0;
+        var hits = Physics2D.OverlapCircleAll(transform.position, separationRadius, enemyMask);
+        foreach (var h in hits)
         {
-            // Pastikan tidak mukul "mayat" yang sudah Game Over
-            if (playerHealth != null && !playerHealth.isDead)
-            {
-                playerHealth.TakeDamage(20);
-            }
+            if (h.gameObject == gameObject) continue;
+            Vector2 away = (Vector2)transform.position - (Vector2)h.transform.position;
+            float d = away.magnitude;
+            if (d > 0.001f) { sum += away.normalized / d; count++; }
         }
+        if (count > 0) sum /= count;
+        return sum;
+    }
+
+    void TryAttack()
+    {
+        if (Time.time < nextAttackTime) return;
+        nextAttackTime = Time.time + attackCooldown;
+        SafeSetTrigger("Attack");
+        if (PlayerActive)
+        {
+            int dmg = enemy != null ? enemy.AttackDamage : 20;
+            playerHealth.TakeDamage(dmg, transform.position);
+        }
+    }
+
+    // ---- helper Animator (aman walau parameter belum ada) ----
+    void SafeSetFloat(string p, float v) { if (HasParam(p, AnimatorControllerParameterType.Float)) anim.SetFloat(p, v); }
+    void SafeSetTrigger(string p) { if (HasParam(p, AnimatorControllerParameterType.Trigger)) anim.SetTrigger(p); }
+    bool HasParam(string p, AnimatorControllerParameterType t)
+    {
+        if (anim == null) return false;
+        foreach (var par in anim.parameters) if (par.name == p && par.type == t) return true;
+        return false;
     }
 }

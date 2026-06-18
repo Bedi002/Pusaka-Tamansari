@@ -1,66 +1,95 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Pergerakan player (WASD/panah) + dash (Shift). Mendukung "hit stun" singkat
+/// supaya knockback dari musuh terasa, dan berhenti saat game di-pause
+/// (Time.timeScale == 0).
+/// </summary>
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Pengaturan Pergerakan")]
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
-    private Vector2 movement;
-    public Animator anim;
+    public Animator anim;            // opsional (boleh null untuk sprite Kenney)
+    public SpriteRenderer spriteRend; // untuk flip kiri/kanan
+    Vector2 movement;
+
+    /// <summary>Arah hadap terakhir (dipakai PlayerCombat untuk arah serangan).</summary>
+    public Vector2 lastFacing = Vector2.down;
 
     [Header("Pengaturan Dash")]
-    public float dashSpeed = 15f; // Kecepatan saat dash
-    public float dashDuration = 0.2f; // Lama dash (sangat singkat)
-    public float dashCooldown = 1f; // Jeda waktu bisa dash lagi
-    private bool canDash = true; // Syarat bisa dash
-    private bool isDashing; // Penanda sedang dash
+    public float dashSpeed = 15f;
+    public float dashDuration = 0.2f;
+    public float dashCooldown = 1f;
+    bool canDash = true;
+    bool isDashing;
+
+    float hitStun = 0f;
+
+    void Reset()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
+
+    void Awake()
+    {
+        if (rb == null) rb = GetComponent<Rigidbody2D>();
+        if (anim == null) anim = GetComponent<Animator>();
+        if (spriteRend == null) spriteRend = GetComponentInChildren<SpriteRenderer>();
+    }
 
     void Update()
     {
-        if (isDashing) return; // Kalau sedang dash, blokir input lain sementara
+        if (isDashing) return;
+        if (Time.timeScale == 0f) return; // game di-pause
 
-            // 1. TANGKAP INPUT DARI KEYBOARD (WASD / Panah)
-            movement.x = Input.GetAxisRaw("Horizontal");
-            movement.y = Input.GetAxisRaw("Vertical");
-            
-            if (movement.x != 0 || movement.y != 0){
-            // Mengirim nilai input keyboard ke parameter Animator
-            anim.SetFloat("MoveX", movement.x); // ganti 'movement.x' sesuai nama variabel inputmu
-            anim.SetFloat("MoveY", movement.y); // ganti 'movement.y' sesuai nama variabel inputmu
-            }
-            
-        anim.SetFloat("Speed", movement.sqrMagnitude);
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        // Jika tombol Shift ditekan dan dash sedang tidak cooldown
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (anim != null)
         {
-            StartCoroutine(DashRoutine());
+            if (movement.x != 0 || movement.y != 0)
+            {
+                anim.SetFloat("MoveX", movement.x);
+                anim.SetFloat("MoveY", movement.y);
+            }
+            anim.SetFloat("Speed", movement.sqrMagnitude);
         }
+
+        // Facing + flip (jalan untuk sprite Kenney tanpa Animator)
+        if (movement.sqrMagnitude > 0.01f)
+        {
+            lastFacing = movement.normalized;
+            if (spriteRend != null && Mathf.Abs(movement.x) > 0.01f) spriteRend.flipX = movement.x < 0f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && movement.sqrMagnitude > 0.01f)
+            StartCoroutine(DashRoutine());
     }
 
     void FixedUpdate()
     {
-        if (isDashing) return; // Kalau sedang dash, biarkan fisika dash yang bekerja
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (isDashing) return;
+        if (hitStun > 0f) { hitStun -= Time.fixedDeltaTime; return; } // biarkan knockback bekerja
+        if (rb != null) rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
-    // Sistem waktu untuk Dash
+    /// <summary>Dipanggil PlayerHealth saat kena hit agar knockback sempat terasa.</summary>
+    public void ApplyHitStun(float t) => hitStun = Mathf.Max(hitStun, t);
+
     IEnumerator DashRoutine()
     {
         canDash = false;
         isDashing = true;
-        
-        // Melesat ke arah karakter sedang berjalan
-        rb.linearVelocity = movement * dashSpeed; 
-        
-        yield return new WaitForSeconds(dashDuration); // Tunggu sekian detik
-        
-        rb.linearVelocity = Vector2.zero; // Berhenti melesat
+
+        if (rb != null) rb.linearVelocity = movement * dashSpeed;
+        yield return new WaitForSeconds(dashDuration);
+        if (rb != null) rb.linearVelocity = Vector2.zero;
         isDashing = false;
-        
-        yield return new WaitForSeconds(dashCooldown); // Tunggu masa cooldown
-        canDash = true; // Bisa dash lagi
+
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 }

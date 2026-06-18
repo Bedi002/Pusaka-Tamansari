@@ -1,88 +1,85 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Serangan combo 3-hit (Spasi). Memakai IDamageable sehingga satu serangan
+/// bisa mengenai musuh biasa MAUPUN boss. Mengirim posisi penyerang agar target
+/// terdorong (knockback). Berhenti saat game di-pause.
+/// </summary>
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Pengaturan Pukulan")]
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public float attackOffset = 0.6f;
-    public LayerMask enemyLayers; 
+    public LayerMask enemyLayers;
     public Animator anim;
+    public int attackDamage = 50;
 
     [Header("Sistem Combo")]
-    public int comboStep = 0; 
-    public float maxComboDelay = 1f; // Batas waktu maksimal sebelum combo reset
-    public float comboCooldown = 0.4f; // JEDA MINIMAL antar pukulan (Kunci tombol)
-    private float lastAttackTime = 0f; 
-    private float nextAttackTime = 0f; // Kapan pemain boleh memencet Spasi lagi
+    public int comboStep = 0;
+    public float maxComboDelay = 1f;   // batas waktu sebelum combo reset
+    public float comboCooldown = 0.4f; // jeda minimal antar pukulan
+    float lastAttackTime = 0f;
+    float nextAttackTime = 0f;
+    PlayerMovement move;
+
+    void Awake()
+    {
+        move = GetComponent<PlayerMovement>();
+        if (anim == null) anim = GetComponent<Animator>();
+    }
 
     void Update()
     {
-        // 1. ATTACK POINT MENGIKUTI ARAH
-        float arahX = anim.GetFloat("MoveX");
-        float arahY = anim.GetFloat("MoveY");
-        Vector2 arahHadap = new Vector2(arahX, arahY).normalized;
-        attackPoint.localPosition = arahHadap * attackOffset;
+        if (Time.timeScale == 0f) return;
 
-        // 2. RESET COMBO JIKA KELAMAAN DIAM
-        if (Time.time - lastAttackTime > maxComboDelay)
+        // arah hadap: dari PlayerMovement (jalan tanpa Animator) atau fallback bawah
+        Vector2 face = move != null ? move.lastFacing : Vector2.down;
+        if (anim != null)
         {
-            comboStep = 0; 
+            anim.SetFloat("MoveX", face.x);
+            anim.SetFloat("MoveY", face.y);
         }
+        if (attackPoint != null) attackPoint.localPosition = (Vector3)(face.normalized * attackOffset);
 
-        // 3. TOMBOL SERANG (Sudah diberi sistem antri/cooldown)
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            // Hanya izinkan memukul jika waktu saat ini sudah melewati waktu jeda
-            if (Time.time >= nextAttackTime)
-            {
-                Attack();
-            }
-        }
+        // reset combo bila kelamaan diam
+        if (Time.time - lastAttackTime > maxComboDelay) comboStep = 0;
+
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextAttackTime)
+            Attack();
     }
 
     void Attack()
     {
         lastAttackTime = Time.time;
-        // Kunci tombol Spasi selama 0.4 detik ke depan agar tidak bisa di-spam
-        nextAttackTime = Time.time + comboCooldown; 
-        
-        comboStep++; 
+        nextAttackTime = Time.time + comboCooldown;
+        comboStep++;
 
-        // Tembakkan animasi sesuai urutan combo
-        if (comboStep == 1)
+        if (anim != null)
         {
-            // Reset trigger lain agar tidak menumpuk di memori
-            anim.ResetTrigger("Attack2");
-            anim.ResetTrigger("Attack3");
-            anim.SetTrigger("Attack1"); 
+            if (comboStep == 1) { ResetTriggers(); anim.SetTrigger("Attack1"); }
+            else if (comboStep == 2) { ResetTriggers(); anim.SetTrigger("Attack2"); }
+            else { ResetTriggers(); anim.SetTrigger("Attack3"); }
         }
-        else if (comboStep == 2)
-        {
-            anim.ResetTrigger("Attack1");
-            anim.ResetTrigger("Attack3");
-            anim.SetTrigger("Attack2"); 
-        }
-        else if (comboStep == 3)
-        {
-            anim.ResetTrigger("Attack1");
-            anim.ResetTrigger("Attack2");
-            anim.SetTrigger("Attack3"); 
-            comboStep = 0; // Reset ke 0 setelah hantaman terakhir
-        }
+        if (comboStep >= 3) comboStep = 0;
 
-        // Proses memberi damage
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        foreach (Collider2D enemy in hitEnemies)
+        if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX(AudioManager.Instance.playerAttack);
+
+        if (attackPoint == null) return;
+        Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        foreach (Collider2D col in hits)
         {
-            Enemy komponenMusuh = enemy.GetComponent<Enemy>();
-            if (komponenMusuh != null)
-            {
-                komponenMusuh.TakeDamage(50); 
-            }
+            var dmg = col.GetComponent<IDamageable>();
+            if (dmg == null) dmg = col.GetComponentInParent<IDamageable>();
+            if (dmg != null) dmg.TakeDamage(attackDamage, transform.position);
         }
+    }
+
+    void ResetTriggers()
+    {
+        anim.ResetTrigger("Attack1");
+        anim.ResetTrigger("Attack2");
+        anim.ResetTrigger("Attack3");
     }
 
     void OnDrawGizmosSelected()

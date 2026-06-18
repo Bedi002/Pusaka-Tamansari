@@ -1,55 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Penanda titik spawn musuh. Komponen ini sekarang HANYA penanda posisi:
+/// StageManager akan otomatis memakai semua objek ber-komponen Spawner sebagai
+/// titik kemunculan musuh bila daftar spawnPoints-nya dibiarkan kosong.
+///
+/// (Sebelumnya komponen ini mengatur spawn sendiri; orkestrasi wave kini
+/// dipindah ke StageManager agar mendukung sistem stage, difficulty, & boss.)
+/// </summary>
 public class Spawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
-    public float spawnTime = 3f;
-    
-    [Header("Sistem Ruangan")]
-    public int maxEnemies = 3; // Jumlah maksimal musuh dalam 1 ruangan
-    public GameObject pintuKeluar; // Objek pintu
-    
-    private int spawnedCount = 0; // Menghitung musuh yang sudah muncul
+    public Color gizmoColor = new Color(1f, 0.45f, 0.1f, 0.9f);
+    public float gizmoSize = 0.4f;
 
-    void Start()
+    void OnDrawGizmos()
     {
-        // Sembunyikan pintu di awal game
-        if (pintuKeluar != null) pintuKeluar.SetActive(false); 
-        
-        InvokeRepeating("SpawnEnemy", 1f, spawnTime);
-    }
-
-    void SpawnEnemy()
-    {
-        if (spawnedCount < maxEnemies)
-        {
-            Instantiate(enemyPrefab, transform.position, Quaternion.identity);
-            spawnedCount++;
-        }
-        else
-        {
-            // Hentikan spawner jika musuh sudah mencapai batas maksimal
-            CancelInvoke("SpawnEnemy"); 
-            // Mulai mengecek apakah semua musuh sudah mati
-            StartCoroutine(CekRuanganClear()); 
-        }
-    }
-
-    IEnumerator CekRuanganClear()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(1f); // Cek setiap 1 detik
-            
-            // Mencari berapa sisa objek ber-tag "Enemy" di layar
-            if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
-            {
-                Debug.Log("Ruangan Bersih! Pintu Terbuka.");
-                if (pintuKeluar != null) pintuKeluar.SetActive(true); // Munculkan pintu
-                break; // Hentikan pengecekan
-            }
-        }
+        Gizmos.color = gizmoColor;
+        Gizmos.DrawWireSphere(transform.position, gizmoSize);
+        Vector3 p = transform.position;
+        Gizmos.DrawLine(p + Vector3.up * gizmoSize, p - Vector3.up * gizmoSize);
+        Gizmos.DrawLine(p + Vector3.right * gizmoSize, p - Vector3.right * gizmoSize);
     }
 }

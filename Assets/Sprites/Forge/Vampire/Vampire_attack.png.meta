@@ -1,0 +1,1453 @@
+fileFormatVersion: 2
+guid: 14f892bf222fd5941acc1ef4254e9651
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5342175339810793468
+    second: Vampire_attack_0
+  - first:
+      213: -580555770697621395
+    second: Vampire_attack_1
+  - first:
+      213: 2146446220339088769
+    second: Vampire_attack_2
+  - first:
+      213: 7231794790795219363
+    second: Vampire_attack_3
+  - first:
+      213: -1635867414748627409
+    second: Vampire_attack_4
+  - first:
+      213: 866590538034689533
+    second: Vampire_attack_5
+  - first:
+      213: -7134807309268499647
+    second: Vampire_attack_6
+  - first:
+      213: -4136260737889781411
+    second: Vampire_attack_7
+  - first:
+      213: -732395325876679676
+    second: Vampire_attack_8
+  - first:
+      213: 5543104471675333812
+    second: Vampire_attack_9
+  - first:
+      213: -3184907233825828521
+    second: Vampire_attack_10
+  - first:
+      213: 9219836060050654550
+    second: Vampire_attack_11
+  - first:
+      213: -8351950223266438856
+    second: Vampire_attack_12
+  - first:
+      213: -1845087855915807423
+    second: Vampire_attack_13
+  - first:
+      213: 965637701115976813
+    second: Vampire_attack_14
+  - first:
+      213: -2727340025510139461
+    second: Vampire_attack_15
+  - first:
+      213: 4026706980962457966
+    second: Vampire_attack_16
+  - first:
+      213: -9013935105291438906
+    second: Vampire_attack_17
+  - first:
+      213: 6551329407412445419
+    second: Vampire_attack_18
+  - first:
+      213: -3527273019520573288
+    second: Vampire_attack_19
+  - first:
+      213: 7615536032319883417
+    second: Vampire_attack_20
+  - first:
+      213: 7320826389729666192
+    second: Vampire_attack_21
+  - first:
+      213: 6943691585444666912
+    second: Vampire_attack_22
+  - first:
+      213: 2641447828089935135
+    second: Vampire_attack_23
+  - first:
+      213: -4586323185390130705
+    second: Vampire_attack_24
+  - first:
+      213: 5820418226077547135
+    second: Vampire_attack_25
+  - first:
+      213: -545149923244510655
+    second: Vampire_attack_26
+  - first:
+      213: -6336840586562598000
+    second: Vampire_attack_27
+  - first:
+      213: 2777448041194734673
+    second: Vampire_attack_28
+  - first:
+      213: 8558881631188891317
+    second: Vampire_attack_29
+  - first:
+      213: 901103879511651541
+    second: Vampire_attack_30
+  - first:
+      213: 5791501019524929158
+    second: Vampire_attack_31
+  - first:
+      213: -1750358531135688772
+    second: Vampire_attack_32
+  - first:
+      213: -7143864759838571808
+    second: Vampire_attack_33
+  - first:
+      213: -9208653076325107997
+    second: Vampire_attack_34
+  - first:
+      213: -4902671793368067707
+    second: Vampire_attack_35
+  - first:
+      213: -5216976710457583040
+    second: Vampire_attack_36
+  - first:
+      213: 7943419687555343172
+    second: Vampire_attack_37
+  - first:
+      213: -2505054953810052056
+    second: Vampire_attack_38
+  - first:
+      213: -8985187790934246836
+    second: Vampire_attack_39
+  - first:
+      213: -3149343515595482619
+    second: Vampire_attack_40
+  - first:
+      213: 2894588135553696212
+    second: Vampire_attack_41
+  - first:
+      213: -5170332282784664280
+    second: Vampire_attack_42
+  - first:
+      213: -2564338090429637758
+    second: Vampire_attack_43
+  - first:
+      213: 1475022318727585619
+    second: Vampire_attack_44
+  - first:
+      213: 692564274634350691
+    second: Vampire_attack_45
+  - first:
+      213: -823272621116646940
+    second: Vampire_attack_46
+  - first:
+      213: 8005151698403159809
+    second: Vampire_attack_47
+  - first:
+      213: -8677972873521747650
+    second: Vampire_attack_48
+  - first:
+      213: 8710847445699876880
+    second: Vampire_attack_49
+  - first:
+      213: -5182046450336758871
+    second: Vampire_attack_50
+  - first:
+      213: -7131215320997998123
+    second: Vampire_attack_51
+  - first:
+      213: 5981279062763803771
+    second: Vampire_attack_52
+  - first:
+      213: 1849548503543765204
+    second: Vampire_attack_53
+  - first:
+      213: 3186124078609044874
+    second: Vampire_attack_54
+  - first:
+      213: 1290127879588875884
+    second: Vampire_attack_55
+  - first:
+      213: -1863979790951457585
+    second: Vampire_attack_56
+  - first:
+      213: -7307584830084601728
+    second: Vampire_attack_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cf8606e93f0b547b82d71dfa5bedf0
+      internalID: 630858713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188eaa0304361d346ae24dd35448dcbb
+      internalID: 1331133570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17fc2ebbd91ca84091c1ec8b5068b63
+      internalID: -1394778450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6d9a077d55e4e41bff1b1347704e5b
+      internalID: -979327108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97579a0bcb8a69f41a313fc9bee3242c
+      internalID: -1822561690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4fa186ff77c75458eeb116efaec9dd
+      internalID: -1902794107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878b07e6d4ab1184198c962c8455dc76
+      internalID: 2029367109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e4be738d15479468e6b45e74f2a764
+      internalID: 2020027956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8dbfa7291ef934eb6f8d94042f1120
+      internalID: 1257176067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ae2dc0da0b1054baeaffa3a6c5ba46
+      internalID: -330482290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95107549bd5b94f46b79dde170111f7f
+      internalID: -108448809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d0_f11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be4522fd0c98ab4393b94868ea30aa8
+      internalID: 1264861921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53293437d7469a746b47f9be8d6e7507
+      internalID: -446692447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a5d850a27e5ef49a9cb821722e1584
+      internalID: -968812761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851e1fdffb9710c4396971413be73dc4
+      internalID: 1209967825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f577c5a3edebb842828eb97bdad8e63
+      internalID: -2109256617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3de2c15551a7147998ca935c903a46
+      internalID: -644397973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861dc13c91acf5647a2ceb816c56c15b
+      internalID: 1651049769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323df527a7f17b542a479e67aee359ad
+      internalID: -1281414945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f036938d919298545905fcf8164a65c5
+      internalID: 1435906036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edec28fde79067448816ad7c19702c7d
+      internalID: -1502645243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41e87c676b330c42ad8915fa388eab2
+      internalID: -1569146695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e997fd0fa777a294bbc4a9c26b846654
+      internalID: -1391955689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d1_f11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d133482790064a9624958794c83c6
+      internalID: 987316035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37029efe7cb778f4d8c40f3455b22bcf
+      internalID: 359732107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94c4f1cbdbb7842ab74c00abab15e3
+      internalID: -51932695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e79c8a934938441bc4939e174d346f
+      internalID: -65956418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894094c9d13e3a24a8e6dfd74a5d0af9
+      internalID: 772624458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3e7edbf9628c6458ab01ebee8d0c6d
+      internalID: -1809696615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80be05327a562b41adb1bfee31d2413
+      internalID: -1242883103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10d7da20953c9748be0d6c18257916e
+      internalID: 2007058168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fad21b0985ca04a824d7cdde1c6db6
+      internalID: -1748265122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c7b3c615524f049938ab6917e8a376
+      internalID: 713296689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61063078645030844983782501cd314c
+      internalID: -269759133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd1fa68f205cd0488f01946ea0edafc
+      internalID: -884026941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d2_f11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65562cb930e5acd48a4afe4bae01f522
+      internalID: 1131715434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49677cb43e522f4c9a5b88d27cfed95
+      internalID: -825515975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7128ce55c7e214ab5a22eb1f3aba63
+      internalID: -1022203367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb16c67842c5f64fb57b6bfc79df64a
+      internalID: -1699531007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6596656a97469745ac8da1bc04c4ddf
+      internalID: 1192127653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f050613798ff2d4b9148dc4edd2af73
+      internalID: -879901024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2e6674a6fac774fa06791471420a38
+      internalID: 579191141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a4102bd34e24f4381973e905621291
+      internalID: -388466399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4f99891d5648b41b2ba5e849573a61
+      internalID: 364760192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9265685992989dc4e8f8d698b12e8ec0
+      internalID: -367983700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa70fb1098249b94c8f46646009cbf3c
+      internalID: -1620340566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639d6a11bc4eb3c43ba9af9d2b48eac7
+      internalID: -214842161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_attack_d3_f11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf95e4b84f5361418d82c7b08174026
+      internalID: 353670467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa9a3e60f133c0348b4acb5c95f24d94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vampire_attack_0: 5342175339810793468
+      Vampire_attack_1: -580555770697621395
+      Vampire_attack_10: -3184907233825828521
+      Vampire_attack_11: 9219836060050654550
+      Vampire_attack_12: -8351950223266438856
+      Vampire_attack_13: -1845087855915807423
+      Vampire_attack_14: 965637701115976813
+      Vampire_attack_15: -2727340025510139461
+      Vampire_attack_16: 4026706980962457966
+      Vampire_attack_17: -9013935105291438906
+      Vampire_attack_18: 6551329407412445419
+      Vampire_attack_19: -3527273019520573288
+      Vampire_attack_2: 2146446220339088769
+      Vampire_attack_20: 7615536032319883417
+      Vampire_attack_21: 7320826389729666192
+      Vampire_attack_22: 6943691585444666912
+      Vampire_attack_23: 2641447828089935135
+      Vampire_attack_24: -4586323185390130705
+      Vampire_attack_25: 5820418226077547135
+      Vampire_attack_26: -545149923244510655
+      Vampire_attack_27: -6336840586562598000
+      Vampire_attack_28: 2777448041194734673
+      Vampire_attack_29: 8558881631188891317
+      Vampire_attack_3: 7231794790795219363
+      Vampire_attack_30: 901103879511651541
+      Vampire_attack_31: 5791501019524929158
+      Vampire_attack_32: -1750358531135688772
+      Vampire_attack_33: -7143864759838571808
+      Vampire_attack_34: -9208653076325107997
+      Vampire_attack_35: -4902671793368067707
+      Vampire_attack_36: -5216976710457583040
+      Vampire_attack_37: 7943419687555343172
+      Vampire_attack_38: -2505054953810052056
+      Vampire_attack_39: -8985187790934246836
+      Vampire_attack_4: -1635867414748627409
+      Vampire_attack_40: -3149343515595482619
+      Vampire_attack_41: 2894588135553696212
+      Vampire_attack_42: -5170332282784664280
+      Vampire_attack_43: -2564338090429637758
+      Vampire_attack_44: 1475022318727585619
+      Vampire_attack_45: 692564274634350691
+      Vampire_attack_46: -823272621116646940
+      Vampire_attack_47: 8005151698403159809
+      Vampire_attack_48: -8677972873521747650
+      Vampire_attack_49: 8710847445699876880
+      Vampire_attack_5: 866590538034689533
+      Vampire_attack_50: -5182046450336758871
+      Vampire_attack_51: -7131215320997998123
+      Vampire_attack_52: 5981279062763803771
+      Vampire_attack_53: 1849548503543765204
+      Vampire_attack_54: 3186124078609044874
+      Vampire_attack_55: 1290127879588875884
+      Vampire_attack_56: -1863979790951457585
+      Vampire_attack_57: -7307584830084601728
+      Vampire_attack_6: -7134807309268499647
+      Vampire_attack_7: -4136260737889781411
+      Vampire_attack_8: -732395325876679676
+      Vampire_attack_9: 5543104471675333812
+      Vampire_attack_d0_f0: 630858713
+      Vampire_attack_d0_f1: 1331133570
+      Vampire_attack_d0_f10: -108448809
+      Vampire_attack_d0_f11: 1264861921
+      Vampire_attack_d0_f2: -1394778450
+      Vampire_attack_d0_f3: -979327108
+      Vampire_attack_d0_f4: -1822561690
+      Vampire_attack_d0_f5: -1902794107
+      Vampire_attack_d0_f6: 2029367109
+      Vampire_attack_d0_f7: 2020027956
+      Vampire_attack_d0_f8: 1257176067
+      Vampire_attack_d0_f9: -330482290
+      Vampire_attack_d1_f0: -446692447
+      Vampire_attack_d1_f1: -968812761
+      Vampire_attack_d1_f10: -1391955689
+      Vampire_attack_d1_f11: 987316035
+      Vampire_attack_d1_f2: 1209967825
+      Vampire_attack_d1_f3: -2109256617
+      Vampire_attack_d1_f4: -644397973
+      Vampire_attack_d1_f5: 1651049769
+      Vampire_attack_d1_f6: -1281414945
+      Vampire_attack_d1_f7: 1435906036
+      Vampire_attack_d1_f8: -1502645243
+      Vampire_attack_d1_f9: -1569146695
+      Vampire_attack_d2_f0: 359732107
+      Vampire_attack_d2_f1: -51932695
+      Vampire_attack_d2_f10: -884026941
+      Vampire_attack_d2_f11: 1131715434
+      Vampire_attack_d2_f2: -65956418
+      Vampire_attack_d2_f3: 772624458
+      Vampire_attack_d2_f4: -1809696615
+      Vampire_attack_d2_f5: -1242883103
+      Vampire_attack_d2_f6: 2007058168
+      Vampire_attack_d2_f7: -1748265122
+      Vampire_attack_d2_f8: 713296689
+      Vampire_attack_d2_f9: -269759133
+      Vampire_attack_d3_f0: -825515975
+      Vampire_attack_d3_f1: -1022203367
+      Vampire_attack_d3_f10: -214842161
+      Vampire_attack_d3_f11: 353670467
+      Vampire_attack_d3_f2: -1699531007
+      Vampire_attack_d3_f3: 1192127653
+      Vampire_attack_d3_f4: -879901024
+      Vampire_attack_d3_f5: 579191141
+      Vampire_attack_d3_f6: -388466399
+      Vampire_attack_d3_f7: 364760192
+      Vampire_attack_d3_f8: -367983700
+      Vampire_attack_d3_f9: -1620340566
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

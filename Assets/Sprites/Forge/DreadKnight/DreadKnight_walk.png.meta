@@ -1,0 +1,765 @@
+fileFormatVersion: 2
+guid: 8bc9b2dc4379e5f419b0b1739ae0f840
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2773023979367509213
+    second: DreadKnight_walk_0
+  - first:
+      213: 4058219867530370837
+    second: DreadKnight_walk_1
+  - first:
+      213: 8994014152966463022
+    second: DreadKnight_walk_2
+  - first:
+      213: 651444217829105559
+    second: DreadKnight_walk_3
+  - first:
+      213: -3760826399628462510
+    second: DreadKnight_walk_4
+  - first:
+      213: 6128486581004020422
+    second: DreadKnight_walk_5
+  - first:
+      213: 3381589918634794861
+    second: DreadKnight_walk_6
+  - first:
+      213: -4901081576910212644
+    second: DreadKnight_walk_7
+  - first:
+      213: 4150243176417936432
+    second: DreadKnight_walk_8
+  - first:
+      213: -8476696449183023780
+    second: DreadKnight_walk_9
+  - first:
+      213: -5257632573747777119
+    second: DreadKnight_walk_10
+  - first:
+      213: 6194053182345806399
+    second: DreadKnight_walk_11
+  - first:
+      213: -1246619961996967519
+    second: DreadKnight_walk_12
+  - first:
+      213: 4914108050680326459
+    second: DreadKnight_walk_13
+  - first:
+      213: -985741746839918520
+    second: DreadKnight_walk_14
+  - first:
+      213: 2443780227139625463
+    second: DreadKnight_walk_15
+  - first:
+      213: 8618205895432062210
+    second: DreadKnight_walk_16
+  - first:
+      213: -2909208314168101131
+    second: DreadKnight_walk_17
+  - first:
+      213: 8021014469548180072
+    second: DreadKnight_walk_18
+  - first:
+      213: -526022457055452661
+    second: DreadKnight_walk_19
+  - first:
+      213: 5001953614267424697
+    second: DreadKnight_walk_20
+  - first:
+      213: 4560992046561407851
+    second: DreadKnight_walk_21
+  - first:
+      213: -2106651192683205057
+    second: DreadKnight_walk_22
+  - first:
+      213: -4973093848678746299
+    second: DreadKnight_walk_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DreadKnight_walk_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d3f2e878198b24e9d2755c50cf0764
+      internalID: 362882026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a463ff992dbc347a4a9cc6e2e3d577
+      internalID: 1574516207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b389fa3c131fc1408f05da478666c43
+      internalID: -1692559215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765f34071ba34e24c8b3fdd4a8668182
+      internalID: 1511649309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cd123e374f82a469b29e774e8b4656
+      internalID: 484969500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea259a6a3e835614290e1b8643e354d8
+      internalID: -535878985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75d0917224198844b3a0e862e41810c
+      internalID: -350100099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4aba9525e5d754b975bf2d79589457
+      internalID: 1240712084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa429eea71fe4e84ba1af4ea5ed8cc75
+      internalID: 306618525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd189b42c085a64199f7f70937a80c4
+      internalID: 1969772131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8852216fa5da0f7469add7f5c8e49a35
+      internalID: -1232759083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54fbfea772321a479b88e49d4f1e4eb
+      internalID: -1802676083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57f1be095bf325408421ffd8c1c4d2c
+      internalID: -738899644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b67708756dbaf4c817a4a3e71563b3
+      internalID: -213177090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed6a2eea6b822640a55e82dd3d8a6c3
+      internalID: 1939693362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca07426326b58df4b8433c0f2d3a3091
+      internalID: 482404392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d72fdae54f05c49b6fd9a31a6a38d4
+      internalID: 21640602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae306f5afae6de54685936babb7e9725
+      internalID: 1811999661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c98688bb4326143bba7a0f3ef9baac
+      internalID: -2025154105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57139716afa94e4eb5d97155e5c0ba5
+      internalID: 2108363269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710e8e2c229a56a46808334699e944b0
+      internalID: -1390844465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a06ab324af10a4aa238700ff982282
+      internalID: 1532885923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ad82e7623c3c7499a4f46fd90d8cc7
+      internalID: 1999550705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_walk_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493c641ae5d109a418376ffb356d42aa
+      internalID: -128227590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f042c8bc1a643947b9408ebc9113d01
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DreadKnight_walk_0: 2773023979367509213
+      DreadKnight_walk_1: 4058219867530370837
+      DreadKnight_walk_10: -5257632573747777119
+      DreadKnight_walk_11: 6194053182345806399
+      DreadKnight_walk_12: -1246619961996967519
+      DreadKnight_walk_13: 4914108050680326459
+      DreadKnight_walk_14: -985741746839918520
+      DreadKnight_walk_15: 2443780227139625463
+      DreadKnight_walk_16: 8618205895432062210
+      DreadKnight_walk_17: -2909208314168101131
+      DreadKnight_walk_18: 8021014469548180072
+      DreadKnight_walk_19: -526022457055452661
+      DreadKnight_walk_2: 8994014152966463022
+      DreadKnight_walk_20: 5001953614267424697
+      DreadKnight_walk_21: 4560992046561407851
+      DreadKnight_walk_22: -2106651192683205057
+      DreadKnight_walk_23: -4973093848678746299
+      DreadKnight_walk_3: 651444217829105559
+      DreadKnight_walk_4: -3760826399628462510
+      DreadKnight_walk_5: 6128486581004020422
+      DreadKnight_walk_6: 3381589918634794861
+      DreadKnight_walk_7: -4901081576910212644
+      DreadKnight_walk_8: 4150243176417936432
+      DreadKnight_walk_9: -8476696449183023780
+      DreadKnight_walk_d0_f0: 362882026
+      DreadKnight_walk_d0_f1: 1574516207
+      DreadKnight_walk_d0_f2: -1692559215
+      DreadKnight_walk_d0_f3: 1511649309
+      DreadKnight_walk_d0_f4: 484969500
+      DreadKnight_walk_d0_f5: -535878985
+      DreadKnight_walk_d1_f0: -350100099
+      DreadKnight_walk_d1_f1: 1240712084
+      DreadKnight_walk_d1_f2: 306618525
+      DreadKnight_walk_d1_f3: 1969772131
+      DreadKnight_walk_d1_f4: -1232759083
+      DreadKnight_walk_d1_f5: -1802676083
+      DreadKnight_walk_d2_f0: -738899644
+      DreadKnight_walk_d2_f1: -213177090
+      DreadKnight_walk_d2_f2: 1939693362
+      DreadKnight_walk_d2_f3: 482404392
+      DreadKnight_walk_d2_f4: 21640602
+      DreadKnight_walk_d2_f5: 1811999661
+      DreadKnight_walk_d3_f0: -2025154105
+      DreadKnight_walk_d3_f1: 2108363269
+      DreadKnight_walk_d3_f2: -1390844465
+      DreadKnight_walk_d3_f3: 1532885923
+      DreadKnight_walk_d3_f4: 1999550705
+      DreadKnight_walk_d3_f5: -128227590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

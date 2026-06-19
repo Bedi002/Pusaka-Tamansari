@@ -1,0 +1,1013 @@
+fileFormatVersion: 2
+guid: 4cf8e69aa38ae2b4dade33e2057d7d85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4887223342022754170
+    second: Warrior_attack_0
+  - first:
+      213: -4070535460065434428
+    second: Warrior_attack_1
+  - first:
+      213: 9057475946631289307
+    second: Warrior_attack_2
+  - first:
+      213: -2370834034104482369
+    second: Warrior_attack_3
+  - first:
+      213: -4100178090998900612
+    second: Warrior_attack_4
+  - first:
+      213: -383292637806255489
+    second: Warrior_attack_5
+  - first:
+      213: -5290907304011077552
+    second: Warrior_attack_6
+  - first:
+      213: 1910261445455930026
+    second: Warrior_attack_7
+  - first:
+      213: 1328398852099141877
+    second: Warrior_attack_8
+  - first:
+      213: 3166168533115319068
+    second: Warrior_attack_9
+  - first:
+      213: 2446851449027390690
+    second: Warrior_attack_10
+  - first:
+      213: 1320110858381993870
+    second: Warrior_attack_11
+  - first:
+      213: 3305413904105254031
+    second: Warrior_attack_12
+  - first:
+      213: 4736178351925494509
+    second: Warrior_attack_13
+  - first:
+      213: -7318955866064225820
+    second: Warrior_attack_14
+  - first:
+      213: 7931413203977737026
+    second: Warrior_attack_15
+  - first:
+      213: 7713515452180708630
+    second: Warrior_attack_16
+  - first:
+      213: 8687688537369507362
+    second: Warrior_attack_17
+  - first:
+      213: 2388277371941281154
+    second: Warrior_attack_18
+  - first:
+      213: -7081063485673063792
+    second: Warrior_attack_19
+  - first:
+      213: -613735618870816300
+    second: Warrior_attack_20
+  - first:
+      213: -3466012879490501580
+    second: Warrior_attack_21
+  - first:
+      213: 4316925132821769794
+    second: Warrior_attack_22
+  - first:
+      213: -2534571901638173604
+    second: Warrior_attack_23
+  - first:
+      213: -3387832346171802249
+    second: Warrior_attack_24
+  - first:
+      213: 3257501384137061984
+    second: Warrior_attack_25
+  - first:
+      213: -610649223433246730
+    second: Warrior_attack_26
+  - first:
+      213: -6572589292859348808
+    second: Warrior_attack_27
+  - first:
+      213: -5842251875148548381
+    second: Warrior_attack_28
+  - first:
+      213: 6755626145971809043
+    second: Warrior_attack_29
+  - first:
+      213: 8372015526202843062
+    second: Warrior_attack_30
+  - first:
+      213: 2294985539601907939
+    second: Warrior_attack_31
+  - first:
+      213: 6538375924187250796
+    second: Warrior_attack_32
+  - first:
+      213: -1108663839043573457
+    second: Warrior_attack_33
+  - first:
+      213: 6658621761012360234
+    second: Warrior_attack_34
+  - first:
+      213: -530568703999854185
+    second: Warrior_attack_35
+  - first:
+      213: -6407805303968155536
+    second: Warrior_attack_36
+  - first:
+      213: 7899110658460923878
+    second: Warrior_attack_37
+  - first:
+      213: 5150040669110432535
+    second: Warrior_attack_38
+  - first:
+      213: 6296436108128159080
+    second: Warrior_attack_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891e2732e310daf4082c916f481a3dea
+      internalID: -117209532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabba7cde231e8943bcb88b381734694
+      internalID: 1558550979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cb986ea335be34e80b41027b6df569
+      internalID: -1468682292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2bdd84b5c31e149b4c24f280e527ff
+      internalID: 1926499920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556baf222fb61e44da26ebc5ec855b75
+      internalID: 343208822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704f36d9943260f4398275cccc3aef4c
+      internalID: 231175351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32652292dcfb92e42a050d5ad5ccfa61
+      internalID: -1824285308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb88ae3d12efc4198af731b6481888
+      internalID: 1359260659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abe33c2b4f2b6644be1f4e242b73e4d
+      internalID: -1865115442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b705e6b69280dbe45b03aee2dda91def
+      internalID: -1041178364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833990412aaf7f2409781a2b17fd0e78
+      internalID: 330347236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d961026c0d40224080536b7de26377e
+      internalID: 1965838569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68cbdb575c36184da054ceba287e0d7
+      internalID: 1002220122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d00aae9eb0fc144820d99a02b4dbc4
+      internalID: -783100757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878a76eea05a41b44a3f2fb71e6cc772
+      internalID: -165561685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d7a9297ba356243bbd7f61549b18d9
+      internalID: -712995711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc97b97e112b30547ad71fb6067e14f6
+      internalID: 370113838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8af8ae35b98b0b43b103f20a684d2c2
+      internalID: -857202093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31ac98be96e1c54899eb625fd453fcc
+      internalID: -1409233262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31624e6359f591c45816cbfa741b501e
+      internalID: 1931356610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa771f1e3562c44b92b1e000deb40bf
+      internalID: -941630286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1742cc6bb90b44478c77889f9c763d2
+      internalID: 99073921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5867a8088eec848b5b30977a2ddcb9
+      internalID: -1538463794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dacc838bbc24be46982c21047fd5002
+      internalID: 530996934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb6422085c0b545a85fa9c5afd198e
+      internalID: -1050847500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b01d36799c43554386297ee93bef84a
+      internalID: -202483303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2fa102f6763c147b19c91f2aa29e90
+      internalID: 1381541135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fe25fa07d5aa44eabf4f17b90d16d1
+      internalID: -699098690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d32019f170b3134c82422bd58b501ed
+      internalID: -1869401398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e020d6577958174f8d26840de23c318
+      internalID: -2082459238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff4318e19ac90146867c8cdf649b473
+      internalID: 290788364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_attack_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985cb2d7737f9924c829051226437644
+      internalID: 43921621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3dca009511e381a4b81e599cb3d0f73f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Warrior_attack_0: -4887223342022754170
+      Warrior_attack_1: -4070535460065434428
+      Warrior_attack_10: 2446851449027390690
+      Warrior_attack_11: 1320110858381993870
+      Warrior_attack_12: 3305413904105254031
+      Warrior_attack_13: 4736178351925494509
+      Warrior_attack_14: -7318955866064225820
+      Warrior_attack_15: 7931413203977737026
+      Warrior_attack_16: 7713515452180708630
+      Warrior_attack_17: 8687688537369507362
+      Warrior_attack_18: 2388277371941281154
+      Warrior_attack_19: -7081063485673063792
+      Warrior_attack_2: 9057475946631289307
+      Warrior_attack_20: -613735618870816300
+      Warrior_attack_21: -3466012879490501580
+      Warrior_attack_22: 4316925132821769794
+      Warrior_attack_23: -2534571901638173604
+      Warrior_attack_24: -3387832346171802249
+      Warrior_attack_25: 3257501384137061984
+      Warrior_attack_26: -610649223433246730
+      Warrior_attack_27: -6572589292859348808
+      Warrior_attack_28: -5842251875148548381
+      Warrior_attack_29: 6755626145971809043
+      Warrior_attack_3: -2370834034104482369
+      Warrior_attack_30: 8372015526202843062
+      Warrior_attack_31: 2294985539601907939
+      Warrior_attack_32: 6538375924187250796
+      Warrior_attack_33: -1108663839043573457
+      Warrior_attack_34: 6658621761012360234
+      Warrior_attack_35: -530568703999854185
+      Warrior_attack_36: -6407805303968155536
+      Warrior_attack_37: 7899110658460923878
+      Warrior_attack_38: 5150040669110432535
+      Warrior_attack_39: 6296436108128159080
+      Warrior_attack_4: -4100178090998900612
+      Warrior_attack_5: -383292637806255489
+      Warrior_attack_6: -5290907304011077552
+      Warrior_attack_7: 1910261445455930026
+      Warrior_attack_8: 1328398852099141877
+      Warrior_attack_9: 3166168533115319068
+      Warrior_attack_d0_f0: -117209532
+      Warrior_attack_d0_f1: 1558550979
+      Warrior_attack_d0_f2: -1468682292
+      Warrior_attack_d0_f3: 1926499920
+      Warrior_attack_d0_f4: 343208822
+      Warrior_attack_d0_f5: 231175351
+      Warrior_attack_d0_f6: -1824285308
+      Warrior_attack_d0_f7: 1359260659
+      Warrior_attack_d1_f0: -1865115442
+      Warrior_attack_d1_f1: -1041178364
+      Warrior_attack_d1_f2: 330347236
+      Warrior_attack_d1_f3: 1965838569
+      Warrior_attack_d1_f4: 1002220122
+      Warrior_attack_d1_f5: -783100757
+      Warrior_attack_d1_f6: -165561685
+      Warrior_attack_d1_f7: -712995711
+      Warrior_attack_d2_f0: 370113838
+      Warrior_attack_d2_f1: -857202093
+      Warrior_attack_d2_f2: -1409233262
+      Warrior_attack_d2_f3: 1931356610
+      Warrior_attack_d2_f4: -941630286
+      Warrior_attack_d2_f5: 99073921
+      Warrior_attack_d2_f6: -1538463794
+      Warrior_attack_d2_f7: 530996934
+      Warrior_attack_d3_f0: -1050847500
+      Warrior_attack_d3_f1: -202483303
+      Warrior_attack_d3_f2: 1381541135
+      Warrior_attack_d3_f3: -699098690
+      Warrior_attack_d3_f4: -1869401398
+      Warrior_attack_d3_f5: -2082459238
+      Warrior_attack_d3_f6: 290788364
+      Warrior_attack_d3_f7: 43921621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

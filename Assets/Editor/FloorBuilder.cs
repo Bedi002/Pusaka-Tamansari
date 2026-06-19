@@ -16,28 +16,37 @@ public static class FloorBuilder
     const string SceneDir = "Assets/Scenes/";
     const string PrefabDir = "Assets/Prefabs/";
 
-    static readonly Vector2 Interior = new Vector2(18f, 12f);
-    static readonly Vector2 Step = new Vector2(46f, 34f);
+    static readonly Vector2 Interior = new Vector2(22f, 14f);
+    static readonly Vector2 Step = new Vector2(52f, 40f);
 
     // tile index Kenney Tiny Dungeon
     const int T_FLOOR = 48, T_WALL = 57, T_DOOR = 45, T_BARREL = 65, T_CHEST = 89, T_CABINET = 63, T_BANNER = 29, T_TOMB = 62;
 
-    // Karakter LPC beranimasi (jalan + serang), environment dari tile Kenney.
-    static GameObject pfEnemy, pfBoss;
+    // Karakter Forge beranimasi (hero + musuh), environment dari tile Kenney.
+    static GameObject[] heroes;
+    static GameObject[][] floorEnemies;   // tipe musuh per-floor
+    static GameObject[] floorBoss;        // boss per-floor
+    static int curFloor, erIdx;
 
     struct Conn { public Vector2Int a, b; public Conn(Vector2Int x, Vector2Int y) { a = x; b = y; } }
 
     [MenuItem("Tools/Pusaka/Build Dungeon Floors")]
     public static void BuildFloors()
     {
-        pfEnemy = Load("Enemy"); pfBoss = Load("Boss");
-        Debug.Log($"FLOOR: enemy(LPC)={(pfEnemy != null)} boss(LPC)={(pfBoss != null)}");
+        heroes = new[] { Load("Forge/Player_Warrior"), Load("Forge/Player_Archer"), Load("Forge/Player_Mage") };
+        floorEnemies = new[]
+        {
+            new[] { Load("Forge/Enemy_Slime_Fire"), Load("Forge/Enemy_Slime_Ice"), Load("Forge/Enemy_Slime_Poison") },
+            new[] { Load("Forge/Enemy_Orc"), Load("Forge/Enemy_Vampire") },
+            new[] { Load("Forge/Enemy_Plant"), Load("Forge/Enemy_Golem") },
+        };
+        floorBoss = new[] { Load("Forge/Boss_Demon"), Load("Forge/Boss_DreadKnight"), Load("Forge/Boss_DreadKnight") };
+        if (heroes[0] == null) Debug.LogWarning("FLOOR: prefab Forge belum ada — jalankan 'Import Forge Characters' dulu.");
 
-        BuildFloor("Floor1"); Debug.Log("FLOOR: Floor1 OK");
-        BuildFloor("Floor2"); Debug.Log("FLOOR: Floor2 OK");
-        BuildFloor("Floor3"); Debug.Log("FLOOR: Floor3 OK");
+        BuildFloor("Floor1", 0); Debug.Log("FLOOR: Floor1 OK");
+        BuildFloor("Floor2", 1); Debug.Log("FLOOR: Floor2 OK");
+        BuildFloor("Floor3", 2); Debug.Log("FLOOR: Floor3 OK");
 
-        UpdateMenusAndBuildSettings();
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
         Debug.Log("FLOOR: SELESAI.");
@@ -46,8 +55,9 @@ public static class FloorBuilder
     static GameObject Load(string name) => AssetDatabase.LoadAssetAtPath<GameObject>(PrefabDir + name + ".prefab");
     static Sprite Tile(int i) => PrefabBuilder.Tile(i);
 
-    static void BuildFloor(string sceneName)
+    static void BuildFloor(string sceneName, int floorIdx)
     {
+        curFloor = floorIdx; erIdx = 0;
         EditorSceneManager.OpenScene(SampleScenePath, OpenSceneMode.Single);
         CleanOldGeometry();
         SetupCamera();
@@ -56,14 +66,18 @@ public static class FloorBuilder
         {
             { new Vector2Int(0, 0), RoomType.Start },
             { new Vector2Int(0, 1), RoomType.Combat },
-            { new Vector2Int(1, 1), RoomType.Treasure },
+            { new Vector2Int(-1, 1), RoomType.Treasure },
+            { new Vector2Int(1, 1), RoomType.Combat },
+            { new Vector2Int(1, 2), RoomType.Treasure },
             { new Vector2Int(0, 2), RoomType.Combat },
             { new Vector2Int(0, 3), RoomType.Boss },
         };
         var conns = new List<Conn>
         {
             new Conn(new Vector2Int(0,0), new Vector2Int(0,1)),
+            new Conn(new Vector2Int(0,1), new Vector2Int(-1,1)),
             new Conn(new Vector2Int(0,1), new Vector2Int(1,1)),
+            new Conn(new Vector2Int(1,1), new Vector2Int(1,2)),
             new Conn(new Vector2Int(0,1), new Vector2Int(0,2)),
             new Conn(new Vector2Int(0,2), new Vector2Int(0,3)),
         };
@@ -83,20 +97,18 @@ public static class FloorBuilder
 
         var startRoom = rooms[new Vector2Int(0, 0)];
 
-        // Pakai ulang player LPC (beranimasi) yang sudah ada di scene
-        var playerGO = GameObject.FindWithTag("Player");
-        if (playerGO != null)
-        {
-            playerGO.transform.position = startRoom.Center;
-            var combat = playerGO.GetComponent<PlayerCombat>();
-            int enemyLayer = LayerMask.NameToLayer("Enemy");
-            if (combat != null && enemyLayer >= 0) combat.enemyLayers = 1 << enemyLayer;
-        }
+        // hapus player bawaan SampleScene (kalau ada) -> hero di-spawn runtime sesuai pilihan
+        var baked = GameObject.FindWithTag("Player");
+        if (baked != null) Object.DestroyImmediate(baked);
 
-        // DungeonManager
+        var hs = new GameObject("HeroSpawner");
+        hs.transform.position = startRoom.Center;
+        var spawner = hs.AddComponent<HeroSpawner>();
+        spawner.fallbackHero = (heroes != null && heroes.Length > 0) ? heroes[0] : null;
+
+        // DungeonManager (player di-resolve saat runtime lewat tag)
         var dm = new GameObject("DungeonManager").AddComponent<DungeonManager>();
         dm.startRoom = startRoom;
-        if (playerGO != null) dm.player = playerGO.transform;
         dm.cam = Camera.main;
 
         var canvas = PusakaSceneBuilder.BuildHud();
@@ -110,7 +122,7 @@ public static class FloorBuilder
     static void CleanOldGeometry()
     {
         // CATATAN: "Player" TIDAK dihapus — kita pakai ulang player LPC beranimasi.
-        string[] kill = { "Tembok", "Square", "Pintu Keluar", "EnemySpawner", "Dungeon", "DungeonManager" };
+        string[] kill = { "Tembok", "Square", "Pintu Keluar", "EnemySpawner", "Dungeon", "DungeonManager", "New Text", "Text (New Text)", "HeroSpawner" };
         foreach (var n in kill)
         {
             var go = GameObject.Find(n);
@@ -143,7 +155,7 @@ public static class FloorBuilder
         var room = go.AddComponent<Room>();
         room.type = type; room.gridPos = grid; room.size = Interior;
         room.enemyPrefab = EnemyForRoom(type, grid);
-        if (type == RoomType.Boss) room.bossPrefab = pfBoss;
+        if (type == RoomType.Boss) room.bossPrefab = (floorBoss != null && curFloor < floorBoss.Length) ? floorBoss[curFloor] : null;
         room.enemyCount = type == RoomType.Combat ? 5 : 0;
 
         float halfX = Interior.x / 2f, halfY = Interior.y / 2f, t = 1f;
@@ -153,34 +165,47 @@ public static class FloorBuilder
         MakeTiled(go.transform, "WallLeft", new Vector2(-halfX, 0), new Vector2(t, Interior.y + t), Tile(T_WALL), 5, true);
         MakeTiled(go.transform, "WallRight", new Vector2(halfX, 0), new Vector2(t, Interior.y + t), Tile(T_WALL), 5, true);
 
-        // props per tipe ruangan
+        // obor/panji di sudut atas dinding (semua ruangan) + props per tipe
+        MakeProp(go.transform, new Vector2(-halfX + 1.5f, halfY - 1.5f), Tile(T_BANNER), 6);
+        MakeProp(go.transform, new Vector2(halfX - 1.5f, halfY - 1.5f), Tile(T_BANNER), 6);
+
         if (type == RoomType.Treasure)
         {
             MakeProp(go.transform, new Vector2(0, 0.5f), Tile(T_CHEST), 2);
-            MakeProp(go.transform, new Vector2(-2, 0.5f), Tile(T_BARREL), 2);
-            MakeProp(go.transform, new Vector2(2, 0.5f), Tile(T_BARREL), 2);
+            MakeProp(go.transform, new Vector2(-2.5f, 0.5f), Tile(T_BARREL), 2);
+            MakeProp(go.transform, new Vector2(2.5f, 0.5f), Tile(T_BARREL), 2);
+            MakeProp(go.transform, new Vector2(0, -2.5f), Tile(T_CABINET), 2);
         }
         else if (type == RoomType.Boss)
         {
-            MakeProp(go.transform, new Vector2(-halfX + 2.5f, halfY - 2f), Tile(T_BANNER), 2);
-            MakeProp(go.transform, new Vector2(halfX - 2.5f, halfY - 2f), Tile(T_BANNER), 2);
+            MakeProp(go.transform, new Vector2(-halfX + 2.5f, -halfY + 2f), Tile(T_TOMB), 2);
+            MakeProp(go.transform, new Vector2(halfX - 2.5f, -halfY + 2f), Tile(T_TOMB), 2);
+            MakeProp(go.transform, new Vector2(0, halfY - 2f), Tile(T_BANNER), 6);
         }
         else if (type == RoomType.Combat)
         {
             MakeProp(go.transform, new Vector2(-halfX + 2f, -halfY + 2f), Tile(T_BARREL), 2);
-            MakeProp(go.transform, new Vector2(halfX - 2f, halfY - 2f), Tile(T_TOMB), 2);
+            MakeProp(go.transform, new Vector2(halfX - 2f, halfY - 2.5f), Tile(T_TOMB), 2);
+            MakeProp(go.transform, new Vector2(halfX - 2.5f, -halfY + 2f), Tile(T_BARREL), 2);
         }
         else if (type == RoomType.Start)
         {
-            MakeProp(go.transform, new Vector2(-halfX + 2f, halfY - 2f), Tile(T_CABINET), 2);
+            MakeProp(go.transform, new Vector2(-halfX + 2f, -halfY + 2f), Tile(T_CABINET), 2);
+            MakeProp(go.transform, new Vector2(halfX - 2f, -halfY + 2f), Tile(T_BARREL), 2);
         }
         return room;
     }
 
     static GameObject EnemyForRoom(RoomType type, Vector2Int grid)
     {
-        // Musuh LPC beranimasi (satu tipe untuk sekarang; tipe tambahan menyusul).
-        return pfEnemy;
+        var list = (floorEnemies != null && curFloor >= 0 && curFloor < floorEnemies.Length) ? floorEnemies[curFloor] : null;
+        if (list == null) return null;
+        for (int k = 0; k < list.Length; k++)              // rotasi tipe musuh antar-ruangan
+        {
+            var p = list[(erIdx + k) % list.Length];
+            if (p != null) { erIdx += k + 1; return p; }
+        }
+        return null;
     }
 
     static void AddDoor(Room from, Room to, Vector2 dir)
@@ -235,20 +260,4 @@ public static class FloorBuilder
         sr.sortingOrder = sortOrder;
     }
 
-    static void UpdateMenusAndBuildSettings()
-    {
-        EditorSceneManager.OpenScene(SceneDir + "MainMenu.unity", OpenSceneMode.Single);
-        var gm = Object.FindFirstObjectByType<GameManager>();
-        if (gm != null)
-        {
-            gm.stageScenes = new[] { "Floor1", "Floor2", "Floor3" };
-            EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());
-        }
-
-        string[] order = { "MainMenu", "DifficultySelect", "Floor1", "Floor2", "Floor3", "Victory", "GameOver" };
-        var list = new List<EditorBuildSettingsScene>();
-        foreach (var n in order) list.Add(new EditorBuildSettingsScene(SceneDir + n + ".unity", true));
-        EditorBuildSettings.scenes = list.ToArray();
-    }
 }

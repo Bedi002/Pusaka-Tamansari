@@ -19,6 +19,13 @@ public class DungeonManager : MonoBehaviour
     public float cameraZ = -10f;
     public bool fitCameraToRoom = true;
 
+    [Header("Zoom (roda mouse)")]
+    [Tooltip("Zoom-in maksimum (makin kecil makin dekat)")]
+    public float minZoom = 0.45f;
+    public float zoomStep = 0.08f;
+    float zoom = 1f;          // 1 = paling jauh (fit ruangan) = default
+    float baseOrtho = 0f;
+
     Room[] rooms;
     Room current;
 
@@ -38,6 +45,13 @@ public class DungeonManager : MonoBehaviour
 
     void Start()
     {
+        // hero mungkin baru di-spawn HeroSpawner setelah Awake — cari lagi
+        if (player == null)
+        {
+            var p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+        }
+
         if (startRoom == null && rooms != null)
             foreach (var r in rooms) if (r.type == RoomType.Start) { startRoom = r; break; }
         if (startRoom == null && rooms != null && rooms.Length > 0) startRoom = rooms[0];
@@ -61,7 +75,30 @@ public class DungeonManager : MonoBehaviour
     void LateUpdate()
     {
         if (cam == null || current == null) return;
-        Vector3 target = new Vector3(current.Center.x, current.Center.y, cameraZ);
+
+        // zoom roda mouse dulu (scroll atas = zoom in; paling jauh = fit ruangan)
+        if (Time.timeScale > 0f)
+        {
+            float scroll = Input.mouseScrollDelta.y;
+            if (Mathf.Abs(scroll) > 0.01f) zoom = Mathf.Clamp(zoom - scroll * zoomStep, minZoom, 1f);
+        }
+        if (cam.orthographic && baseOrtho > 0f)
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, baseOrtho * zoom, Time.deltaTime * 12f);
+
+        // kamera mengikuti player, tapi di-clamp agar tetap di dalam ruangan (tak bocor lihat luar tembok)
+        if (player == null)
+        {
+            var p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+        }
+        Vector2 c = current.Center;
+        Vector2 half = current.size * 0.5f;
+        float camHY = cam.orthographic ? cam.orthographicSize : half.y;
+        float camHX = camHY * cam.aspect;
+        Vector3 focus = player != null ? player.position : (Vector3)c;
+        float tx = Mathf.Clamp(focus.x, c.x - Mathf.Max(0f, half.x - camHX), c.x + Mathf.Max(0f, half.x - camHX));
+        float ty = Mathf.Clamp(focus.y, c.y - Mathf.Max(0f, half.y - camHY), c.y + Mathf.Max(0f, half.y - camHY));
+        Vector3 target = new Vector3(tx, ty, cameraZ);
         cam.transform.position = Vector3.Lerp(cam.transform.position, target, Time.deltaTime * cameraLerp);
     }
 
@@ -72,7 +109,10 @@ public class DungeonManager : MonoBehaviour
         {
             if (snap) cam.transform.position = new Vector3(room.Center.x, room.Center.y, cameraZ);
             if (fitCameraToRoom && cam.orthographic)
-                cam.orthographicSize = Mathf.Max(room.size.y, room.size.x * 0.6f) * 0.5f + 0.5f;
+            {
+                baseOrtho = Mathf.Max(room.size.y, room.size.x * 0.6f) * 0.5f + 0.5f;
+                cam.orthographicSize = baseOrtho * zoom;
+            }
         }
         room.OnPlayerEnter();
         if (MinimapController.Instance != null) MinimapController.Instance.SetCurrent(room);

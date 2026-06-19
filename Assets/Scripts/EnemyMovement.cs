@@ -40,6 +40,10 @@ public class EnemyMovement : MonoBehaviour
         {
             player = playerObj.transform;
             playerHealth = playerObj.GetComponent<PlayerHealth>();
+            // jangan saling dorong dgn player (tetap kena tembok). Damage lewat jarak.
+            var myCol = GetComponent<Collider2D>();
+            var pCol = playerObj.GetComponent<Collider2D>();
+            if (myCol != null && pCol != null) Physics2D.IgnoreCollision(myCol, pCol, true);
         }
 
         if (GameManager.Instance != null)

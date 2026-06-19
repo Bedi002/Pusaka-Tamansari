@@ -1,0 +1,1013 @@
+fileFormatVersion: 2
+guid: f04a7b72f8d09f54db812336d2e706f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -212493013534173413
+    second: Slime_Fire_walk_0
+  - first:
+      213: -8631776319928224938
+    second: Slime_Fire_walk_1
+  - first:
+      213: 2957917874470962495
+    second: Slime_Fire_walk_2
+  - first:
+      213: 4572772711098838088
+    second: Slime_Fire_walk_3
+  - first:
+      213: -8181343760213102539
+    second: Slime_Fire_walk_4
+  - first:
+      213: 7818169235456984654
+    second: Slime_Fire_walk_5
+  - first:
+      213: -8024446891442299625
+    second: Slime_Fire_walk_6
+  - first:
+      213: -8754357672088354858
+    second: Slime_Fire_walk_7
+  - first:
+      213: 3604868593624868656
+    second: Slime_Fire_walk_8
+  - first:
+      213: -2234835471084816295
+    second: Slime_Fire_walk_9
+  - first:
+      213: 7862409673217446749
+    second: Slime_Fire_walk_10
+  - first:
+      213: 1624175767289507718
+    second: Slime_Fire_walk_11
+  - first:
+      213: 511755872711960077
+    second: Slime_Fire_walk_12
+  - first:
+      213: 5335828555781450431
+    second: Slime_Fire_walk_13
+  - first:
+      213: -8081624126736678480
+    second: Slime_Fire_walk_14
+  - first:
+      213: 2245153756534462267
+    second: Slime_Fire_walk_15
+  - first:
+      213: -5121290309454800654
+    second: Slime_Fire_walk_16
+  - first:
+      213: -2890227209519736958
+    second: Slime_Fire_walk_17
+  - first:
+      213: -2571334381976862699
+    second: Slime_Fire_walk_18
+  - first:
+      213: -3025330554940998111
+    second: Slime_Fire_walk_19
+  - first:
+      213: -1341176116327027959
+    second: Slime_Fire_walk_20
+  - first:
+      213: -4526069039878072353
+    second: Slime_Fire_walk_21
+  - first:
+      213: -1727029141644259111
+    second: Slime_Fire_walk_22
+  - first:
+      213: 4589909400578297697
+    second: Slime_Fire_walk_23
+  - first:
+      213: -1440002534061136331
+    second: Slime_Fire_walk_24
+  - first:
+      213: 8500853070057215590
+    second: Slime_Fire_walk_25
+  - first:
+      213: 6662775948389302295
+    second: Slime_Fire_walk_26
+  - first:
+      213: 2123080078747720465
+    second: Slime_Fire_walk_27
+  - first:
+      213: 3342353919912435520
+    second: Slime_Fire_walk_28
+  - first:
+      213: -1609409647208552721
+    second: Slime_Fire_walk_29
+  - first:
+      213: 3326545867500456192
+    second: Slime_Fire_walk_30
+  - first:
+      213: -2881016641143907957
+    second: Slime_Fire_walk_31
+  - first:
+      213: -882533677192872934
+    second: Slime_Fire_walk_32
+  - first:
+      213: 1507586960175369320
+    second: Slime_Fire_walk_33
+  - first:
+      213: -6652418123176762404
+    second: Slime_Fire_walk_34
+  - first:
+      213: 4501023593707213261
+    second: Slime_Fire_walk_35
+  - first:
+      213: 969312992115865088
+    second: Slime_Fire_walk_36
+  - first:
+      213: -8565619062566680400
+    second: Slime_Fire_walk_37
+  - first:
+      213: 6574388945808114368
+    second: Slime_Fire_walk_38
+  - first:
+      213: 2472598920312888648
+    second: Slime_Fire_walk_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23714479e48102468b5d32aa56ad215
+      internalID: -744492236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a55208ff32764d4ba22478904640d08
+      internalID: -1616376380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea443ec3da06e354d9566eecca959daa
+      internalID: 1901558658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46562ac8689899044b4000a1e07abb33
+      internalID: -1177437320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98881e4165b3d643bcf341e9d778df8
+      internalID: 1865630782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25421faa7394f584b9045cea08a73f99
+      internalID: -1436878752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9d6d53467dd4a42b182dd9d28db010
+      internalID: 533039026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf1f3d06b975f94b87c9b99b909f187
+      internalID: 400698953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62df1b2d9b809724cbd039d323b8cf37
+      internalID: 893379412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabd62b3467c34249b068bf035a16f7a
+      internalID: 374828555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8820b53cac3a2ef4bb58f361053421b2
+      internalID: 1277118652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945e5a44e4f0e5f4aafa818af41c0973
+      internalID: -1798089022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ee786d1eb14a34386de5b6f615c73e
+      internalID: -434325709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2bc31e053d9d9409ea29cb287cc1fc
+      internalID: -1929201396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e490f2f913c0c6449bc1134173977140
+      internalID: -1913485719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9f774fc2c98f043845be66b5519cdb
+      internalID: -1186497266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbed5b57a288ec74393a3bf5385bf7fb
+      internalID: -1670588636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c27964920395c41b2b96dc7f66cd1f
+      internalID: -1318332983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bed6af27ca15044a3eab2962af3287
+      internalID: 1682470790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c0fa65dc52c44499234c66223f49e6
+      internalID: 1960227193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a79ca53548de0c41bb46b41dc85f92e
+      internalID: -2004352793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9710e1331e526d4488fc2211f5ec966e
+      internalID: -1810012976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9415d56dc3647574b8dd53f1a15fea76
+      internalID: -972133635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af62cbe38013000448427a20e731d34e
+      internalID: 702243673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383a98bf5a49d240b97fa03ec02d0a4
+      internalID: -1588059972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef6e58d08348f4eb734e8522f18cbf
+      internalID: 1264264189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316b94e9c1559084598c94cf8b044e1a
+      internalID: -123375262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8530575e9a66c4796f1623acc0cf29
+      internalID: 535380529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e1c9c977caffd4aaec1b382dad5f2a
+      internalID: -618284151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2a189d98d39d146bed1b583c43944d
+      internalID: -389156683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911b2c8bcdccdb040b4a606d644abaf0
+      internalID: 101326783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_walk_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520fbb39ad849e43876a4a5c0d3d2cf
+      internalID: 1043275971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: daa81247baa1bfc4180085fb602c402b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Fire_walk_0: -212493013534173413
+      Slime_Fire_walk_1: -8631776319928224938
+      Slime_Fire_walk_10: 7862409673217446749
+      Slime_Fire_walk_11: 1624175767289507718
+      Slime_Fire_walk_12: 511755872711960077
+      Slime_Fire_walk_13: 5335828555781450431
+      Slime_Fire_walk_14: -8081624126736678480
+      Slime_Fire_walk_15: 2245153756534462267
+      Slime_Fire_walk_16: -5121290309454800654
+      Slime_Fire_walk_17: -2890227209519736958
+      Slime_Fire_walk_18: -2571334381976862699
+      Slime_Fire_walk_19: -3025330554940998111
+      Slime_Fire_walk_2: 2957917874470962495
+      Slime_Fire_walk_20: -1341176116327027959
+      Slime_Fire_walk_21: -4526069039878072353
+      Slime_Fire_walk_22: -1727029141644259111
+      Slime_Fire_walk_23: 4589909400578297697
+      Slime_Fire_walk_24: -1440002534061136331
+      Slime_Fire_walk_25: 8500853070057215590
+      Slime_Fire_walk_26: 6662775948389302295
+      Slime_Fire_walk_27: 2123080078747720465
+      Slime_Fire_walk_28: 3342353919912435520
+      Slime_Fire_walk_29: -1609409647208552721
+      Slime_Fire_walk_3: 4572772711098838088
+      Slime_Fire_walk_30: 3326545867500456192
+      Slime_Fire_walk_31: -2881016641143907957
+      Slime_Fire_walk_32: -882533677192872934
+      Slime_Fire_walk_33: 1507586960175369320
+      Slime_Fire_walk_34: -6652418123176762404
+      Slime_Fire_walk_35: 4501023593707213261
+      Slime_Fire_walk_36: 969312992115865088
+      Slime_Fire_walk_37: -8565619062566680400
+      Slime_Fire_walk_38: 6574388945808114368
+      Slime_Fire_walk_39: 2472598920312888648
+      Slime_Fire_walk_4: -8181343760213102539
+      Slime_Fire_walk_5: 7818169235456984654
+      Slime_Fire_walk_6: -8024446891442299625
+      Slime_Fire_walk_7: -8754357672088354858
+      Slime_Fire_walk_8: 3604868593624868656
+      Slime_Fire_walk_9: -2234835471084816295
+      Slime_Fire_walk_d0_f0: -744492236
+      Slime_Fire_walk_d0_f1: -1616376380
+      Slime_Fire_walk_d0_f2: 1901558658
+      Slime_Fire_walk_d0_f3: -1177437320
+      Slime_Fire_walk_d0_f4: 1865630782
+      Slime_Fire_walk_d0_f5: -1436878752
+      Slime_Fire_walk_d0_f6: 533039026
+      Slime_Fire_walk_d0_f7: 400698953
+      Slime_Fire_walk_d1_f0: 893379412
+      Slime_Fire_walk_d1_f1: 374828555
+      Slime_Fire_walk_d1_f2: 1277118652
+      Slime_Fire_walk_d1_f3: -1798089022
+      Slime_Fire_walk_d1_f4: -434325709
+      Slime_Fire_walk_d1_f5: -1929201396
+      Slime_Fire_walk_d1_f6: -1913485719
+      Slime_Fire_walk_d1_f7: -1186497266
+      Slime_Fire_walk_d2_f0: -1670588636
+      Slime_Fire_walk_d2_f1: -1318332983
+      Slime_Fire_walk_d2_f2: 1682470790
+      Slime_Fire_walk_d2_f3: 1960227193
+      Slime_Fire_walk_d2_f4: -2004352793
+      Slime_Fire_walk_d2_f5: -1810012976
+      Slime_Fire_walk_d2_f6: -972133635
+      Slime_Fire_walk_d2_f7: 702243673
+      Slime_Fire_walk_d3_f0: -1588059972
+      Slime_Fire_walk_d3_f1: 1264264189
+      Slime_Fire_walk_d3_f2: -123375262
+      Slime_Fire_walk_d3_f3: 535380529
+      Slime_Fire_walk_d3_f4: -618284151
+      Slime_Fire_walk_d3_f5: -389156683
+      Slime_Fire_walk_d3_f6: 101326783
+      Slime_Fire_walk_d3_f7: 1043275971
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 8529a1f16f170094793eba4ad0a88506
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6625371866534022895
+    second: Slime_Poison_hurt_0
+  - first:
+      213: -503116409413321586
+    second: Slime_Poison_hurt_1
+  - first:
+      213: -6815733634376967495
+    second: Slime_Poison_hurt_2
+  - first:
+      213: 448013604025863084
+    second: Slime_Poison_hurt_3
+  - first:
+      213: -6698022628212857977
+    second: Slime_Poison_hurt_4
+  - first:
+      213: -6937000099409844461
+    second: Slime_Poison_hurt_5
+  - first:
+      213: 5802357233072053574
+    second: Slime_Poison_hurt_6
+  - first:
+      213: -6023934519518166917
+    second: Slime_Poison_hurt_7
+  - first:
+      213: -1924881398289864815
+    second: Slime_Poison_hurt_8
+  - first:
+      213: 1029974360936461142
+    second: Slime_Poison_hurt_9
+  - first:
+      213: 6434882521680602375
+    second: Slime_Poison_hurt_10
+  - first:
+      213: 1780916748547912149
+    second: Slime_Poison_hurt_11
+  - first:
+      213: -8005454634750605599
+    second: Slime_Poison_hurt_12
+  - first:
+      213: -347577880960559811
+    second: Slime_Poison_hurt_13
+  - first:
+      213: 2415024359443403829
+    second: Slime_Poison_hurt_14
+  - first:
+      213: -3672471470856130842
+    second: Slime_Poison_hurt_15
+  - first:
+      213: -2014149197746588321
+    second: Slime_Poison_hurt_16
+  - first:
+      213: -6684302467345182364
+    second: Slime_Poison_hurt_17
+  - first:
+      213: -3201936193682574949
+    second: Slime_Poison_hurt_18
+  - first:
+      213: -8951622989949025527
+    second: Slime_Poison_hurt_19
+  - first:
+      213: 4888090711285037315
+    second: Slime_Poison_hurt_20
+  - first:
+      213: 1508645203641359550
+    second: Slime_Poison_hurt_21
+  - first:
+      213: 728642003300245282
+    second: Slime_Poison_hurt_22
+  - first:
+      213: -4766885415010260437
+    second: Slime_Poison_hurt_23
+  - first:
+      213: -1494600388478489552
+    second: Slime_Poison_hurt_24
+  - first:
+      213: 3290908772936907272
+    second: Slime_Poison_hurt_25
+  - first:
+      213: -3290161128928552280
+    second: Slime_Poison_hurt_26
+  - first:
+      213: -1591647157709604095
+    second: Slime_Poison_hurt_27
+  - first:
+      213: -4434910672873705754
+    second: Slime_Poison_hurt_28
+  - first:
+      213: 2985030064235848457
+    second: Slime_Poison_hurt_29
+  - first:
+      213: 6954857653725549796
+    second: Slime_Poison_hurt_30
+  - first:
+      213: 4125926180874440187
+    second: Slime_Poison_hurt_31
+  - first:
+      213: -4362077100936230213
+    second: Slime_Poison_hurt_32
+  - first:
+      213: -5131802008308713787
+    second: Slime_Poison_hurt_33
+  - first:
+      213: -1831613022999107302
+    second: Slime_Poison_hurt_34
+  - first:
+      213: 6784697267802098714
+    second: Slime_Poison_hurt_35
+  - first:
+      213: 4449763430483131555
+    second: Slime_Poison_hurt_36
+  - first:
+      213: 2213505809372159206
+    second: Slime_Poison_hurt_37
+  - first:
+      213: 2290936570177131305
+    second: Slime_Poison_hurt_38
+  - first:
+      213: -7727363816801964499
+    second: Slime_Poison_hurt_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f65a52379c8b0e4088fc2229c6f7928
+      internalID: 1278320479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f593540a5d3b2c64c96b72800d53be2a
+      internalID: -721832590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540b9334056f4f64eb01e2507c186c6f
+      internalID: -1481879818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2040b13c9d871e4e823dbe6407daeeb
+      internalID: 2053165643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d223a4a2b5a502440a049e2089fbe2f9
+      internalID: -1544752264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be70f20869efb3f4583b09c2918a3d80
+      internalID: -82752660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc11a45248d15d44284e81a29417fe67
+      internalID: 1425186516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2225b4ca61999344790210d6c32388bf
+      internalID: -785255989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda0d6a16957a4a42bbc03a1a21d107c
+      internalID: 1619471291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6313543108ce7784da0f46d086beef65
+      internalID: -1061777169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7baebfa88fa4434ab8f08d19bfbe899
+      internalID: 468963501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aa11b5594aafc419f3707649be9d13
+      internalID: 1419847084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a27757fa5b305a499ea9055cb7e4182
+      internalID: 455273964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6a38520b3e1e4d9bc9aba632605c6
+      internalID: -526714814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0953d552ffd854ab090f41ff928318
+      internalID: 1611847476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2d62ed883bf7b4fa0d6f6d356c7134
+      internalID: -402576522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb56d05b60127147973aa7fb96d0223
+      internalID: -443516770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d107e8267308cd41906ff780f5c6348
+      internalID: 1524092795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdd98fe3d672bf41b51c19c5b4a62d7
+      internalID: -1225009946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_hurt_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440f55cceea96ec4cbd693b1058eb30f
+      internalID: 511645880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 67e1ef9a9d003494296e16a697b56305
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Poison_hurt_0: 6625371866534022895
+      Slime_Poison_hurt_1: -503116409413321586
+      Slime_Poison_hurt_10: 6434882521680602375
+      Slime_Poison_hurt_11: 1780916748547912149
+      Slime_Poison_hurt_12: -8005454634750605599
+      Slime_Poison_hurt_13: -347577880960559811
+      Slime_Poison_hurt_14: 2415024359443403829
+      Slime_Poison_hurt_15: -3672471470856130842
+      Slime_Poison_hurt_16: -2014149197746588321
+      Slime_Poison_hurt_17: -6684302467345182364
+      Slime_Poison_hurt_18: -3201936193682574949
+      Slime_Poison_hurt_19: -8951622989949025527
+      Slime_Poison_hurt_2: -6815733634376967495
+      Slime_Poison_hurt_20: 4888090711285037315
+      Slime_Poison_hurt_21: 1508645203641359550
+      Slime_Poison_hurt_22: 728642003300245282
+      Slime_Poison_hurt_23: -4766885415010260437
+      Slime_Poison_hurt_24: -1494600388478489552
+      Slime_Poison_hurt_25: 3290908772936907272
+      Slime_Poison_hurt_26: -3290161128928552280
+      Slime_Poison_hurt_27: -1591647157709604095
+      Slime_Poison_hurt_28: -4434910672873705754
+      Slime_Poison_hurt_29: 2985030064235848457
+      Slime_Poison_hurt_3: 448013604025863084
+      Slime_Poison_hurt_30: 6954857653725549796
+      Slime_Poison_hurt_31: 4125926180874440187
+      Slime_Poison_hurt_32: -4362077100936230213
+      Slime_Poison_hurt_33: -5131802008308713787
+      Slime_Poison_hurt_34: -1831613022999107302
+      Slime_Poison_hurt_35: 6784697267802098714
+      Slime_Poison_hurt_36: 4449763430483131555
+      Slime_Poison_hurt_37: 2213505809372159206
+      Slime_Poison_hurt_38: 2290936570177131305
+      Slime_Poison_hurt_39: -7727363816801964499
+      Slime_Poison_hurt_4: -6698022628212857977
+      Slime_Poison_hurt_5: -6937000099409844461
+      Slime_Poison_hurt_6: 5802357233072053574
+      Slime_Poison_hurt_7: -6023934519518166917
+      Slime_Poison_hurt_8: -1924881398289864815
+      Slime_Poison_hurt_9: 1029974360936461142
+      Slime_Poison_hurt_d0_f0: 1278320479
+      Slime_Poison_hurt_d0_f1: -721832590
+      Slime_Poison_hurt_d0_f2: -1481879818
+      Slime_Poison_hurt_d0_f3: 2053165643
+      Slime_Poison_hurt_d0_f4: -1544752264
+      Slime_Poison_hurt_d1_f0: -82752660
+      Slime_Poison_hurt_d1_f1: 1425186516
+      Slime_Poison_hurt_d1_f2: -785255989
+      Slime_Poison_hurt_d1_f3: 1619471291
+      Slime_Poison_hurt_d1_f4: -1061777169
+      Slime_Poison_hurt_d2_f0: 468963501
+      Slime_Poison_hurt_d2_f1: 1419847084
+      Slime_Poison_hurt_d2_f2: 455273964
+      Slime_Poison_hurt_d2_f3: -526714814
+      Slime_Poison_hurt_d2_f4: 1611847476
+      Slime_Poison_hurt_d3_f0: -402576522
+      Slime_Poison_hurt_d3_f1: -443516770
+      Slime_Poison_hurt_d3_f2: 1524092795
+      Slime_Poison_hurt_d3_f3: -1225009946
+      Slime_Poison_hurt_d3_f4: 511645880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

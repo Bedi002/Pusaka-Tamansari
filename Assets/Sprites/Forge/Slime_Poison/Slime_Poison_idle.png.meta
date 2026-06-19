@@ -1,0 +1,813 @@
+fileFormatVersion: 2
+guid: 7afd1a7a3f4624e4d98ea9a362cd4729
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -164921440623777031
+    second: Slime_Poison_idle_0
+  - first:
+      213: 8193400937566695818
+    second: Slime_Poison_idle_1
+  - first:
+      213: 750755160355602341
+    second: Slime_Poison_idle_2
+  - first:
+      213: 4757148567602044248
+    second: Slime_Poison_idle_3
+  - first:
+      213: -8403419975544496078
+    second: Slime_Poison_idle_4
+  - first:
+      213: 4548612407635248451
+    second: Slime_Poison_idle_5
+  - first:
+      213: 5085799953413595217
+    second: Slime_Poison_idle_6
+  - first:
+      213: -461827221166712015
+    second: Slime_Poison_idle_7
+  - first:
+      213: 420383506369682077
+    second: Slime_Poison_idle_8
+  - first:
+      213: 391001977023718602
+    second: Slime_Poison_idle_9
+  - first:
+      213: 1911647973147892854
+    second: Slime_Poison_idle_10
+  - first:
+      213: -3840261373372363995
+    second: Slime_Poison_idle_11
+  - first:
+      213: 2308182699644567611
+    second: Slime_Poison_idle_12
+  - first:
+      213: 7998141241725745966
+    second: Slime_Poison_idle_13
+  - first:
+      213: 2127458422062295252
+    second: Slime_Poison_idle_14
+  - first:
+      213: -2935112251833193889
+    second: Slime_Poison_idle_15
+  - first:
+      213: 4981864667203244445
+    second: Slime_Poison_idle_16
+  - first:
+      213: 1494526581936290764
+    second: Slime_Poison_idle_17
+  - first:
+      213: 9067186248849950625
+    second: Slime_Poison_idle_18
+  - first:
+      213: -1688341512010539178
+    second: Slime_Poison_idle_19
+  - first:
+      213: -1323875394489562136
+    second: Slime_Poison_idle_20
+  - first:
+      213: -3795252648127717952
+    second: Slime_Poison_idle_21
+  - first:
+      213: -7407612195483585861
+    second: Slime_Poison_idle_22
+  - first:
+      213: -8586930946413055293
+    second: Slime_Poison_idle_23
+  - first:
+      213: -265541227833441600
+    second: Slime_Poison_idle_24
+  - first:
+      213: -5914285550557320431
+    second: Slime_Poison_idle_25
+  - first:
+      213: 947542830941889316
+    second: Slime_Poison_idle_26
+  - first:
+      213: 4298581516289426152
+    second: Slime_Poison_idle_27
+  - first:
+      213: -8823266865853454262
+    second: Slime_Poison_idle_28
+  - first:
+      213: 125802981770667204
+    second: Slime_Poison_idle_29
+  - first:
+      213: -4634387381881821480
+    second: Slime_Poison_idle_30
+  - first:
+      213: -4155451651836104197
+    second: Slime_Poison_idle_31
+  - first:
+      213: -5286318181886133746
+    second: Slime_Poison_idle_32
+  - first:
+      213: 7165572024439521994
+    second: Slime_Poison_idle_33
+  - first:
+      213: 4442179498397688354
+    second: Slime_Poison_idle_34
+  - first:
+      213: -7417154643667525109
+    second: Slime_Poison_idle_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fafb77d94b7a04ca88b13143311888
+      internalID: 1031939412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b684b764cc7b3d45af292e8eb23eb1d
+      internalID: -1635773568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e274cb66f93ff454b902797156b84aa1
+      internalID: -329254752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61d489795bb8f44f871eb50da841f9a
+      internalID: 1331555076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6832e65c8904f34391b13c78ffd7b7d
+      internalID: -111050987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fdd165f436960499adeec1e258454b
+      internalID: -1164301558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3274d5b2a2c615042b09c019e22fc9f2
+      internalID: 29394961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159110443de481a4b86fd869764655fc
+      internalID: 868248580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd198aa634255ff4883085d0b2235af7
+      internalID: -1958416740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a44b92a1aefb6e4a80933e8a39d2fa0
+      internalID: -1802966707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0755c3edde9d5264eb1fc1949944c22f
+      internalID: -2077205674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a538b33d002595d42a6cd5ca84b536aa
+      internalID: 2038161649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d609c0c075906c419a7b916f738e0c7
+      internalID: 581896204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770942ea22c81fe40a4f217b36bd54c6
+      internalID: -171117729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd4dc87b3c31c345bd5cf4f743556d4
+      internalID: 963744737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b52169f2120cd04b86856c66f3edc2e
+      internalID: -1827123907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eb5e3298c1b4d4aab4a3eb090ef06b
+      internalID: -400548431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3916c125f05f8243bf17318d41baee0
+      internalID: 1844436506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092a7caa19b0484fbf5089eda770ae4
+      internalID: 1778332653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadf624a1530bc746a668e23b06d1a05
+      internalID: -1617496540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9918f227c4d4d6d44ab115bf1afb74b9
+      internalID: 1091086139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c52c99650653604688c4da7c405780a
+      internalID: -538514382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b76e6e7114821e4499bb059e0ee9b60
+      internalID: 1540185491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_idle_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cbc22e36761e040b761304054aa47e
+      internalID: 1324570179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c101947fd4e71a4e94a38672b7ca4fa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Poison_idle_0: -164921440623777031
+      Slime_Poison_idle_1: 8193400937566695818
+      Slime_Poison_idle_10: 1911647973147892854
+      Slime_Poison_idle_11: -3840261373372363995
+      Slime_Poison_idle_12: 2308182699644567611
+      Slime_Poison_idle_13: 7998141241725745966
+      Slime_Poison_idle_14: 2127458422062295252
+      Slime_Poison_idle_15: -2935112251833193889
+      Slime_Poison_idle_16: 4981864667203244445
+      Slime_Poison_idle_17: 1494526581936290764
+      Slime_Poison_idle_18: 9067186248849950625
+      Slime_Poison_idle_19: -1688341512010539178
+      Slime_Poison_idle_2: 750755160355602341
+      Slime_Poison_idle_20: -1323875394489562136
+      Slime_Poison_idle_21: -3795252648127717952
+      Slime_Poison_idle_22: -7407612195483585861
+      Slime_Poison_idle_23: -8586930946413055293
+      Slime_Poison_idle_24: -265541227833441600
+      Slime_Poison_idle_25: -5914285550557320431
+      Slime_Poison_idle_26: 947542830941889316
+      Slime_Poison_idle_27: 4298581516289426152
+      Slime_Poison_idle_28: -8823266865853454262
+      Slime_Poison_idle_29: 125802981770667204
+      Slime_Poison_idle_3: 4757148567602044248
+      Slime_Poison_idle_30: -4634387381881821480
+      Slime_Poison_idle_31: -4155451651836104197
+      Slime_Poison_idle_32: -5286318181886133746
+      Slime_Poison_idle_33: 7165572024439521994
+      Slime_Poison_idle_34: 4442179498397688354
+      Slime_Poison_idle_35: -7417154643667525109
+      Slime_Poison_idle_4: -8403419975544496078
+      Slime_Poison_idle_5: 4548612407635248451
+      Slime_Poison_idle_6: 5085799953413595217
+      Slime_Poison_idle_7: -461827221166712015
+      Slime_Poison_idle_8: 420383506369682077
+      Slime_Poison_idle_9: 391001977023718602
+      Slime_Poison_idle_d0_f0: 1031939412
+      Slime_Poison_idle_d0_f1: -1635773568
+      Slime_Poison_idle_d0_f2: -329254752
+      Slime_Poison_idle_d0_f3: 1331555076
+      Slime_Poison_idle_d0_f4: -111050987
+      Slime_Poison_idle_d0_f5: -1164301558
+      Slime_Poison_idle_d1_f0: 29394961
+      Slime_Poison_idle_d1_f1: 868248580
+      Slime_Poison_idle_d1_f2: -1958416740
+      Slime_Poison_idle_d1_f3: -1802966707
+      Slime_Poison_idle_d1_f4: -2077205674
+      Slime_Poison_idle_d1_f5: 2038161649
+      Slime_Poison_idle_d2_f0: 581896204
+      Slime_Poison_idle_d2_f1: -171117729
+      Slime_Poison_idle_d2_f2: 963744737
+      Slime_Poison_idle_d2_f3: -1827123907
+      Slime_Poison_idle_d2_f4: -400548431
+      Slime_Poison_idle_d2_f5: 1844436506
+      Slime_Poison_idle_d3_f0: 1778332653
+      Slime_Poison_idle_d3_f1: -1617496540
+      Slime_Poison_idle_d3_f2: 1091086139
+      Slime_Poison_idle_d3_f3: -538514382
+      Slime_Poison_idle_d3_f4: 1540185491
+      Slime_Poison_idle_d3_f5: 1324570179
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

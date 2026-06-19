@@ -79,7 +79,13 @@ public class Boss : MonoBehaviour, IDamageable
         if (maxScaled == 0) ApplyStats();
 
         var pObj = GameObject.FindGameObjectWithTag("Player");
-        if (pObj != null) { player = pObj.transform; playerHealth = pObj.GetComponent<PlayerHealth>(); }
+        if (pObj != null)
+        {
+            player = pObj.transform; playerHealth = pObj.GetComponent<PlayerHealth>();
+            var myCol = GetComponent<Collider2D>();
+            var pCol = pObj.GetComponent<Collider2D>();
+            if (myCol != null && pCol != null) Physics2D.IgnoreCollision(myCol, pCol, true);  // player tak bisa dorong boss
+        }
 
         if (HUDController.Instance != null) HUDController.Instance.ShowBossBar(bossName, maxScaled);
     }

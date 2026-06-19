@@ -1,0 +1,1381 @@
+fileFormatVersion: 2
+guid: 41a99290f152c204d8172f5c5ce010d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1850946299254558919
+    second: DreadKnight_idle_0
+  - first:
+      213: -8610993423575710388
+    second: DreadKnight_idle_1
+  - first:
+      213: 7063482203722733543
+    second: DreadKnight_idle_2
+  - first:
+      213: -1100726194898295507
+    second: DreadKnight_idle_3
+  - first:
+      213: 6632664090776753564
+    second: DreadKnight_idle_4
+  - first:
+      213: 3267718159452825704
+    second: DreadKnight_idle_5
+  - first:
+      213: 6910211746250790363
+    second: DreadKnight_idle_6
+  - first:
+      213: -2972924245187003206
+    second: DreadKnight_idle_7
+  - first:
+      213: 3238017425787685502
+    second: DreadKnight_idle_8
+  - first:
+      213: 3707416750301353418
+    second: DreadKnight_idle_9
+  - first:
+      213: -3979104794394182160
+    second: DreadKnight_idle_10
+  - first:
+      213: -4560363069012229197
+    second: DreadKnight_idle_11
+  - first:
+      213: 9098473860234636326
+    second: DreadKnight_idle_12
+  - first:
+      213: 7278833235484429195
+    second: DreadKnight_idle_13
+  - first:
+      213: 6943670443142519814
+    second: DreadKnight_idle_14
+  - first:
+      213: -6430156163203120690
+    second: DreadKnight_idle_15
+  - first:
+      213: -6957722437109088312
+    second: DreadKnight_idle_16
+  - first:
+      213: 1772991533105666382
+    second: DreadKnight_idle_17
+  - first:
+      213: -2059921428566582932
+    second: DreadKnight_idle_18
+  - first:
+      213: 8542130486343848734
+    second: DreadKnight_idle_19
+  - first:
+      213: 5469359940479198768
+    second: DreadKnight_idle_20
+  - first:
+      213: -1551024547413468193
+    second: DreadKnight_idle_21
+  - first:
+      213: 2918063414730342672
+    second: DreadKnight_idle_22
+  - first:
+      213: -118626686623195461
+    second: DreadKnight_idle_23
+  - first:
+      213: 3081057784942025681
+    second: DreadKnight_idle_24
+  - first:
+      213: -3879607047268771083
+    second: DreadKnight_idle_25
+  - first:
+      213: 5329065359214660531
+    second: DreadKnight_idle_26
+  - first:
+      213: 5660669001945720345
+    second: DreadKnight_idle_27
+  - first:
+      213: 3094811041023631821
+    second: DreadKnight_idle_28
+  - first:
+      213: 7207997835173216412
+    second: DreadKnight_idle_29
+  - first:
+      213: -1098155728891612009
+    second: DreadKnight_idle_30
+  - first:
+      213: 2748994688836056352
+    second: DreadKnight_idle_31
+  - first:
+      213: 2180525969285014719
+    second: DreadKnight_idle_32
+  - first:
+      213: -4771969725144521736
+    second: DreadKnight_idle_33
+  - first:
+      213: 3483435459552733092
+    second: DreadKnight_idle_34
+  - first:
+      213: 6581719374323376987
+    second: DreadKnight_idle_35
+  - first:
+      213: 5547988470475590076
+    second: DreadKnight_idle_36
+  - first:
+      213: 6259899913645199513
+    second: DreadKnight_idle_37
+  - first:
+      213: -7515492319929321825
+    second: DreadKnight_idle_38
+  - first:
+      213: -2395328468627660701
+    second: DreadKnight_idle_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548ce9bf0c9396d4788eb3b02ec79bfc
+      internalID: 1556980755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2309b5f79f02a3f4282ed7858286c2c7
+      internalID: 1249708989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7406d48a0ea59743ac4e93c8786f5dd
+      internalID: 1732752745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3efc2eb49da2341b792e0bfc15d529
+      internalID: 1448694154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8f52e776455a04fa1c7bfaabb9cda7
+      internalID: -2074932054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c497d31dbacd67459a9f42184cfc6d5
+      internalID: -2064847966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e3bb20b2f947c42866d675c181ed48
+      internalID: 641355076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d345ef0240554347972fcb26011689c
+      internalID: -2099652495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40edf6a3c36e92e4083701d1a994349d
+      internalID: -1561692959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cc5764b50a5d148939b5bfb762abaf
+      internalID: -761052009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3b8b923d2e6b84bb730b09c79ed92d
+      internalID: 1814140908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d0_f11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3818416b7ffc84e93fca7fe4355742
+      internalID: -500322522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2884fbfa4f5db6a4da82c36f0c9c65ff
+      internalID: -494283246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bd65f3b70aa994bb8f0c2cd0f27df8
+      internalID: -1048292824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ca96e60b9a9ce46a07febd6cd0b68d
+      internalID: 1398311595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e345a5c9f39cbf45b1858aef7d020dc
+      internalID: 1151185825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6ed939d24097340802ce1cc52a1f9e
+      internalID: 989971902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257384067c27ff741b75ea9fe28844f6
+      internalID: 1587080485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f71737cdf8b14ea11e17e52872bdb
+      internalID: 916520264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3e00537ceeee4786062228453b275
+      internalID: 1967043643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e6da81e1c0f604cbd4a78bda16ec59
+      internalID: 1673922247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd5a8fbfef2b8d4aa4f1af3524da059
+      internalID: -513410411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2305d588f187d2478357c80c8704e75
+      internalID: 816300065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d1_f11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5f78c9378e2af45861dc666cc516e5
+      internalID: 927742220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0b155f38b191541840c62377ca5dda
+      internalID: -2080297776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9333a3d1b2fb9394ab18768082e27522
+      internalID: -911920720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe39c02765b70459ed0a139117db27
+      internalID: 1199748919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d652b62a5fbe0d4883a57d5bd1ae328
+      internalID: 760669763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b3f88f29311174eb224d1d704e6466
+      internalID: -1568221972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3738e61da63a83e48ba7cb415f40a438
+      internalID: -472429136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4030bc37a194b408c7dc57f3b9b65e
+      internalID: -1324936994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206e77f7f810e53419ae0033b703f5e0
+      internalID: -2066918196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96da65178076334fad884b86989fc14
+      internalID: -28262004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1497b6e70dcef5c4ebdee9ec3520f31d
+      internalID: 560374505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee1fa84e12b6dd4ca98bfaeacd0c073
+      internalID: 928524171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d2_f11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ab9a731657b6f4598b71a063c2c62d
+      internalID: 1851554604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b11150e78414aa43a7c27cd5a2b9e27
+      internalID: -481107007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3708079996fa6fb4b8e8a45a02abdc0c
+      internalID: 896134341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bdadbb58317344696820501d09f0de
+      internalID: -1347855100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2799da6e7eb14054d99402aa2a0d1e0a
+      internalID: 2137989704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117e64d4c2fc7524482ba6b30484ee65
+      internalID: -391195050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28fc1f398597214b886da3b1986e422
+      internalID: -1121068857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ead257bed58da40a10f7da43fe2db7
+      internalID: -205047738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbbddceb247463469d6a52482a19990
+      internalID: -394626136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0092a985781784bb4cc6c665c572b9
+      internalID: -1208531120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dc97ca77e51ef46b1c9440c8b4e14b
+      internalID: -859986520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d110d68d051255469a727478a2fcfc7
+      internalID: 1910096679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_idle_d3_f11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c3c59f29601774198bdac99ceaeba1
+      internalID: -451681846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 69eac0b85c1b29f43b2f247a8a597263
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DreadKnight_idle_0: -1850946299254558919
+      DreadKnight_idle_1: -8610993423575710388
+      DreadKnight_idle_10: -3979104794394182160
+      DreadKnight_idle_11: -4560363069012229197
+      DreadKnight_idle_12: 9098473860234636326
+      DreadKnight_idle_13: 7278833235484429195
+      DreadKnight_idle_14: 6943670443142519814
+      DreadKnight_idle_15: -6430156163203120690
+      DreadKnight_idle_16: -6957722437109088312
+      DreadKnight_idle_17: 1772991533105666382
+      DreadKnight_idle_18: -2059921428566582932
+      DreadKnight_idle_19: 8542130486343848734
+      DreadKnight_idle_2: 7063482203722733543
+      DreadKnight_idle_20: 5469359940479198768
+      DreadKnight_idle_21: -1551024547413468193
+      DreadKnight_idle_22: 2918063414730342672
+      DreadKnight_idle_23: -118626686623195461
+      DreadKnight_idle_24: 3081057784942025681
+      DreadKnight_idle_25: -3879607047268771083
+      DreadKnight_idle_26: 5329065359214660531
+      DreadKnight_idle_27: 5660669001945720345
+      DreadKnight_idle_28: 3094811041023631821
+      DreadKnight_idle_29: 7207997835173216412
+      DreadKnight_idle_3: -1100726194898295507
+      DreadKnight_idle_30: -1098155728891612009
+      DreadKnight_idle_31: 2748994688836056352
+      DreadKnight_idle_32: 2180525969285014719
+      DreadKnight_idle_33: -4771969725144521736
+      DreadKnight_idle_34: 3483435459552733092
+      DreadKnight_idle_35: 6581719374323376987
+      DreadKnight_idle_36: 5547988470475590076
+      DreadKnight_idle_37: 6259899913645199513
+      DreadKnight_idle_38: -7515492319929321825
+      DreadKnight_idle_39: -2395328468627660701
+      DreadKnight_idle_4: 6632664090776753564
+      DreadKnight_idle_5: 3267718159452825704
+      DreadKnight_idle_6: 6910211746250790363
+      DreadKnight_idle_7: -2972924245187003206
+      DreadKnight_idle_8: 3238017425787685502
+      DreadKnight_idle_9: 3707416750301353418
+      DreadKnight_idle_d0_f0: 1556980755
+      DreadKnight_idle_d0_f1: 1249708989
+      DreadKnight_idle_d0_f10: 1814140908
+      DreadKnight_idle_d0_f11: -500322522
+      DreadKnight_idle_d0_f2: 1732752745
+      DreadKnight_idle_d0_f3: 1448694154
+      DreadKnight_idle_d0_f4: -2074932054
+      DreadKnight_idle_d0_f5: -2064847966
+      DreadKnight_idle_d0_f6: 641355076
+      DreadKnight_idle_d0_f7: -2099652495
+      DreadKnight_idle_d0_f8: -1561692959
+      DreadKnight_idle_d0_f9: -761052009
+      DreadKnight_idle_d1_f0: -494283246
+      DreadKnight_idle_d1_f1: -1048292824
+      DreadKnight_idle_d1_f10: 816300065
+      DreadKnight_idle_d1_f11: 927742220
+      DreadKnight_idle_d1_f2: 1398311595
+      DreadKnight_idle_d1_f3: 1151185825
+      DreadKnight_idle_d1_f4: 989971902
+      DreadKnight_idle_d1_f5: 1587080485
+      DreadKnight_idle_d1_f6: 916520264
+      DreadKnight_idle_d1_f7: 1967043643
+      DreadKnight_idle_d1_f8: 1673922247
+      DreadKnight_idle_d1_f9: -513410411
+      DreadKnight_idle_d2_f0: -2080297776
+      DreadKnight_idle_d2_f1: -911920720
+      DreadKnight_idle_d2_f10: 928524171
+      DreadKnight_idle_d2_f11: 1851554604
+      DreadKnight_idle_d2_f2: 1199748919
+      DreadKnight_idle_d2_f3: 760669763
+      DreadKnight_idle_d2_f4: -1568221972
+      DreadKnight_idle_d2_f5: -472429136
+      DreadKnight_idle_d2_f6: -1324936994
+      DreadKnight_idle_d2_f7: -2066918196
+      DreadKnight_idle_d2_f8: -28262004
+      DreadKnight_idle_d2_f9: 560374505
+      DreadKnight_idle_d3_f0: -481107007
+      DreadKnight_idle_d3_f1: 896134341
+      DreadKnight_idle_d3_f10: 1910096679
+      DreadKnight_idle_d3_f11: -451681846
+      DreadKnight_idle_d3_f2: -1347855100
+      DreadKnight_idle_d3_f3: 2137989704
+      DreadKnight_idle_d3_f4: -391195050
+      DreadKnight_idle_d3_f5: -1121068857
+      DreadKnight_idle_d3_f6: -205047738
+      DreadKnight_idle_d3_f7: -394626136
+      DreadKnight_idle_d3_f8: -1208531120
+      DreadKnight_idle_d3_f9: -859986520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

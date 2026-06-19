@@ -1,0 +1,657 @@
+fileFormatVersion: 2
+guid: 4c6ed91c89df6a64596b0a943b971fd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8126028437347415650
+    second: DreadKnight_hurt_0
+  - first:
+      213: -5372226371655993353
+    second: DreadKnight_hurt_1
+  - first:
+      213: 6589498058838074496
+    second: DreadKnight_hurt_2
+  - first:
+      213: 6527304695066507609
+    second: DreadKnight_hurt_3
+  - first:
+      213: 3061030842052395989
+    second: DreadKnight_hurt_4
+  - first:
+      213: 5254953135005328369
+    second: DreadKnight_hurt_5
+  - first:
+      213: 7095298651202067751
+    second: DreadKnight_hurt_6
+  - first:
+      213: -2904027012236264126
+    second: DreadKnight_hurt_7
+  - first:
+      213: 5471899787109049902
+    second: DreadKnight_hurt_8
+  - first:
+      213: -1831943561268182800
+    second: DreadKnight_hurt_9
+  - first:
+      213: -2801397079035227259
+    second: DreadKnight_hurt_10
+  - first:
+      213: -4889661665281947444
+    second: DreadKnight_hurt_11
+  - first:
+      213: -8311498839646890832
+    second: DreadKnight_hurt_12
+  - first:
+      213: -1151933546770451712
+    second: DreadKnight_hurt_13
+  - first:
+      213: -3113742814781856204
+    second: DreadKnight_hurt_14
+  - first:
+      213: 6994954016483002455
+    second: DreadKnight_hurt_15
+  - first:
+      213: -8538077173427320993
+    second: DreadKnight_hurt_16
+  - first:
+      213: -7148775645347831814
+    second: DreadKnight_hurt_17
+  - first:
+      213: -1932540926152260272
+    second: DreadKnight_hurt_18
+  - first:
+      213: 6021705292281165093
+    second: DreadKnight_hurt_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae92df3b5de6e9d46827a9820fb7725f
+      internalID: -1386416507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb9a2a5ef1ec01409207504f5d6547e
+      internalID: -1488948221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b777b9bbe803fef42bb44082416b116b
+      internalID: 1640273105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493be1cf196e3cc4c9e1cc7a95e79539
+      internalID: 2065504184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fafdeb3fc39fbb4ca95682c5927242f
+      internalID: 787609569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c5bbd974393e94884a4af62e6e8ced
+      internalID: 319476109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7d76bdfb35fe74a82e463c4fff95cc
+      internalID: -1788909723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7654d570d6d47944abb352cdf844c5c2
+      internalID: 981342663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcfd5e125bb6d143a6f7e67999a7d9a
+      internalID: -1271631771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e4b2b0a39114848a531e18e29e135c
+      internalID: -1947621610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60c912e5450df442b373817a2f6356c
+      internalID: -1020505025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9eaca1e8de7904bb5a9dd88a54b14e
+      internalID: -1225171318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04254c55b8c439a48a5ea82366b80e96
+      internalID: 1955824778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec9eb24cfc8fbc47a774b1eaf07f036
+      internalID: -1894493457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415eca76d22b1a5418b19bf447d29af4
+      internalID: -1317838464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f3935fbe4994b43b897c97f230b1dd
+      internalID: -2138174759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac437dbb120e724bbd882d423cbdc0b
+      internalID: -1493219485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd8c2474bca21f43a97cdd01f80b1d0
+      internalID: 149987572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f358cf15d91243419d3ca467c35e25d
+      internalID: 595592137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_hurt_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0094b5c8303c6eb409ed97034f5bb650
+      internalID: 107579376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b2c2046821651b46ab179dc62da6461
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DreadKnight_hurt_0: -8126028437347415650
+      DreadKnight_hurt_1: -5372226371655993353
+      DreadKnight_hurt_10: -2801397079035227259
+      DreadKnight_hurt_11: -4889661665281947444
+      DreadKnight_hurt_12: -8311498839646890832
+      DreadKnight_hurt_13: -1151933546770451712
+      DreadKnight_hurt_14: -3113742814781856204
+      DreadKnight_hurt_15: 6994954016483002455
+      DreadKnight_hurt_16: -8538077173427320993
+      DreadKnight_hurt_17: -7148775645347831814
+      DreadKnight_hurt_18: -1932540926152260272
+      DreadKnight_hurt_19: 6021705292281165093
+      DreadKnight_hurt_2: 6589498058838074496
+      DreadKnight_hurt_3: 6527304695066507609
+      DreadKnight_hurt_4: 3061030842052395989
+      DreadKnight_hurt_5: 5254953135005328369
+      DreadKnight_hurt_6: 7095298651202067751
+      DreadKnight_hurt_7: -2904027012236264126
+      DreadKnight_hurt_8: 5471899787109049902
+      DreadKnight_hurt_9: -1831943561268182800
+      DreadKnight_hurt_d0_f0: -1386416507
+      DreadKnight_hurt_d0_f1: -1488948221
+      DreadKnight_hurt_d0_f2: 1640273105
+      DreadKnight_hurt_d0_f3: 2065504184
+      DreadKnight_hurt_d0_f4: 787609569
+      DreadKnight_hurt_d1_f0: 319476109
+      DreadKnight_hurt_d1_f1: -1788909723
+      DreadKnight_hurt_d1_f2: 981342663
+      DreadKnight_hurt_d1_f3: -1271631771
+      DreadKnight_hurt_d1_f4: -1947621610
+      DreadKnight_hurt_d2_f0: -1020505025
+      DreadKnight_hurt_d2_f1: -1225171318
+      DreadKnight_hurt_d2_f2: 1955824778
+      DreadKnight_hurt_d2_f3: -1894493457
+      DreadKnight_hurt_d2_f4: -1317838464
+      DreadKnight_hurt_d3_f0: -2138174759
+      DreadKnight_hurt_d3_f1: -1493219485
+      DreadKnight_hurt_d3_f2: 149987572
+      DreadKnight_hurt_d3_f3: 595592137
+      DreadKnight_hurt_d3_f4: 107579376
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

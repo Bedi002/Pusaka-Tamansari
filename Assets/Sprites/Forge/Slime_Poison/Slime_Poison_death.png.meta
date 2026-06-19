@@ -1,0 +1,1385 @@
+fileFormatVersion: 2
+guid: b1a9134d17d39104ebf4416847f0e836
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7712314543853720499
+    second: Slime_Poison_death_0
+  - first:
+      213: -364930535941941505
+    second: Slime_Poison_death_1
+  - first:
+      213: -6057463195588703535
+    second: Slime_Poison_death_2
+  - first:
+      213: -8603822980384617914
+    second: Slime_Poison_death_3
+  - first:
+      213: 1066275731455072668
+    second: Slime_Poison_death_4
+  - first:
+      213: 5993313151189277474
+    second: Slime_Poison_death_5
+  - first:
+      213: 1024079669252459485
+    second: Slime_Poison_death_6
+  - first:
+      213: 7976624014941119666
+    second: Slime_Poison_death_7
+  - first:
+      213: -1151615042564130252
+    second: Slime_Poison_death_8
+  - first:
+      213: -7645232320477971823
+    second: Slime_Poison_death_9
+  - first:
+      213: -3765186965496756373
+    second: Slime_Poison_death_10
+  - first:
+      213: -8433057407281803835
+    second: Slime_Poison_death_11
+  - first:
+      213: 6063578504502499711
+    second: Slime_Poison_death_12
+  - first:
+      213: -2515042527813395066
+    second: Slime_Poison_death_13
+  - first:
+      213: 7525956590612941573
+    second: Slime_Poison_death_14
+  - first:
+      213: 4394778693208967380
+    second: Slime_Poison_death_15
+  - first:
+      213: 8098443294150011863
+    second: Slime_Poison_death_16
+  - first:
+      213: -2193940498915987155
+    second: Slime_Poison_death_17
+  - first:
+      213: 5343016828430419837
+    second: Slime_Poison_death_18
+  - first:
+      213: -6322086395199000929
+    second: Slime_Poison_death_19
+  - first:
+      213: -7028645235607202241
+    second: Slime_Poison_death_20
+  - first:
+      213: -1445661534987708522
+    second: Slime_Poison_death_21
+  - first:
+      213: -8771341604690797345
+    second: Slime_Poison_death_22
+  - first:
+      213: -8711737829422808021
+    second: Slime_Poison_death_23
+  - first:
+      213: -1459705570329219271
+    second: Slime_Poison_death_24
+  - first:
+      213: 7190096487930446126
+    second: Slime_Poison_death_25
+  - first:
+      213: 6696293918298628385
+    second: Slime_Poison_death_26
+  - first:
+      213: -3358969737478222160
+    second: Slime_Poison_death_27
+  - first:
+      213: -8551192032604700191
+    second: Slime_Poison_death_28
+  - first:
+      213: -7297899803648504551
+    second: Slime_Poison_death_29
+  - first:
+      213: -3445726058533679919
+    second: Slime_Poison_death_30
+  - first:
+      213: -8696853400538435762
+    second: Slime_Poison_death_31
+  - first:
+      213: -145482681861664363
+    second: Slime_Poison_death_32
+  - first:
+      213: 841880656782900848
+    second: Slime_Poison_death_33
+  - first:
+      213: 6474011981919074896
+    second: Slime_Poison_death_34
+  - first:
+      213: 2818165598922434530
+    second: Slime_Poison_death_35
+  - first:
+      213: -6897808698035878985
+    second: Slime_Poison_death_36
+  - first:
+      213: 8981782034100181052
+    second: Slime_Poison_death_37
+  - first:
+      213: -340238133878434835
+    second: Slime_Poison_death_38
+  - first:
+      213: -4450460757088543983
+    second: Slime_Poison_death_39
+  - first:
+      213: 5741681262106571535
+    second: Slime_Poison_death_40
+  - first:
+      213: 5589304660268315749
+    second: Slime_Poison_death_41
+  - first:
+      213: -4079300414335361364
+    second: Slime_Poison_death_42
+  - first:
+      213: -8163803068179753760
+    second: Slime_Poison_death_43
+  - first:
+      213: -6217581973808023398
+    second: Slime_Poison_death_44
+  - first:
+      213: -5783700995341556557
+    second: Slime_Poison_death_45
+  - first:
+      213: 1165063504136585891
+    second: Slime_Poison_death_46
+  - first:
+      213: -8446910551197685153
+    second: Slime_Poison_death_47
+  - first:
+      213: 7782854182370181579
+    second: Slime_Poison_death_48
+  - first:
+      213: -3465860398635766997
+    second: Slime_Poison_death_49
+  - first:
+      213: 1944115607355404600
+    second: Slime_Poison_death_50
+  - first:
+      213: -1924718447501423447
+    second: Slime_Poison_death_51
+  - first:
+      213: -8018845358463058757
+    second: Slime_Poison_death_52
+  - first:
+      213: 3238173268828822703
+    second: Slime_Poison_death_53
+  - first:
+      213: -3309241204474980958
+    second: Slime_Poison_death_54
+  - first:
+      213: -3411921803437038461
+    second: Slime_Poison_death_55
+  - first:
+      213: 3481162710135520028
+    second: Slime_Poison_death_56
+  - first:
+      213: -446672309132249426
+    second: Slime_Poison_death_57
+  - first:
+      213: -3257899313145848792
+    second: Slime_Poison_death_58
+  - first:
+      213: 5054409851614871624
+    second: Slime_Poison_death_59
+  - first:
+      213: 7109930295805929472
+    second: Slime_Poison_death_60
+  - first:
+      213: 39537727799934173
+    second: Slime_Poison_death_61
+  - first:
+      213: 6147436256364778080
+    second: Slime_Poison_death_62
+  - first:
+      213: -4819706374023637603
+    second: Slime_Poison_death_63
+  - first:
+      213: 283352946542238662
+    second: Slime_Poison_death_64
+  - first:
+      213: -8041953678066501429
+    second: Slime_Poison_death_65
+  - first:
+      213: 5550614223718863745
+    second: Slime_Poison_death_66
+  - first:
+      213: -7557552801861705157
+    second: Slime_Poison_death_67
+  - first:
+      213: -6603890072617194727
+    second: Slime_Poison_death_68
+  - first:
+      213: -2030095415935057905
+    second: Slime_Poison_death_69
+  - first:
+      213: 3952281420484943067
+    second: Slime_Poison_death_70
+  - first:
+      213: 1516210999136994925
+    second: Slime_Poison_death_71
+  - first:
+      213: 3259099205803481451
+    second: Slime_Poison_death_72
+  - first:
+      213: -4415886804771621356
+    second: Slime_Poison_death_73
+  - first:
+      213: 7204256711225802438
+    second: Slime_Poison_death_74
+  - first:
+      213: -8692543387149658741
+    second: Slime_Poison_death_75
+  - first:
+      213: 4811462907710439096
+    second: Slime_Poison_death_76
+  - first:
+      213: 9204442436994497683
+    second: Slime_Poison_death_77
+  - first:
+      213: 2088910234656260447
+    second: Slime_Poison_death_78
+  - first:
+      213: 6088898853384362575
+    second: Slime_Poison_death_79
+  - first:
+      213: -2607139193188259918
+    second: Slime_Poison_death_80
+  - first:
+      213: -2158619903966545971
+    second: Slime_Poison_death_81
+  - first:
+      213: 3065512325252167423
+    second: Slime_Poison_death_82
+  - first:
+      213: 233179896545896210
+    second: Slime_Poison_death_83
+  - first:
+      213: 2458271036118144633
+    second: Slime_Poison_death_84
+  - first:
+      213: 4905782963563308987
+    second: Slime_Poison_death_85
+  - first:
+      213: -5880247477429770688
+    second: Slime_Poison_death_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f29ab60d904d8e4282ad9f8359ee432
+      internalID: 39688227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7497050abe61a74880204c1b18f5edf
+      internalID: 1862767177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c834d5cbbc1850499b7180244f4e360
+      internalID: 675384800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c53ae41d33aa94bb00189a587e727f
+      internalID: -1999921949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad547d825a0608478eeca282f2081b1
+      internalID: -2128744883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a8466c950f27746864e7f1638daf4b
+      internalID: 263104949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e510cda0a10f8c4cacf7c31a71e6522
+      internalID: 515639588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcee8b58810feb43bec219782c844ac
+      internalID: -1214543132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc7a6314b045d444939fb9ca2a57a1e
+      internalID: -476159199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d0_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea8dadbbcb80bc4b9e2967495b6d2c0
+      internalID: 2026083040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61485912a76f6a54087fd2598b50a9d6
+      internalID: -439796499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f37b6d2be1a545894df3c347021f2
+      internalID: -1840575198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e11e63d7eda150499b61a4a2de11abe
+      internalID: -1306197744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae11f5105caa29b43879fb10e0d41016
+      internalID: 711531927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5e2ac1f745305438c2d29fe6aa7354
+      internalID: 1723082592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc18f5ba0ce89c439c68a178312e224
+      internalID: 1474362259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae02b0fec38553b4d9c49c21b6bcc750
+      internalID: -512874211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae48e633c3774f4d88d766d6793f9ad
+      internalID: 156234796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6754424eebfb33b409718934fe11d9b5
+      internalID: 875666219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d1_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db40573544ed47a4fa991d95d7f18af8
+      internalID: -2088607965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07f80e6f89c7f74b962b7454f1d6d96
+      internalID: 2122897912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464c0329004476c4eb26c6bc7ffd14fe
+      internalID: 361597628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fdd8079975881468aab2893e4f2cc1
+      internalID: 1652996184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f2a87693ceb5e45a17fa6e6e677a4a
+      internalID: -777463944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dcf3211bacc284cb6afce76752902d
+      internalID: -1106168970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d4cacc93a6c144e92487e827784e4f
+      internalID: -1051698445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26920325bfdd782418513afe01733550
+      internalID: -1876295377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e948fa3031b27e246b2652c0c5474228
+      internalID: 158676278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e3c91ee622c3a4087fba602626638d
+      internalID: -1194889831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d2_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f1ffe39599fbd46b0b2cd7ac0b4ba6
+      internalID: 451913518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678e412a486483947a3204ea0b7aa390
+      internalID: -992306824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d912f799abbde4a8bb80fe5cc7214a
+      internalID: -121550411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca80de3eb077c8d45bb37e6e7d695914
+      internalID: -1290189574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf8cb9cdf3d7fa4693717a5ece21b59
+      internalID: 1806423458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e9ed4c78991f449885a7499ad75b1d
+      internalID: 1196472334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee86ad822a0843b4fb2768245a446de1
+      internalID: -1313514637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aeee670224e034d9473c5c7bd9e69d
+      internalID: -1737685822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6be0f2a48d427b49bfaf6d0b78614a1
+      internalID: 1097720210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabc5b2f5b9501d4d8fe663ca8da4dfe
+      internalID: 1031733709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_death_d3_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d152707687175408f03913dcaea01c
+      internalID: -428116487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a8a12c55b4e3bf45a49175e383b8235
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Poison_death_0: -7712314543853720499
+      Slime_Poison_death_1: -364930535941941505
+      Slime_Poison_death_10: -3765186965496756373
+      Slime_Poison_death_11: -8433057407281803835
+      Slime_Poison_death_12: 6063578504502499711
+      Slime_Poison_death_13: -2515042527813395066
+      Slime_Poison_death_14: 7525956590612941573
+      Slime_Poison_death_15: 4394778693208967380
+      Slime_Poison_death_16: 8098443294150011863
+      Slime_Poison_death_17: -2193940498915987155
+      Slime_Poison_death_18: 5343016828430419837
+      Slime_Poison_death_19: -6322086395199000929
+      Slime_Poison_death_2: -6057463195588703535
+      Slime_Poison_death_20: -7028645235607202241
+      Slime_Poison_death_21: -1445661534987708522
+      Slime_Poison_death_22: -8771341604690797345
+      Slime_Poison_death_23: -8711737829422808021
+      Slime_Poison_death_24: -1459705570329219271
+      Slime_Poison_death_25: 7190096487930446126
+      Slime_Poison_death_26: 6696293918298628385
+      Slime_Poison_death_27: -3358969737478222160
+      Slime_Poison_death_28: -8551192032604700191
+      Slime_Poison_death_29: -7297899803648504551
+      Slime_Poison_death_3: -8603822980384617914
+      Slime_Poison_death_30: -3445726058533679919
+      Slime_Poison_death_31: -8696853400538435762
+      Slime_Poison_death_32: -145482681861664363
+      Slime_Poison_death_33: 841880656782900848
+      Slime_Poison_death_34: 6474011981919074896
+      Slime_Poison_death_35: 2818165598922434530
+      Slime_Poison_death_36: -6897808698035878985
+      Slime_Poison_death_37: 8981782034100181052
+      Slime_Poison_death_38: -340238133878434835
+      Slime_Poison_death_39: -4450460757088543983
+      Slime_Poison_death_4: 1066275731455072668
+      Slime_Poison_death_40: 5741681262106571535
+      Slime_Poison_death_41: 5589304660268315749
+      Slime_Poison_death_42: -4079300414335361364
+      Slime_Poison_death_43: -8163803068179753760
+      Slime_Poison_death_44: -6217581973808023398
+      Slime_Poison_death_45: -5783700995341556557
+      Slime_Poison_death_46: 1165063504136585891
+      Slime_Poison_death_47: -8446910551197685153
+      Slime_Poison_death_48: 7782854182370181579
+      Slime_Poison_death_49: -3465860398635766997
+      Slime_Poison_death_5: 5993313151189277474
+      Slime_Poison_death_50: 1944115607355404600
+      Slime_Poison_death_51: -1924718447501423447
+      Slime_Poison_death_52: -8018845358463058757
+      Slime_Poison_death_53: 3238173268828822703
+      Slime_Poison_death_54: -3309241204474980958
+      Slime_Poison_death_55: -3411921803437038461
+      Slime_Poison_death_56: 3481162710135520028
+      Slime_Poison_death_57: -446672309132249426
+      Slime_Poison_death_58: -3257899313145848792
+      Slime_Poison_death_59: 5054409851614871624
+      Slime_Poison_death_6: 1024079669252459485
+      Slime_Poison_death_60: 7109930295805929472
+      Slime_Poison_death_61: 39537727799934173
+      Slime_Poison_death_62: 6147436256364778080
+      Slime_Poison_death_63: -4819706374023637603
+      Slime_Poison_death_64: 283352946542238662
+      Slime_Poison_death_65: -8041953678066501429
+      Slime_Poison_death_66: 5550614223718863745
+      Slime_Poison_death_67: -7557552801861705157
+      Slime_Poison_death_68: -6603890072617194727
+      Slime_Poison_death_69: -2030095415935057905
+      Slime_Poison_death_7: 7976624014941119666
+      Slime_Poison_death_70: 3952281420484943067
+      Slime_Poison_death_71: 1516210999136994925
+      Slime_Poison_death_72: 3259099205803481451
+      Slime_Poison_death_73: -4415886804771621356
+      Slime_Poison_death_74: 7204256711225802438
+      Slime_Poison_death_75: -8692543387149658741
+      Slime_Poison_death_76: 4811462907710439096
+      Slime_Poison_death_77: 9204442436994497683
+      Slime_Poison_death_78: 2088910234656260447
+      Slime_Poison_death_79: 6088898853384362575
+      Slime_Poison_death_8: -1151615042564130252
+      Slime_Poison_death_80: -2607139193188259918
+      Slime_Poison_death_81: -2158619903966545971
+      Slime_Poison_death_82: 3065512325252167423
+      Slime_Poison_death_83: 233179896545896210
+      Slime_Poison_death_84: 2458271036118144633
+      Slime_Poison_death_85: 4905782963563308987
+      Slime_Poison_death_86: -5880247477429770688
+      Slime_Poison_death_9: -7645232320477971823
+      Slime_Poison_death_d0_f0: 39688227
+      Slime_Poison_death_d0_f1: 1862767177
+      Slime_Poison_death_d0_f2: 675384800
+      Slime_Poison_death_d0_f3: -1999921949
+      Slime_Poison_death_d0_f4: -2128744883
+      Slime_Poison_death_d0_f5: 263104949
+      Slime_Poison_death_d0_f6: 515639588
+      Slime_Poison_death_d0_f7: -1214543132
+      Slime_Poison_death_d0_f8: -476159199
+      Slime_Poison_death_d0_f9: 2026083040
+      Slime_Poison_death_d1_f0: -439796499
+      Slime_Poison_death_d1_f1: -1840575198
+      Slime_Poison_death_d1_f2: -1306197744
+      Slime_Poison_death_d1_f3: 711531927
+      Slime_Poison_death_d1_f4: 1723082592
+      Slime_Poison_death_d1_f5: 1474362259
+      Slime_Poison_death_d1_f6: -512874211
+      Slime_Poison_death_d1_f7: 156234796
+      Slime_Poison_death_d1_f8: 875666219
+      Slime_Poison_death_d1_f9: -2088607965
+      Slime_Poison_death_d2_f0: 2122897912
+      Slime_Poison_death_d2_f1: 361597628
+      Slime_Poison_death_d2_f2: 1652996184
+      Slime_Poison_death_d2_f3: -777463944
+      Slime_Poison_death_d2_f4: -1106168970
+      Slime_Poison_death_d2_f5: -1051698445
+      Slime_Poison_death_d2_f6: -1876295377
+      Slime_Poison_death_d2_f7: 158676278
+      Slime_Poison_death_d2_f8: -1194889831
+      Slime_Poison_death_d2_f9: 451913518
+      Slime_Poison_death_d3_f0: -992306824
+      Slime_Poison_death_d3_f1: -121550411
+      Slime_Poison_death_d3_f2: -1290189574
+      Slime_Poison_death_d3_f3: 1806423458
+      Slime_Poison_death_d3_f4: 1196472334
+      Slime_Poison_death_d3_f5: -1313514637
+      Slime_Poison_death_d3_f6: -1737685822
+      Slime_Poison_death_d3_f7: 1097720210
+      Slime_Poison_death_d3_f8: 1031733709
+      Slime_Poison_death_d3_f9: -428116487
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

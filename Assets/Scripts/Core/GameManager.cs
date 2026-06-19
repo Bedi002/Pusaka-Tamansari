@@ -18,6 +18,17 @@ public class GameManager : MonoBehaviour
     public int currentStageIndex = 0;
     public int score = 0;
 
+    [Header("Hero (pilih di CharacterSelect)")]
+    [Tooltip("Urutan = Warrior, Archer, Mage (diisi otomatis oleh builder)")]
+    public GameObject[] heroPrefabs;
+    [Tooltip("Index hero terpilih (di-set layar CharacterSelect)")]
+    public int selectedHero = 0;
+
+    /// <summary>Prefab hero yang sedang dipilih (null bila belum di-set).</summary>
+    public GameObject SelectedHeroPrefab =>
+        (heroPrefabs != null && selectedHero >= 0 && selectedHero < heroPrefabs.Length)
+            ? heroPrefabs[selectedHero] : null;
+
     [Header("Scaling per Stage")]
     [Tooltip("Tambahan kekuatan musuh tiap naik stage. 0.25 = +25% per stage")]
     public float stageGrowth = 0.25f;

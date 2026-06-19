@@ -1,0 +1,1013 @@
+fileFormatVersion: 2
+guid: 0b2f8ed1785336c428fc5189db3d5cce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8970721758497698012
+    second: Slime_Ice_walk_0
+  - first:
+      213: -3092097749666982655
+    second: Slime_Ice_walk_1
+  - first:
+      213: 4692830079713652432
+    second: Slime_Ice_walk_2
+  - first:
+      213: -8304801536426560953
+    second: Slime_Ice_walk_3
+  - first:
+      213: -5906032217653018517
+    second: Slime_Ice_walk_4
+  - first:
+      213: -64382167369023951
+    second: Slime_Ice_walk_5
+  - first:
+      213: 8151218914120625255
+    second: Slime_Ice_walk_6
+  - first:
+      213: 6772785885887545480
+    second: Slime_Ice_walk_7
+  - first:
+      213: 8070957036094172054
+    second: Slime_Ice_walk_8
+  - first:
+      213: -9026732576005463264
+    second: Slime_Ice_walk_9
+  - first:
+      213: 9158745556505031171
+    second: Slime_Ice_walk_10
+  - first:
+      213: -7236636302116505756
+    second: Slime_Ice_walk_11
+  - first:
+      213: 8644836626904751619
+    second: Slime_Ice_walk_12
+  - first:
+      213: -7017057210047502244
+    second: Slime_Ice_walk_13
+  - first:
+      213: 6192449418858406464
+    second: Slime_Ice_walk_14
+  - first:
+      213: -4319849518102987005
+    second: Slime_Ice_walk_15
+  - first:
+      213: 4124117595015930405
+    second: Slime_Ice_walk_16
+  - first:
+      213: 4045832516984858707
+    second: Slime_Ice_walk_17
+  - first:
+      213: -328384167351273190
+    second: Slime_Ice_walk_18
+  - first:
+      213: -6736828319093403674
+    second: Slime_Ice_walk_19
+  - first:
+      213: 5675911349104089078
+    second: Slime_Ice_walk_20
+  - first:
+      213: -5028421925368030174
+    second: Slime_Ice_walk_21
+  - first:
+      213: -8755160715098651317
+    second: Slime_Ice_walk_22
+  - first:
+      213: 1687170517163356094
+    second: Slime_Ice_walk_23
+  - first:
+      213: 6293627145122421054
+    second: Slime_Ice_walk_24
+  - first:
+      213: 3408901367874228801
+    second: Slime_Ice_walk_25
+  - first:
+      213: -6712366485567814942
+    second: Slime_Ice_walk_26
+  - first:
+      213: -7517570786249630779
+    second: Slime_Ice_walk_27
+  - first:
+      213: -3182234147107162982
+    second: Slime_Ice_walk_28
+  - first:
+      213: -1320019019483334227
+    second: Slime_Ice_walk_29
+  - first:
+      213: -1795281227462854508
+    second: Slime_Ice_walk_30
+  - first:
+      213: -913698273831871115
+    second: Slime_Ice_walk_31
+  - first:
+      213: 350399985821735909
+    second: Slime_Ice_walk_32
+  - first:
+      213: 818406772212332702
+    second: Slime_Ice_walk_33
+  - first:
+      213: 4135736034699523156
+    second: Slime_Ice_walk_34
+  - first:
+      213: -3203007761986875219
+    second: Slime_Ice_walk_35
+  - first:
+      213: 3352359250101575303
+    second: Slime_Ice_walk_36
+  - first:
+      213: 69305407756574746
+    second: Slime_Ice_walk_37
+  - first:
+      213: -8378722359333759375
+    second: Slime_Ice_walk_38
+  - first:
+      213: -782139327304292241
+    second: Slime_Ice_walk_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdab0e3a13058842a8ff5fbfd7720dd
+      internalID: -1673660539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cdde991b3c1834d857102ecdfb26be
+      internalID: 644207668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a925d2c35ccc474c972141b94326437
+      internalID: -1579920886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b122799e7a8224997d48bfaf3c9863
+      internalID: -606668699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b0b314ab1042f4fb28f4fcf8db6392
+      internalID: 682047373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f095e1a5c48a1ed46b955adb4c835dc2
+      internalID: 210797860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d7c973f74c82543b4054d2473ad8cd
+      internalID: 893532138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37912df7e21a4014185be1d0bbe509f7
+      internalID: -839313426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17f81af706f01641ac1a76e9f8e943b
+      internalID: -651268095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e199775fb912aa469dbaf6ce695d5b3
+      internalID: 427728991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580c441fb74cfba46a8c35dfffdc422c
+      internalID: -90030811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b90f387d04a3f54dbbdf186406a0746
+      internalID: 1991833587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c9c77134de0f343b8b903e96da9919
+      internalID: -1269426071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1afa1f20dfa0a49891736c7c3c365d
+      internalID: 1002695588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096033661b790b5488e94a048f03d3ae
+      internalID: 1620796562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f44f628be3ac1d4283eb44667aad30b
+      internalID: 2004989370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e298e904fca7067469b9e7d340a39065
+      internalID: -221384083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ea6b0161c60d548b025e0f83d8fdc5
+      internalID: 1250187615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581c001a569f89c4e9091b3d625f7dfd
+      internalID: 2040552373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4854f709986edc49835c2a9a6066855
+      internalID: -810826083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1677c268d088ab2419fdab0440b5375b
+      internalID: -356317778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba9970aeeb24f3458c08450ca1ff1e1
+      internalID: -933838478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26557d8acc7a2d14f860776088c03473
+      internalID: 490845934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499311d7eaea1a8448002f00502582f4
+      internalID: -992426213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fab75dd16e7bc4eac4199c26b5c240
+      internalID: 1861746796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d527ee34e57da4ba725cfc9712de5d
+      internalID: 889344149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e61df462691ce47ad1fb6c953dbe0b
+      internalID: 994763694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cb1c4a7753b8b47a95b6293e3a1843
+      internalID: 757964383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9890f8517c3864593d8275e234bad0
+      internalID: -887685534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e64fb6ef32562488d22a7ddd514a75
+      internalID: -243021725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fb08976db32624785ce8bdc8ce6673
+      internalID: 870597941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_walk_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108a014f6edf67647bc0d0ec35ac78ee
+      internalID: 963344049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a1f4a9b421c83844384194847b7d333a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Ice_walk_0: -8970721758497698012
+      Slime_Ice_walk_1: -3092097749666982655
+      Slime_Ice_walk_10: 9158745556505031171
+      Slime_Ice_walk_11: -7236636302116505756
+      Slime_Ice_walk_12: 8644836626904751619
+      Slime_Ice_walk_13: -7017057210047502244
+      Slime_Ice_walk_14: 6192449418858406464
+      Slime_Ice_walk_15: -4319849518102987005
+      Slime_Ice_walk_16: 4124117595015930405
+      Slime_Ice_walk_17: 4045832516984858707
+      Slime_Ice_walk_18: -328384167351273190
+      Slime_Ice_walk_19: -6736828319093403674
+      Slime_Ice_walk_2: 4692830079713652432
+      Slime_Ice_walk_20: 5675911349104089078
+      Slime_Ice_walk_21: -5028421925368030174
+      Slime_Ice_walk_22: -8755160715098651317
+      Slime_Ice_walk_23: 1687170517163356094
+      Slime_Ice_walk_24: 6293627145122421054
+      Slime_Ice_walk_25: 3408901367874228801
+      Slime_Ice_walk_26: -6712366485567814942
+      Slime_Ice_walk_27: -7517570786249630779
+      Slime_Ice_walk_28: -3182234147107162982
+      Slime_Ice_walk_29: -1320019019483334227
+      Slime_Ice_walk_3: -8304801536426560953
+      Slime_Ice_walk_30: -1795281227462854508
+      Slime_Ice_walk_31: -913698273831871115
+      Slime_Ice_walk_32: 350399985821735909
+      Slime_Ice_walk_33: 818406772212332702
+      Slime_Ice_walk_34: 4135736034699523156
+      Slime_Ice_walk_35: -3203007761986875219
+      Slime_Ice_walk_36: 3352359250101575303
+      Slime_Ice_walk_37: 69305407756574746
+      Slime_Ice_walk_38: -8378722359333759375
+      Slime_Ice_walk_39: -782139327304292241
+      Slime_Ice_walk_4: -5906032217653018517
+      Slime_Ice_walk_5: -64382167369023951
+      Slime_Ice_walk_6: 8151218914120625255
+      Slime_Ice_walk_7: 6772785885887545480
+      Slime_Ice_walk_8: 8070957036094172054
+      Slime_Ice_walk_9: -9026732576005463264
+      Slime_Ice_walk_d0_f0: -1673660539
+      Slime_Ice_walk_d0_f1: 644207668
+      Slime_Ice_walk_d0_f2: -1579920886
+      Slime_Ice_walk_d0_f3: -606668699
+      Slime_Ice_walk_d0_f4: 682047373
+      Slime_Ice_walk_d0_f5: 210797860
+      Slime_Ice_walk_d0_f6: 893532138
+      Slime_Ice_walk_d0_f7: -839313426
+      Slime_Ice_walk_d1_f0: -651268095
+      Slime_Ice_walk_d1_f1: 427728991
+      Slime_Ice_walk_d1_f2: -90030811
+      Slime_Ice_walk_d1_f3: 1991833587
+      Slime_Ice_walk_d1_f4: -1269426071
+      Slime_Ice_walk_d1_f5: 1002695588
+      Slime_Ice_walk_d1_f6: 1620796562
+      Slime_Ice_walk_d1_f7: 2004989370
+      Slime_Ice_walk_d2_f0: -221384083
+      Slime_Ice_walk_d2_f1: 1250187615
+      Slime_Ice_walk_d2_f2: 2040552373
+      Slime_Ice_walk_d2_f3: -810826083
+      Slime_Ice_walk_d2_f4: -356317778
+      Slime_Ice_walk_d2_f5: -933838478
+      Slime_Ice_walk_d2_f6: 490845934
+      Slime_Ice_walk_d2_f7: -992426213
+      Slime_Ice_walk_d3_f0: 1861746796
+      Slime_Ice_walk_d3_f1: 889344149
+      Slime_Ice_walk_d3_f2: 994763694
+      Slime_Ice_walk_d3_f3: 757964383
+      Slime_Ice_walk_d3_f4: -887685534
+      Slime_Ice_walk_d3_f5: -243021725
+      Slime_Ice_walk_d3_f6: 870597941
+      Slime_Ice_walk_d3_f7: 963344049
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

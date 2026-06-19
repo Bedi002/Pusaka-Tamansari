@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;            // opsional (boleh null untuk sprite Kenney)
     public SpriteRenderer spriteRend; // untuk flip kiri/kanan
+    bool useFlip = true;              // dimatikan otomatis bila Animator direksional (punya MoveX)
     Vector2 movement;
 
     /// <summary>Arah hadap terakhir (dipakai PlayerCombat untuk arah serangan).</summary>
@@ -38,6 +39,9 @@ public class PlayerMovement : MonoBehaviour
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         if (anim == null) anim = GetComponent<Animator>();
         if (spriteRend == null) spriteRend = GetComponentInChildren<SpriteRenderer>();
+        if (anim != null)
+            foreach (var p in anim.parameters)
+                if (p.name == "MoveX") { useFlip = false; break; }   // animasi 4-arah -> jangan flip
     }
 
     void Update()
@@ -48,21 +52,22 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        if (anim != null)
-        {
-            if (movement.x != 0 || movement.y != 0)
-            {
-                anim.SetFloat("MoveX", movement.x);
-                anim.SetFloat("MoveY", movement.y);
-            }
-            anim.SetFloat("Speed", movement.sqrMagnitude);
-        }
-
-        // Facing + flip (jalan untuk sprite Kenney tanpa Animator)
+        // arah hadap di-snap ke kardinal -> blend tree pilih tepat 1 klip (animasi bersih)
         if (movement.sqrMagnitude > 0.01f)
         {
-            lastFacing = movement.normalized;
-            if (spriteRend != null && Mathf.Abs(movement.x) > 0.01f) spriteRend.flipX = movement.x < 0f;
+            Vector2 m = movement.normalized;
+            lastFacing = Mathf.Abs(m.x) >= Mathf.Abs(m.y)
+                ? new Vector2(Mathf.Sign(m.x), 0f)
+                : new Vector2(0f, Mathf.Sign(m.y));
+            if (useFlip && spriteRend != null && Mathf.Abs(movement.x) > 0.01f)
+                spriteRend.flipX = movement.x < 0f;
+        }
+
+        if (anim != null)
+        {
+            anim.SetFloat("MoveX", lastFacing.x);
+            anim.SetFloat("MoveY", lastFacing.y);
+            anim.SetFloat("Speed", movement.sqrMagnitude);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && movement.sqrMagnitude > 0.01f)

@@ -33,13 +33,8 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.timeScale == 0f) return;
 
-        // arah hadap: dari PlayerMovement (jalan tanpa Animator) atau fallback bawah
+        // arah hadap dimiliki PlayerMovement (set MoveX/MoveY). Di sini cukup arahkan attackPoint.
         Vector2 face = move != null ? move.lastFacing : Vector2.down;
-        if (anim != null)
-        {
-            anim.SetFloat("MoveX", face.x);
-            anim.SetFloat("MoveY", face.y);
-        }
         if (attackPoint != null) attackPoint.localPosition = (Vector3)(face.normalized * attackOffset);
 
         // reset combo bila kelamaan diam

@@ -1,0 +1,1005 @@
+fileFormatVersion: 2
+guid: 06ea53b709e51e44da5f4e1dd4dc4b44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5500477098430191876
+    second: DreadKnight_attack_0
+  - first:
+      213: 6396386762751827989
+    second: DreadKnight_attack_1
+  - first:
+      213: 8800777412899439300
+    second: DreadKnight_attack_2
+  - first:
+      213: 6403148649633650286
+    second: DreadKnight_attack_3
+  - first:
+      213: 1455942115527774609
+    second: DreadKnight_attack_4
+  - first:
+      213: 2555306618288958642
+    second: DreadKnight_attack_5
+  - first:
+      213: -2395499424539414870
+    second: DreadKnight_attack_6
+  - first:
+      213: 5009406570288482386
+    second: DreadKnight_attack_7
+  - first:
+      213: -893647480403058943
+    second: DreadKnight_attack_8
+  - first:
+      213: 1279434292795476760
+    second: DreadKnight_attack_9
+  - first:
+      213: 7233432694392829860
+    second: DreadKnight_attack_10
+  - first:
+      213: 6746619724645911041
+    second: DreadKnight_attack_11
+  - first:
+      213: 426717021032601726
+    second: DreadKnight_attack_12
+  - first:
+      213: 1171483034511207016
+    second: DreadKnight_attack_13
+  - first:
+      213: -500559780591351344
+    second: DreadKnight_attack_14
+  - first:
+      213: -5164879401076647535
+    second: DreadKnight_attack_15
+  - first:
+      213: 3317022993465196488
+    second: DreadKnight_attack_16
+  - first:
+      213: 4411017912885504770
+    second: DreadKnight_attack_17
+  - first:
+      213: -657728180641515701
+    second: DreadKnight_attack_18
+  - first:
+      213: 5923395517460950805
+    second: DreadKnight_attack_19
+  - first:
+      213: -5165257071931382352
+    second: DreadKnight_attack_20
+  - first:
+      213: 5607749396879687233
+    second: DreadKnight_attack_21
+  - first:
+      213: -8647305869175265706
+    second: DreadKnight_attack_22
+  - first:
+      213: 8669889926905570321
+    second: DreadKnight_attack_23
+  - first:
+      213: 5498475504122783834
+    second: DreadKnight_attack_24
+  - first:
+      213: 593126813430715577
+    second: DreadKnight_attack_25
+  - first:
+      213: -3540603221369456325
+    second: DreadKnight_attack_26
+  - first:
+      213: 7638190008782303349
+    second: DreadKnight_attack_27
+  - first:
+      213: -432107141668836315
+    second: DreadKnight_attack_28
+  - first:
+      213: -5011144040805981119
+    second: DreadKnight_attack_29
+  - first:
+      213: 436801375553829325
+    second: DreadKnight_attack_30
+  - first:
+      213: 3298983584264809968
+    second: DreadKnight_attack_31
+  - first:
+      213: 3983615039486934788
+    second: DreadKnight_attack_32
+  - first:
+      213: -772653181461120354
+    second: DreadKnight_attack_33
+  - first:
+      213: 4581519747332175540
+    second: DreadKnight_attack_34
+  - first:
+      213: -9090111946967095419
+    second: DreadKnight_attack_35
+  - first:
+      213: 5563964513335359924
+    second: DreadKnight_attack_36
+  - first:
+      213: 981146450973112444
+    second: DreadKnight_attack_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33ace4f1b6511e41a07a3ed6a65aed6
+      internalID: 815537958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea794b0c3dba73b43b98b105018f7237
+      internalID: 2075330575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9365abb932e19842938850539a016c1
+      internalID: -450574162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e67880d16539246a7f89913587eba7
+      internalID: -1688352818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936669b5e2a07df4296ed569ded82c19
+      internalID: -387079419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f334594fc12d74e428aede52239c3158
+      internalID: 812800324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caf3439d5459e9469b2d5596006f4b2
+      internalID: -717761778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c0c3b3d887064478894a4e3f010584
+      internalID: 1746422048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab93e1330085e3e4ab6097139aaf393e
+      internalID: -2117146525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11610bc7bf52b254ea0ccf0751c3455a
+      internalID: -296415381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84ebb4ead8ac854a88cef19f216d359
+      internalID: 1795109863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501757de580c6de41998e95549b62de0
+      internalID: 905381923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec97e9d4c3591cd4aa13d41eb038cb12
+      internalID: -1654377619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb943f1c9e97c2499c7422ac6c872cc
+      internalID: 890052112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4020029bb1c19746ba8b8c2be8ff1fb
+      internalID: -1480737025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c047d0ecb877f40b0990a6e9c65711
+      internalID: 1587144416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d489fb9ae019042af96650683102b7
+      internalID: 1433980655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0335e82e7f9d1a4698773b5be312fd6
+      internalID: 1473243873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f070575a0e75b489e3891d0885b967
+      internalID: -1508085307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce025943f65f1149bfa20abf872a297
+      internalID: 1877497280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9948a4e218fd7a478d3580119b41299
+      internalID: 1056212799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbe9a6e041e7ac4695a0cf3be9a7546
+      internalID: 112758255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1d7af4cbe7724894383256b9dead7
+      internalID: 845439982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee68620719f71d740abf9c3dfd736efd
+      internalID: -443492856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14aad5509635f464aa10b4b349a90b28
+      internalID: -832923540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46c6fcca8712634d8746021f030451e
+      internalID: 1480359439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79f24142f3f37a4a91a0393cf40c705
+      internalID: 2032653987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14de58584a80b6645a923943d4ccce25
+      internalID: -1898622056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7ed1a71d4b1184a99f4dd41d55df23
+      internalID: 339389276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0997775b65ed7b4b942ef32504275e9
+      internalID: -1191861660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6be7c5b786bed04285250f6eb2fb101
+      internalID: -565267645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreadKnight_attack_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197ab4b017749a34d86b6432424190de
+      internalID: -775061963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: af1609597b7616c4d90a6872032e2328
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DreadKnight_attack_0: -5500477098430191876
+      DreadKnight_attack_1: 6396386762751827989
+      DreadKnight_attack_10: 7233432694392829860
+      DreadKnight_attack_11: 6746619724645911041
+      DreadKnight_attack_12: 426717021032601726
+      DreadKnight_attack_13: 1171483034511207016
+      DreadKnight_attack_14: -500559780591351344
+      DreadKnight_attack_15: -5164879401076647535
+      DreadKnight_attack_16: 3317022993465196488
+      DreadKnight_attack_17: 4411017912885504770
+      DreadKnight_attack_18: -657728180641515701
+      DreadKnight_attack_19: 5923395517460950805
+      DreadKnight_attack_2: 8800777412899439300
+      DreadKnight_attack_20: -5165257071931382352
+      DreadKnight_attack_21: 5607749396879687233
+      DreadKnight_attack_22: -8647305869175265706
+      DreadKnight_attack_23: 8669889926905570321
+      DreadKnight_attack_24: 5498475504122783834
+      DreadKnight_attack_25: 593126813430715577
+      DreadKnight_attack_26: -3540603221369456325
+      DreadKnight_attack_27: 7638190008782303349
+      DreadKnight_attack_28: -432107141668836315
+      DreadKnight_attack_29: -5011144040805981119
+      DreadKnight_attack_3: 6403148649633650286
+      DreadKnight_attack_30: 436801375553829325
+      DreadKnight_attack_31: 3298983584264809968
+      DreadKnight_attack_32: 3983615039486934788
+      DreadKnight_attack_33: -772653181461120354
+      DreadKnight_attack_34: 4581519747332175540
+      DreadKnight_attack_35: -9090111946967095419
+      DreadKnight_attack_36: 5563964513335359924
+      DreadKnight_attack_37: 981146450973112444
+      DreadKnight_attack_4: 1455942115527774609
+      DreadKnight_attack_5: 2555306618288958642
+      DreadKnight_attack_6: -2395499424539414870
+      DreadKnight_attack_7: 5009406570288482386
+      DreadKnight_attack_8: -893647480403058943
+      DreadKnight_attack_9: 1279434292795476760
+      DreadKnight_attack_d0_f0: 815537958
+      DreadKnight_attack_d0_f1: 2075330575
+      DreadKnight_attack_d0_f2: -450574162
+      DreadKnight_attack_d0_f3: -1688352818
+      DreadKnight_attack_d0_f4: -387079419
+      DreadKnight_attack_d0_f5: 812800324
+      DreadKnight_attack_d0_f6: -717761778
+      DreadKnight_attack_d0_f7: 1746422048
+      DreadKnight_attack_d1_f0: -2117146525
+      DreadKnight_attack_d1_f1: -296415381
+      DreadKnight_attack_d1_f2: 1795109863
+      DreadKnight_attack_d1_f3: 905381923
+      DreadKnight_attack_d1_f4: -1654377619
+      DreadKnight_attack_d1_f5: 890052112
+      DreadKnight_attack_d1_f6: -1480737025
+      DreadKnight_attack_d1_f7: 1587144416
+      DreadKnight_attack_d2_f0: 1433980655
+      DreadKnight_attack_d2_f1: 1473243873
+      DreadKnight_attack_d2_f2: -1508085307
+      DreadKnight_attack_d2_f3: 1877497280
+      DreadKnight_attack_d2_f4: 1056212799
+      DreadKnight_attack_d2_f5: 112758255
+      DreadKnight_attack_d2_f6: 845439982
+      DreadKnight_attack_d2_f7: -443492856
+      DreadKnight_attack_d3_f0: -832923540
+      DreadKnight_attack_d3_f1: 1480359439
+      DreadKnight_attack_d3_f2: 2032653987
+      DreadKnight_attack_d3_f3: -1898622056
+      DreadKnight_attack_d3_f4: 339389276
+      DreadKnight_attack_d3_f5: -1191861660
+      DreadKnight_attack_d3_f6: -565267645
+      DreadKnight_attack_d3_f7: -775061963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

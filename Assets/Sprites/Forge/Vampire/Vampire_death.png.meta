@@ -1,0 +1,1801 @@
+fileFormatVersion: 2
+guid: aa239c6e3c86fa546a1cdeb32eec7b74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6576625283480397134
+    second: Vampire_death_0
+  - first:
+      213: 2849599932830316691
+    second: Vampire_death_1
+  - first:
+      213: 6084506311647037845
+    second: Vampire_death_2
+  - first:
+      213: -5178561702898660942
+    second: Vampire_death_3
+  - first:
+      213: 6470876649984185298
+    second: Vampire_death_4
+  - first:
+      213: 8958466242199649642
+    second: Vampire_death_5
+  - first:
+      213: -3756223539372189885
+    second: Vampire_death_6
+  - first:
+      213: -7035945447770194870
+    second: Vampire_death_7
+  - first:
+      213: -3054671727435652117
+    second: Vampire_death_8
+  - first:
+      213: 6946104158821985335
+    second: Vampire_death_9
+  - first:
+      213: -9007340123672574222
+    second: Vampire_death_10
+  - first:
+      213: 7455934646547847406
+    second: Vampire_death_11
+  - first:
+      213: -3711301917055297742
+    second: Vampire_death_12
+  - first:
+      213: 3838493869406778819
+    second: Vampire_death_13
+  - first:
+      213: -4807987886419137755
+    second: Vampire_death_14
+  - first:
+      213: 3522270909535787507
+    second: Vampire_death_15
+  - first:
+      213: -9071483449779736295
+    second: Vampire_death_16
+  - first:
+      213: -6526130904401020370
+    second: Vampire_death_17
+  - first:
+      213: -750432559779203501
+    second: Vampire_death_18
+  - first:
+      213: 6956375660210142133
+    second: Vampire_death_19
+  - first:
+      213: -2253792693936802976
+    second: Vampire_death_20
+  - first:
+      213: -4090742462641189378
+    second: Vampire_death_21
+  - first:
+      213: -4041182703584696680
+    second: Vampire_death_22
+  - first:
+      213: 652682781669840179
+    second: Vampire_death_23
+  - first:
+      213: -1271132678149536507
+    second: Vampire_death_24
+  - first:
+      213: -1076085183694253468
+    second: Vampire_death_25
+  - first:
+      213: -7647437774067441394
+    second: Vampire_death_26
+  - first:
+      213: -5221558806635749755
+    second: Vampire_death_27
+  - first:
+      213: -7897739367175591777
+    second: Vampire_death_28
+  - first:
+      213: -8932406237215346148
+    second: Vampire_death_29
+  - first:
+      213: -1945934104195078924
+    second: Vampire_death_30
+  - first:
+      213: 7707342832561710196
+    second: Vampire_death_31
+  - first:
+      213: -8092362309032281163
+    second: Vampire_death_32
+  - first:
+      213: 7112475411753945212
+    second: Vampire_death_33
+  - first:
+      213: 1324420355151751036
+    second: Vampire_death_34
+  - first:
+      213: 1658007376265555711
+    second: Vampire_death_35
+  - first:
+      213: -3076771143298177391
+    second: Vampire_death_36
+  - first:
+      213: 7886898783865874447
+    second: Vampire_death_37
+  - first:
+      213: -5765110509492017085
+    second: Vampire_death_38
+  - first:
+      213: -4002877788829987211
+    second: Vampire_death_39
+  - first:
+      213: -3406730880959258857
+    second: Vampire_death_40
+  - first:
+      213: -2660230756708253421
+    second: Vampire_death_41
+  - first:
+      213: 6993136309648104544
+    second: Vampire_death_42
+  - first:
+      213: 5195229144950295312
+    second: Vampire_death_43
+  - first:
+      213: -7879585140884926443
+    second: Vampire_death_44
+  - first:
+      213: 3877316676146063316
+    second: Vampire_death_45
+  - first:
+      213: -4622464130599921213
+    second: Vampire_death_46
+  - first:
+      213: -8265385595435717070
+    second: Vampire_death_47
+  - first:
+      213: 6244171883951600942
+    second: Vampire_death_48
+  - first:
+      213: -1171200723160681239
+    second: Vampire_death_49
+  - first:
+      213: -6197445516965632950
+    second: Vampire_death_50
+  - first:
+      213: -7299535326695898214
+    second: Vampire_death_51
+  - first:
+      213: 5955609737316083819
+    second: Vampire_death_52
+  - first:
+      213: 8505455408226665195
+    second: Vampire_death_53
+  - first:
+      213: 6815901228065732240
+    second: Vampire_death_54
+  - first:
+      213: 3463608956821405773
+    second: Vampire_death_55
+  - first:
+      213: 3873588846931723962
+    second: Vampire_death_56
+  - first:
+      213: 4388403796784684127
+    second: Vampire_death_57
+  - first:
+      213: 3561956708966201035
+    second: Vampire_death_58
+  - first:
+      213: -3582457882430525735
+    second: Vampire_death_59
+  - first:
+      213: 1310705582396575580
+    second: Vampire_death_60
+  - first:
+      213: 6439969163498949486
+    second: Vampire_death_61
+  - first:
+      213: -9194298295387161280
+    second: Vampire_death_62
+  - first:
+      213: 1573355239551119663
+    second: Vampire_death_63
+  - first:
+      213: -5936812776917000304
+    second: Vampire_death_64
+  - first:
+      213: -139308185343221206
+    second: Vampire_death_65
+  - first:
+      213: 4800406197596741153
+    second: Vampire_death_66
+  - first:
+      213: -296106110984417987
+    second: Vampire_death_67
+  - first:
+      213: 6896327562224864582
+    second: Vampire_death_68
+  - first:
+      213: -3159368661276352928
+    second: Vampire_death_69
+  - first:
+      213: 8937046917832996271
+    second: Vampire_death_70
+  - first:
+      213: -5733636795800584890
+    second: Vampire_death_71
+  - first:
+      213: 7959853951385894688
+    second: Vampire_death_72
+  - first:
+      213: 1068993436242536595
+    second: Vampire_death_73
+  - first:
+      213: 264705563344631683
+    second: Vampire_death_74
+  - first:
+      213: -7570524777351357158
+    second: Vampire_death_75
+  - first:
+      213: -5218310903694356033
+    second: Vampire_death_76
+  - first:
+      213: 2865793084167539990
+    second: Vampire_death_77
+  - first:
+      213: -6980920857869485376
+    second: Vampire_death_78
+  - first:
+      213: -2072582808935694496
+    second: Vampire_death_79
+  - first:
+      213: -2457791387720572640
+    second: Vampire_death_80
+  - first:
+      213: 2142941276054672741
+    second: Vampire_death_81
+  - first:
+      213: 3512681251597703936
+    second: Vampire_death_82
+  - first:
+      213: 5511593039289905953
+    second: Vampire_death_83
+  - first:
+      213: 6642171401543460399
+    second: Vampire_death_84
+  - first:
+      213: 7871407623736164181
+    second: Vampire_death_85
+  - first:
+      213: -3668507443734927355
+    second: Vampire_death_86
+  - first:
+      213: 2009663572226245815
+    second: Vampire_death_87
+  - first:
+      213: 1320951709961448599
+    second: Vampire_death_88
+  - first:
+      213: -4348250313655039715
+    second: Vampire_death_89
+  - first:
+      213: 3453534799482538995
+    second: Vampire_death_90
+  - first:
+      213: 2439411563518818252
+    second: Vampire_death_91
+  - first:
+      213: 348385975320275770
+    second: Vampire_death_92
+  - first:
+      213: 7641905738249208393
+    second: Vampire_death_93
+  - first:
+      213: -8154616764735586082
+    second: Vampire_death_94
+  - first:
+      213: -5609200190644043717
+    second: Vampire_death_95
+  - first:
+      213: -2700512891509442442
+    second: Vampire_death_96
+  - first:
+      213: -6744114679304939415
+    second: Vampire_death_97
+  - first:
+      213: 2854259128234800919
+    second: Vampire_death_98
+  - first:
+      213: -3851252311249711763
+    second: Vampire_death_99
+  - first:
+      213: -1997825898078353499
+    second: Vampire_death_100
+  - first:
+      213: 797755673951960655
+    second: Vampire_death_101
+  - first:
+      213: 8617968676416895437
+    second: Vampire_death_102
+  - first:
+      213: -3105444515354134017
+    second: Vampire_death_103
+  - first:
+      213: 4184087402737646137
+    second: Vampire_death_104
+  - first:
+      213: -5623448588694758893
+    second: Vampire_death_105
+  - first:
+      213: -8092835719581308856
+    second: Vampire_death_106
+  - first:
+      213: -6079134527087648996
+    second: Vampire_death_107
+  - first:
+      213: 7675239273024607824
+    second: Vampire_death_108
+  - first:
+      213: 2441226787078073627
+    second: Vampire_death_109
+  - first:
+      213: -2485483488013634124
+    second: Vampire_death_110
+  - first:
+      213: -1893144268873763529
+    second: Vampire_death_111
+  - first:
+      213: -7966817205584364919
+    second: Vampire_death_112
+  - first:
+      213: -3936185227096159949
+    second: Vampire_death_113
+  - first:
+      213: -787522322092006791
+    second: Vampire_death_114
+  - first:
+      213: -7791382911772352604
+    second: Vampire_death_115
+  - first:
+      213: 1928897291590787714
+    second: Vampire_death_116
+  - first:
+      213: 5305832120537051973
+    second: Vampire_death_117
+  - first:
+      213: 1125663241562291895
+    second: Vampire_death_118
+  - first:
+      213: 1264883841481060077
+    second: Vampire_death_119
+  - first:
+      213: 519462116018277401
+    second: Vampire_death_120
+  - first:
+      213: -4546739220676178255
+    second: Vampire_death_121
+  - first:
+      213: -923686306057014172
+    second: Vampire_death_122
+  - first:
+      213: 4424804596887100832
+    second: Vampire_death_123
+  - first:
+      213: 2172908976677061724
+    second: Vampire_death_124
+  - first:
+      213: 419636038116680974
+    second: Vampire_death_125
+  - first:
+      213: -8368310820040861476
+    second: Vampire_death_126
+  - first:
+      213: -8812160975435384228
+    second: Vampire_death_127
+  - first:
+      213: 1254247376896638696
+    second: Vampire_death_128
+  - first:
+      213: 6686550193063306733
+    second: Vampire_death_129
+  - first:
+      213: 4112211490610072387
+    second: Vampire_death_130
+  - first:
+      213: 7366464394366941143
+    second: Vampire_death_131
+  - first:
+      213: 7305158815848537590
+    second: Vampire_death_132
+  - first:
+      213: -6290239282827531302
+    second: Vampire_death_133
+  - first:
+      213: -9052754643355661434
+    second: Vampire_death_134
+  - first:
+      213: -2644767443407910194
+    second: Vampire_death_135
+  - first:
+      213: -1038307632946551952
+    second: Vampire_death_136
+  - first:
+      213: -484595255115478720
+    second: Vampire_death_137
+  - first:
+      213: 6804547904722433282
+    second: Vampire_death_138
+  - first:
+      213: -7384895643972067972
+    second: Vampire_death_139
+  - first:
+      213: 2156204792905794435
+    second: Vampire_death_140
+  - first:
+      213: -4426121099360538971
+    second: Vampire_death_141
+  - first:
+      213: 5244776681802345358
+    second: Vampire_death_142
+  - first:
+      213: 1214428866384573328
+    second: Vampire_death_143
+  - first:
+      213: -2019506374764321173
+    second: Vampire_death_144
+  - first:
+      213: -8750181782547864643
+    second: Vampire_death_145
+  - first:
+      213: 8290352266486307317
+    second: Vampire_death_146
+  - first:
+      213: -6685785802817317029
+    second: Vampire_death_147
+  - first:
+      213: -6899809815402774463
+    second: Vampire_death_148
+  - first:
+      213: 7030704126415379505
+    second: Vampire_death_149
+  - first:
+      213: 2725394735591167333
+    second: Vampire_death_150
+  - first:
+      213: 7760759018553070797
+    second: Vampire_death_151
+  - first:
+      213: -877928510033416287
+    second: Vampire_death_152
+  - first:
+      213: -4801100511590017848
+    second: Vampire_death_153
+  - first:
+      213: -1917717472789675400
+    second: Vampire_death_154
+  - first:
+      213: -1586824997642666712
+    second: Vampire_death_155
+  - first:
+      213: 6425667222841413854
+    second: Vampire_death_156
+  - first:
+      213: 2841879284772877058
+    second: Vampire_death_157
+  - first:
+      213: 976449768199476122
+    second: Vampire_death_158
+  - first:
+      213: -3898636329161829315
+    second: Vampire_death_159
+  - first:
+      213: -491625333881698452
+    second: Vampire_death_160
+  - first:
+      213: 4709268576329822468
+    second: Vampire_death_161
+  - first:
+      213: 1764018532216509653
+    second: Vampire_death_162
+  - first:
+      213: 5107316419294118843
+    second: Vampire_death_163
+  - first:
+      213: 7294008074544016945
+    second: Vampire_death_164
+  - first:
+      213: 5303646579319677394
+    second: Vampire_death_165
+  - first:
+      213: -5747782928049861210
+    second: Vampire_death_166
+  - first:
+      213: 2671044727883247787
+    second: Vampire_death_167
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampire_death_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8774b4d82b835445a6dedb9eb69f4ca
+      internalID: -757666128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2063ab57656b7f4fbab78370201f50d
+      internalID: 734501689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329271853149b574e8b12fa1a893294e
+      internalID: -754288147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175ae4f257fb80648bc6a08e7292aa9b
+      internalID: -230527409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60c1f999aa3659448c481edc0efa09c
+      internalID: -1748455240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd091e4d87731b4c955bb20e22ec4cf
+      internalID: -364996006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46734bed84a225047ade304d8be3a108
+      internalID: -1675814468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d973aee1d1e8d1b418668862a6cdd21a
+      internalID: 1213390489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306ab494d2f406a42b35ff978a767249
+      internalID: 857878236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc830630517fe44c96b056f95862377
+      internalID: 1570018641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d0_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93972b9fdc8032645a679a87e8bf8eb7
+      internalID: 398256512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913ca77711e40ad41a20e5d7bd3b2c23
+      internalID: 1604722603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442b5587875a1754b8007cf246f72268
+      internalID: 670429018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7ca503889f7b84f93d5354a5708193
+      internalID: -523247353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2da1f6200a4d724da15ca9fb10433af
+      internalID: -1082888450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b11e201d7b23b4c81ba0be03f2b1ae
+      internalID: -1010495793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cf181af8a4c0d46af2849b3841aac9
+      internalID: -1006630705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f7c845a5234e40b16b86bd3394f1f
+      internalID: 1800515752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f47aebe64e14184b9cad75b5efcc115
+      internalID: 2108711950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce12b7a720cda24789365aa4cbd41c2
+      internalID: 1488447469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b7230c77cdcd04092216f294c0662e
+      internalID: 65029941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d1_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2ad74d4f626ab4485fa9075573c92e
+      internalID: 657273637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496a9548f4a60a046ba1e247a681b7ba
+      internalID: -2004224278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d4e222075ef564c8bc069e8099e080
+      internalID: 1058020434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84903d2f3cb4f844897468659964bb6a
+      internalID: -74950719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e18274d7381dfa4dabaa36f5da277f0
+      internalID: 362914769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089b53e6d3670be44853118b8e29aff6
+      internalID: -366151308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3e891184e4572478f5a07c0bceff3c
+      internalID: 1565763147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dee0ae2a8df8a45a383257a84f04be
+      internalID: 1259681680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ddc39844db291468b3bca41458e187
+      internalID: 1927873040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb882ac18bf06f43a87e8241087caed
+      internalID: -1377978127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4bee55aec04c544b9472df13385353
+      internalID: -927192885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d2_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfa0cc362ee80243a59251eeda0bdbb
+      internalID: 962718269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b579db5bf886ad04c836320ca9b36c37
+      internalID: 1949430103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9268e87d904ee438ade17d62c8893a
+      internalID: 235076067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81895c2a7fd00a246af6e9c833b976c0
+      internalID: 51983685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc323be432cf8244b9801626a158f88
+      internalID: 318784539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f150728f3613dc47a817fc4af906ac3
+      internalID: 373845022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7918a3f286c51e1458b098ed7ae89068
+      internalID: 1363565731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7334c4ee5529e42a36d82f9a65622c
+      internalID: -1833760519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d064c3fec9d5ada4e92e3196119ab651
+      internalID: 658389300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a0892861d316b4cb6bfc648e501aac
+      internalID: 162377257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29aea6dc6367bf143aeeea8a05e9197d
+      internalID: -919001825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampire_death_d3_f10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb23cb2828f68f749ae5ba8f64c62f05
+      internalID: 631801878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 81ab3e3cd044fe341865f4d9bb75aecd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vampire_death_0: -6576625283480397134
+      Vampire_death_1: 2849599932830316691
+      Vampire_death_10: -9007340123672574222
+      Vampire_death_100: -1997825898078353499
+      Vampire_death_101: 797755673951960655
+      Vampire_death_102: 8617968676416895437
+      Vampire_death_103: -3105444515354134017
+      Vampire_death_104: 4184087402737646137
+      Vampire_death_105: -5623448588694758893
+      Vampire_death_106: -8092835719581308856
+      Vampire_death_107: -6079134527087648996
+      Vampire_death_108: 7675239273024607824
+      Vampire_death_109: 2441226787078073627
+      Vampire_death_11: 7455934646547847406
+      Vampire_death_110: -2485483488013634124
+      Vampire_death_111: -1893144268873763529
+      Vampire_death_112: -7966817205584364919
+      Vampire_death_113: -3936185227096159949
+      Vampire_death_114: -787522322092006791
+      Vampire_death_115: -7791382911772352604
+      Vampire_death_116: 1928897291590787714
+      Vampire_death_117: 5305832120537051973
+      Vampire_death_118: 1125663241562291895
+      Vampire_death_119: 1264883841481060077
+      Vampire_death_12: -3711301917055297742
+      Vampire_death_120: 519462116018277401
+      Vampire_death_121: -4546739220676178255
+      Vampire_death_122: -923686306057014172
+      Vampire_death_123: 4424804596887100832
+      Vampire_death_124: 2172908976677061724
+      Vampire_death_125: 419636038116680974
+      Vampire_death_126: -8368310820040861476
+      Vampire_death_127: -8812160975435384228
+      Vampire_death_128: 1254247376896638696
+      Vampire_death_129: 6686550193063306733
+      Vampire_death_13: 3838493869406778819
+      Vampire_death_130: 4112211490610072387
+      Vampire_death_131: 7366464394366941143
+      Vampire_death_132: 7305158815848537590
+      Vampire_death_133: -6290239282827531302
+      Vampire_death_134: -9052754643355661434
+      Vampire_death_135: -2644767443407910194
+      Vampire_death_136: -1038307632946551952
+      Vampire_death_137: -484595255115478720
+      Vampire_death_138: 6804547904722433282
+      Vampire_death_139: -7384895643972067972
+      Vampire_death_14: -4807987886419137755
+      Vampire_death_140: 2156204792905794435
+      Vampire_death_141: -4426121099360538971
+      Vampire_death_142: 5244776681802345358
+      Vampire_death_143: 1214428866384573328
+      Vampire_death_144: -2019506374764321173
+      Vampire_death_145: -8750181782547864643
+      Vampire_death_146: 8290352266486307317
+      Vampire_death_147: -6685785802817317029
+      Vampire_death_148: -6899809815402774463
+      Vampire_death_149: 7030704126415379505
+      Vampire_death_15: 3522270909535787507
+      Vampire_death_150: 2725394735591167333
+      Vampire_death_151: 7760759018553070797
+      Vampire_death_152: -877928510033416287
+      Vampire_death_153: -4801100511590017848
+      Vampire_death_154: -1917717472789675400
+      Vampire_death_155: -1586824997642666712
+      Vampire_death_156: 6425667222841413854
+      Vampire_death_157: 2841879284772877058
+      Vampire_death_158: 976449768199476122
+      Vampire_death_159: -3898636329161829315
+      Vampire_death_16: -9071483449779736295
+      Vampire_death_160: -491625333881698452
+      Vampire_death_161: 4709268576329822468
+      Vampire_death_162: 1764018532216509653
+      Vampire_death_163: 5107316419294118843
+      Vampire_death_164: 7294008074544016945
+      Vampire_death_165: 5303646579319677394
+      Vampire_death_166: -5747782928049861210
+      Vampire_death_167: 2671044727883247787
+      Vampire_death_17: -6526130904401020370
+      Vampire_death_18: -750432559779203501
+      Vampire_death_19: 6956375660210142133
+      Vampire_death_2: 6084506311647037845
+      Vampire_death_20: -2253792693936802976
+      Vampire_death_21: -4090742462641189378
+      Vampire_death_22: -4041182703584696680
+      Vampire_death_23: 652682781669840179
+      Vampire_death_24: -1271132678149536507
+      Vampire_death_25: -1076085183694253468
+      Vampire_death_26: -7647437774067441394
+      Vampire_death_27: -5221558806635749755
+      Vampire_death_28: -7897739367175591777
+      Vampire_death_29: -8932406237215346148
+      Vampire_death_3: -5178561702898660942
+      Vampire_death_30: -1945934104195078924
+      Vampire_death_31: 7707342832561710196
+      Vampire_death_32: -8092362309032281163
+      Vampire_death_33: 7112475411753945212
+      Vampire_death_34: 1324420355151751036
+      Vampire_death_35: 1658007376265555711
+      Vampire_death_36: -3076771143298177391
+      Vampire_death_37: 7886898783865874447
+      Vampire_death_38: -5765110509492017085
+      Vampire_death_39: -4002877788829987211
+      Vampire_death_4: 6470876649984185298
+      Vampire_death_40: -3406730880959258857
+      Vampire_death_41: -2660230756708253421
+      Vampire_death_42: 6993136309648104544
+      Vampire_death_43: 5195229144950295312
+      Vampire_death_44: -7879585140884926443
+      Vampire_death_45: 3877316676146063316
+      Vampire_death_46: -4622464130599921213
+      Vampire_death_47: -8265385595435717070
+      Vampire_death_48: 6244171883951600942
+      Vampire_death_49: -1171200723160681239
+      Vampire_death_5: 8958466242199649642
+      Vampire_death_50: -6197445516965632950
+      Vampire_death_51: -7299535326695898214
+      Vampire_death_52: 5955609737316083819
+      Vampire_death_53: 8505455408226665195
+      Vampire_death_54: 6815901228065732240
+      Vampire_death_55: 3463608956821405773
+      Vampire_death_56: 3873588846931723962
+      Vampire_death_57: 4388403796784684127
+      Vampire_death_58: 3561956708966201035
+      Vampire_death_59: -3582457882430525735
+      Vampire_death_6: -3756223539372189885
+      Vampire_death_60: 1310705582396575580
+      Vampire_death_61: 6439969163498949486
+      Vampire_death_62: -9194298295387161280
+      Vampire_death_63: 1573355239551119663
+      Vampire_death_64: -5936812776917000304
+      Vampire_death_65: -139308185343221206
+      Vampire_death_66: 4800406197596741153
+      Vampire_death_67: -296106110984417987
+      Vampire_death_68: 6896327562224864582
+      Vampire_death_69: -3159368661276352928
+      Vampire_death_7: -7035945447770194870
+      Vampire_death_70: 8937046917832996271
+      Vampire_death_71: -5733636795800584890
+      Vampire_death_72: 7959853951385894688
+      Vampire_death_73: 1068993436242536595
+      Vampire_death_74: 264705563344631683
+      Vampire_death_75: -7570524777351357158
+      Vampire_death_76: -5218310903694356033
+      Vampire_death_77: 2865793084167539990
+      Vampire_death_78: -6980920857869485376
+      Vampire_death_79: -2072582808935694496
+      Vampire_death_8: -3054671727435652117
+      Vampire_death_80: -2457791387720572640
+      Vampire_death_81: 2142941276054672741
+      Vampire_death_82: 3512681251597703936
+      Vampire_death_83: 5511593039289905953
+      Vampire_death_84: 6642171401543460399
+      Vampire_death_85: 7871407623736164181
+      Vampire_death_86: -3668507443734927355
+      Vampire_death_87: 2009663572226245815
+      Vampire_death_88: 1320951709961448599
+      Vampire_death_89: -4348250313655039715
+      Vampire_death_9: 6946104158821985335
+      Vampire_death_90: 3453534799482538995
+      Vampire_death_91: 2439411563518818252
+      Vampire_death_92: 348385975320275770
+      Vampire_death_93: 7641905738249208393
+      Vampire_death_94: -8154616764735586082
+      Vampire_death_95: -5609200190644043717
+      Vampire_death_96: -2700512891509442442
+      Vampire_death_97: -6744114679304939415
+      Vampire_death_98: 2854259128234800919
+      Vampire_death_99: -3851252311249711763
+      Vampire_death_d0_f0: -757666128
+      Vampire_death_d0_f1: 734501689
+      Vampire_death_d0_f10: 398256512
+      Vampire_death_d0_f2: -754288147
+      Vampire_death_d0_f3: -230527409
+      Vampire_death_d0_f4: -1748455240
+      Vampire_death_d0_f5: -364996006
+      Vampire_death_d0_f6: -1675814468
+      Vampire_death_d0_f7: 1213390489
+      Vampire_death_d0_f8: 857878236
+      Vampire_death_d0_f9: 1570018641
+      Vampire_death_d1_f0: 1604722603
+      Vampire_death_d1_f1: 670429018
+      Vampire_death_d1_f10: 657273637
+      Vampire_death_d1_f2: -523247353
+      Vampire_death_d1_f3: -1082888450
+      Vampire_death_d1_f4: -1010495793
+      Vampire_death_d1_f5: -1006630705
+      Vampire_death_d1_f6: 1800515752
+      Vampire_death_d1_f7: 2108711950
+      Vampire_death_d1_f8: 1488447469
+      Vampire_death_d1_f9: 65029941
+      Vampire_death_d2_f0: -2004224278
+      Vampire_death_d2_f1: 1058020434
+      Vampire_death_d2_f10: 962718269
+      Vampire_death_d2_f2: -74950719
+      Vampire_death_d2_f3: 362914769
+      Vampire_death_d2_f4: -366151308
+      Vampire_death_d2_f5: 1565763147
+      Vampire_death_d2_f6: 1259681680
+      Vampire_death_d2_f7: 1927873040
+      Vampire_death_d2_f8: -1377978127
+      Vampire_death_d2_f9: -927192885
+      Vampire_death_d3_f0: 1949430103
+      Vampire_death_d3_f1: 235076067
+      Vampire_death_d3_f10: 631801878
+      Vampire_death_d3_f2: 51983685
+      Vampire_death_d3_f3: 318784539
+      Vampire_death_d3_f4: 373845022
+      Vampire_death_d3_f5: 1363565731
+      Vampire_death_d3_f6: -1833760519
+      Vampire_death_d3_f7: 658389300
+      Vampire_death_d3_f8: 162377257
+      Vampire_death_d3_f9: -919001825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1277 @@
+fileFormatVersion: 2
+guid: 04ffd097191fd0c41b64f4220e955189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5960512989272187344
+    second: Slime_Fire_death_0
+  - first:
+      213: -3225978321348113075
+    second: Slime_Fire_death_1
+  - first:
+      213: 2011913310131767309
+    second: Slime_Fire_death_2
+  - first:
+      213: -3453299578089867767
+    second: Slime_Fire_death_3
+  - first:
+      213: -4656166368163525860
+    second: Slime_Fire_death_4
+  - first:
+      213: -1809605027207908176
+    second: Slime_Fire_death_5
+  - first:
+      213: -6358044609350321493
+    second: Slime_Fire_death_6
+  - first:
+      213: 5405017349796974312
+    second: Slime_Fire_death_7
+  - first:
+      213: -5001243319646092814
+    second: Slime_Fire_death_8
+  - first:
+      213: -8489721489858830215
+    second: Slime_Fire_death_9
+  - first:
+      213: 6952330328338279077
+    second: Slime_Fire_death_10
+  - first:
+      213: 3290332950817261142
+    second: Slime_Fire_death_11
+  - first:
+      213: -6399687671604184647
+    second: Slime_Fire_death_12
+  - first:
+      213: -9036933024008977479
+    second: Slime_Fire_death_13
+  - first:
+      213: 1589981240917158398
+    second: Slime_Fire_death_14
+  - first:
+      213: 7166809675299098920
+    second: Slime_Fire_death_15
+  - first:
+      213: -2942903919316261380
+    second: Slime_Fire_death_16
+  - first:
+      213: -5046222413079644996
+    second: Slime_Fire_death_17
+  - first:
+      213: -5320059095251204373
+    second: Slime_Fire_death_18
+  - first:
+      213: -3506505721096660609
+    second: Slime_Fire_death_19
+  - first:
+      213: 5499491058489277317
+    second: Slime_Fire_death_20
+  - first:
+      213: -5828105597526210466
+    second: Slime_Fire_death_21
+  - first:
+      213: 8300565066931836253
+    second: Slime_Fire_death_22
+  - first:
+      213: 3396298049930745120
+    second: Slime_Fire_death_23
+  - first:
+      213: -6031475149079760191
+    second: Slime_Fire_death_24
+  - first:
+      213: -7096999740545368621
+    second: Slime_Fire_death_25
+  - first:
+      213: -6596827152827850552
+    second: Slime_Fire_death_26
+  - first:
+      213: -2123606027601156374
+    second: Slime_Fire_death_27
+  - first:
+      213: 4188501568982438706
+    second: Slime_Fire_death_28
+  - first:
+      213: 219770511241608461
+    second: Slime_Fire_death_29
+  - first:
+      213: -6308553593591058484
+    second: Slime_Fire_death_30
+  - first:
+      213: 7467491785389844042
+    second: Slime_Fire_death_31
+  - first:
+      213: -4165219796108817071
+    second: Slime_Fire_death_32
+  - first:
+      213: -2338027412568013830
+    second: Slime_Fire_death_33
+  - first:
+      213: 9035257482539125704
+    second: Slime_Fire_death_34
+  - first:
+      213: -1612158904597071431
+    second: Slime_Fire_death_35
+  - first:
+      213: -1645269955285634165
+    second: Slime_Fire_death_36
+  - first:
+      213: 5569239545405975830
+    second: Slime_Fire_death_37
+  - first:
+      213: 7542597329574481901
+    second: Slime_Fire_death_38
+  - first:
+      213: -1624083814750251963
+    second: Slime_Fire_death_39
+  - first:
+      213: 1542504590219069852
+    second: Slime_Fire_death_40
+  - first:
+      213: -6593801793729259403
+    second: Slime_Fire_death_41
+  - first:
+      213: -7408818711305635176
+    second: Slime_Fire_death_42
+  - first:
+      213: 1372630874535982537
+    second: Slime_Fire_death_43
+  - first:
+      213: 2533196692474765265
+    second: Slime_Fire_death_44
+  - first:
+      213: 8704547021460837875
+    second: Slime_Fire_death_45
+  - first:
+      213: 1276869986534552610
+    second: Slime_Fire_death_46
+  - first:
+      213: 7618712556351591691
+    second: Slime_Fire_death_47
+  - first:
+      213: -1170074949942133873
+    second: Slime_Fire_death_48
+  - first:
+      213: 674828024517765948
+    second: Slime_Fire_death_49
+  - first:
+      213: -2697947828718901561
+    second: Slime_Fire_death_50
+  - first:
+      213: 5972658569052598234
+    second: Slime_Fire_death_51
+  - first:
+      213: 6624713363180938825
+    second: Slime_Fire_death_52
+  - first:
+      213: -7525107524809748958
+    second: Slime_Fire_death_53
+  - first:
+      213: 4351041017657079010
+    second: Slime_Fire_death_54
+  - first:
+      213: -3628704585452319638
+    second: Slime_Fire_death_55
+  - first:
+      213: 8338459224708125554
+    second: Slime_Fire_death_56
+  - first:
+      213: 7662351173410435750
+    second: Slime_Fire_death_57
+  - first:
+      213: -5742400771762929540
+    second: Slime_Fire_death_58
+  - first:
+      213: 1020481335246806215
+    second: Slime_Fire_death_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fd72efe8f54774bb8197d133b61f76
+      internalID: -1087304680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332fd65e91b5e774c9a36b66d0b9f6f3
+      internalID: -406077697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cb5ef963f2ff642a2e3cf33f458009
+      internalID: 1089487471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08902cee57e754949a03f98d9c772552
+      internalID: -793792985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cbed48bf657674ba3bdc2d5949ceec
+      internalID: 169530559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e6a10490c1b7d4f89cfaad5a0a793c
+      internalID: 961284476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7611fec65f67a24693fcc0fec91d679
+      internalID: 1170910591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f89e3cccb91cd74c8828d17e6229747
+      internalID: 1434914056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a9cb82af1e3fe41b3368f6dbaacc31
+      internalID: -1246824677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d0_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a914a561d62c47a009867a5e2e4d4
+      internalID: -317621461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d275d685dd280514698a6b2c91e495e2
+      internalID: -142396089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57e6575fc46f2946a6233ccd7921045
+      internalID: -833249970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255ebb29acabc4a4ba62820df3d5f72e
+      internalID: -618482337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caa3d0f25a6b164286c095ce1763874
+      internalID: 786364071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e999e244e615934299634333e1d41f9
+      internalID: -551266696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb963c22b4c6dc40aa03fc464f24a29
+      internalID: -16506812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa2b40621aae0248915e90fe2ed096a
+      internalID: -779513457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff71fa38457764a927b3c651c7a64a
+      internalID: 1003122232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fa785d7ee85cb4aa9df6f593cd791f
+      internalID: 190523110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d1_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a7c6b858b563f4facc527c69696553
+      internalID: -1365398948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f107fdf8d34894e8545b39175c8284
+      internalID: -249989512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e05b001517b874e93834ac3ee93c86
+      internalID: -428769848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943fdbb1ae010464c9ef58d644b52339
+      internalID: -1462136105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a5297f57d8fec4da42c82a998e62c2
+      internalID: -1829311538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3cc6f1bd571da45a58988cc3d53880
+      internalID: -902596413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211bc9ac3f71e6249b798c7c3fbd1442
+      internalID: 126209337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eb8012191680c438011675e27767d3
+      internalID: 1080910039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f25ca1cd33f84d4abac98dbc0206f00
+      internalID: -1653987809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a421f49fb0acae643b7a3ce788819e69
+      internalID: 925983019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d2_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25176ff1354b932429daa0ad824d633f
+      internalID: 939024451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c65f5011241528499c178a301390b5d
+      internalID: 341227203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b5667c4155e1b428818532e4b4db16
+      internalID: -46623273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99688acedfae72c40864cfb80268e233
+      internalID: 1078747592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb00f3cd4c3fbb440b7503f064941410
+      internalID: -1292032898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c17d559fd96240b42d10d0d5adc61
+      internalID: -147685400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ee5a3abab4d6849aa5581b0d86ed99
+      internalID: -1738640484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2150f6904d0dbbf4ba67f885b189172e
+      internalID: 1639716780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69404c80ee62f1438b2a04b71a35824
+      internalID: -1745082680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61b75d79ec5e064e8606a81da3196b9
+      internalID: 1645703674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_death_d3_f9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97de22edfdc4b5d49b4dfc6f70b4d9e5
+      internalID: 1725512610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: de0833dda8f3a844facfc887abc2e1a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Fire_death_0: 5960512989272187344
+      Slime_Fire_death_1: -3225978321348113075
+      Slime_Fire_death_10: 6952330328338279077
+      Slime_Fire_death_11: 3290332950817261142
+      Slime_Fire_death_12: -6399687671604184647
+      Slime_Fire_death_13: -9036933024008977479
+      Slime_Fire_death_14: 1589981240917158398
+      Slime_Fire_death_15: 7166809675299098920
+      Slime_Fire_death_16: -2942903919316261380
+      Slime_Fire_death_17: -5046222413079644996
+      Slime_Fire_death_18: -5320059095251204373
+      Slime_Fire_death_19: -3506505721096660609
+      Slime_Fire_death_2: 2011913310131767309
+      Slime_Fire_death_20: 5499491058489277317
+      Slime_Fire_death_21: -5828105597526210466
+      Slime_Fire_death_22: 8300565066931836253
+      Slime_Fire_death_23: 3396298049930745120
+      Slime_Fire_death_24: -6031475149079760191
+      Slime_Fire_death_25: -7096999740545368621
+      Slime_Fire_death_26: -6596827152827850552
+      Slime_Fire_death_27: -2123606027601156374
+      Slime_Fire_death_28: 4188501568982438706
+      Slime_Fire_death_29: 219770511241608461
+      Slime_Fire_death_3: -3453299578089867767
+      Slime_Fire_death_30: -6308553593591058484
+      Slime_Fire_death_31: 7467491785389844042
+      Slime_Fire_death_32: -4165219796108817071
+      Slime_Fire_death_33: -2338027412568013830
+      Slime_Fire_death_34: 9035257482539125704
+      Slime_Fire_death_35: -1612158904597071431
+      Slime_Fire_death_36: -1645269955285634165
+      Slime_Fire_death_37: 5569239545405975830
+      Slime_Fire_death_38: 7542597329574481901
+      Slime_Fire_death_39: -1624083814750251963
+      Slime_Fire_death_4: -4656166368163525860
+      Slime_Fire_death_40: 1542504590219069852
+      Slime_Fire_death_41: -6593801793729259403
+      Slime_Fire_death_42: -7408818711305635176
+      Slime_Fire_death_43: 1372630874535982537
+      Slime_Fire_death_44: 2533196692474765265
+      Slime_Fire_death_45: 8704547021460837875
+      Slime_Fire_death_46: 1276869986534552610
+      Slime_Fire_death_47: 7618712556351591691
+      Slime_Fire_death_48: -1170074949942133873
+      Slime_Fire_death_49: 674828024517765948
+      Slime_Fire_death_5: -1809605027207908176
+      Slime_Fire_death_50: -2697947828718901561
+      Slime_Fire_death_51: 5972658569052598234
+      Slime_Fire_death_52: 6624713363180938825
+      Slime_Fire_death_53: -7525107524809748958
+      Slime_Fire_death_54: 4351041017657079010
+      Slime_Fire_death_55: -3628704585452319638
+      Slime_Fire_death_56: 8338459224708125554
+      Slime_Fire_death_57: 7662351173410435750
+      Slime_Fire_death_58: -5742400771762929540
+      Slime_Fire_death_59: 1020481335246806215
+      Slime_Fire_death_6: -6358044609350321493
+      Slime_Fire_death_7: 5405017349796974312
+      Slime_Fire_death_8: -5001243319646092814
+      Slime_Fire_death_9: -8489721489858830215
+      Slime_Fire_death_d0_f0: -1087304680
+      Slime_Fire_death_d0_f1: -406077697
+      Slime_Fire_death_d0_f2: 1089487471
+      Slime_Fire_death_d0_f3: -793792985
+      Slime_Fire_death_d0_f4: 169530559
+      Slime_Fire_death_d0_f5: 961284476
+      Slime_Fire_death_d0_f6: 1170910591
+      Slime_Fire_death_d0_f7: 1434914056
+      Slime_Fire_death_d0_f8: -1246824677
+      Slime_Fire_death_d0_f9: -317621461
+      Slime_Fire_death_d1_f0: -142396089
+      Slime_Fire_death_d1_f1: -833249970
+      Slime_Fire_death_d1_f2: -618482337
+      Slime_Fire_death_d1_f3: 786364071
+      Slime_Fire_death_d1_f4: -551266696
+      Slime_Fire_death_d1_f5: -16506812
+      Slime_Fire_death_d1_f6: -779513457
+      Slime_Fire_death_d1_f7: 1003122232
+      Slime_Fire_death_d1_f8: 190523110
+      Slime_Fire_death_d1_f9: -1365398948
+      Slime_Fire_death_d2_f0: -249989512
+      Slime_Fire_death_d2_f1: -428769848
+      Slime_Fire_death_d2_f2: -1462136105
+      Slime_Fire_death_d2_f3: -1829311538
+      Slime_Fire_death_d2_f4: -902596413
+      Slime_Fire_death_d2_f5: 126209337
+      Slime_Fire_death_d2_f6: 1080910039
+      Slime_Fire_death_d2_f7: -1653987809
+      Slime_Fire_death_d2_f8: 925983019
+      Slime_Fire_death_d2_f9: 939024451
+      Slime_Fire_death_d3_f0: 341227203
+      Slime_Fire_death_d3_f1: -46623273
+      Slime_Fire_death_d3_f2: 1078747592
+      Slime_Fire_death_d3_f3: -1292032898
+      Slime_Fire_death_d3_f4: -147685400
+      Slime_Fire_death_d3_f5: -1738640484
+      Slime_Fire_death_d3_f6: 1639716780
+      Slime_Fire_death_d3_f7: -1745082680
+      Slime_Fire_death_d3_f8: 1645703674
+      Slime_Fire_death_d3_f9: 1725512610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

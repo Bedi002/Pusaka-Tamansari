@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: 138325ef586d73941b6224b345ffed21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8887302076377608478
+    second: Slime_Poison_walk_0
+  - first:
+      213: -5276639128307859634
+    second: Slime_Poison_walk_1
+  - first:
+      213: -8650369857550142416
+    second: Slime_Poison_walk_2
+  - first:
+      213: -7732531897698494253
+    second: Slime_Poison_walk_3
+  - first:
+      213: 2992111205037390232
+    second: Slime_Poison_walk_4
+  - first:
+      213: -2472118241955248362
+    second: Slime_Poison_walk_5
+  - first:
+      213: 5946824156707403962
+    second: Slime_Poison_walk_6
+  - first:
+      213: 6872442135623449801
+    second: Slime_Poison_walk_7
+  - first:
+      213: 6334196439498359233
+    second: Slime_Poison_walk_8
+  - first:
+      213: -3587643915065190754
+    second: Slime_Poison_walk_9
+  - first:
+      213: 5369298934977452468
+    second: Slime_Poison_walk_10
+  - first:
+      213: -5036732953334158050
+    second: Slime_Poison_walk_11
+  - first:
+      213: -1736496524129044470
+    second: Slime_Poison_walk_12
+  - first:
+      213: 1237112389676710668
+    second: Slime_Poison_walk_13
+  - first:
+      213: -2710120873209088960
+    second: Slime_Poison_walk_14
+  - first:
+      213: -4006040601713180399
+    second: Slime_Poison_walk_15
+  - first:
+      213: -1029280282915408490
+    second: Slime_Poison_walk_16
+  - first:
+      213: -172801439229138866
+    second: Slime_Poison_walk_17
+  - first:
+      213: -3997435623877376032
+    second: Slime_Poison_walk_18
+  - first:
+      213: 6749377755606587522
+    second: Slime_Poison_walk_19
+  - first:
+      213: 385164055669799785
+    second: Slime_Poison_walk_20
+  - first:
+      213: -8242960517761433806
+    second: Slime_Poison_walk_21
+  - first:
+      213: -8523022629807527129
+    second: Slime_Poison_walk_22
+  - first:
+      213: -3455214334615481209
+    second: Slime_Poison_walk_23
+  - first:
+      213: 840700614328183769
+    second: Slime_Poison_walk_24
+  - first:
+      213: -6128629997556483276
+    second: Slime_Poison_walk_25
+  - first:
+      213: 4507293579492454352
+    second: Slime_Poison_walk_26
+  - first:
+      213: 7516535542763274589
+    second: Slime_Poison_walk_27
+  - first:
+      213: 7410002787025596442
+    second: Slime_Poison_walk_28
+  - first:
+      213: 4467072468315798617
+    second: Slime_Poison_walk_29
+  - first:
+      213: -5829162386752498100
+    second: Slime_Poison_walk_30
+  - first:
+      213: 8938032997568291087
+    second: Slime_Poison_walk_31
+  - first:
+      213: 4559259469452323888
+    second: Slime_Poison_walk_32
+  - first:
+      213: 6826847817889792931
+    second: Slime_Poison_walk_33
+  - first:
+      213: -317848720102382036
+    second: Slime_Poison_walk_34
+  - first:
+      213: 8610805549869938046
+    second: Slime_Poison_walk_35
+  - first:
+      213: -8288284006116797545
+    second: Slime_Poison_walk_36
+  - first:
+      213: -7240247203692595980
+    second: Slime_Poison_walk_37
+  - first:
+      213: -5797909838633933094
+    second: Slime_Poison_walk_38
+  - first:
+      213: 4979353716911122464
+    second: Slime_Poison_walk_39
+  - first:
+      213: 686558193231364906
+    second: Slime_Poison_walk_40
+  - first:
+      213: 4860036494932028604
+    second: Slime_Poison_walk_41
+  - first:
+      213: -2635813591466784236
+    second: Slime_Poison_walk_42
+  - first:
+      213: -1270328354583723366
+    second: Slime_Poison_walk_43
+  - first:
+      213: -522200275726604878
+    second: Slime_Poison_walk_44
+  - first:
+      213: -5263411473994619715
+    second: Slime_Poison_walk_45
+  - first:
+      213: -3499168541968371749
+    second: Slime_Poison_walk_46
+  - first:
+      213: -6063577898357628748
+    second: Slime_Poison_walk_47
+  - first:
+      213: -350416671872852160
+    second: Slime_Poison_walk_48
+  - first:
+      213: 3189648939037177458
+    second: Slime_Poison_walk_49
+  - first:
+      213: 5452441049313181798
+    second: Slime_Poison_walk_50
+  - first:
+      213: 2984847392504184871
+    second: Slime_Poison_walk_51
+  - first:
+      213: 1977612491023705540
+    second: Slime_Poison_walk_52
+  - first:
+      213: 8577205822118897623
+    second: Slime_Poison_walk_53
+  - first:
+      213: 7314830413030700544
+    second: Slime_Poison_walk_54
+  - first:
+      213: -7438907570642382671
+    second: Slime_Poison_walk_55
+  - first:
+      213: 7900951278930341130
+    second: Slime_Poison_walk_56
+  - first:
+      213: 7067317751224270321
+    second: Slime_Poison_walk_57
+  - first:
+      213: 8961634215201243339
+    second: Slime_Poison_walk_58
+  - first:
+      213: 274473743456145267
+    second: Slime_Poison_walk_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec40b9542c7b784c93fce1eeafdad89
+      internalID: 396056395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2ee133eccf2d045a758bfe7b139d3d
+      internalID: -17190667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b04ff38a3cdfc54eb9473d28bf088fb
+      internalID: 1038654045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33510597eec0364391b3dc7eacbed91
+      internalID: -864330085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0312de56575614b4abc27cc9efe2a1b8
+      internalID: -1652497818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c32015535127d846b1aeef883678d57
+      internalID: 1412001752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4d8717e1c92b4e9ec069e5b075387
+      internalID: 808113684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d0_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ac0820a3d6e66498eceeed91b54576
+      internalID: 855161730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e36cf6a6b855e4797be158606401ea
+      internalID: -510005221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec41e7f30b6c6ae4daf00857da59a7b8
+      internalID: -514969993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c243b526d1dc4248bdfd2fd5c592ad3
+      internalID: 906947349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385b1d757c3c2fc458adb7494bdd01ad
+      internalID: 43064154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79080869d73696f4b97330922844a486
+      internalID: 1404849235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8786c9bd17ccc0341b84eee8add99c58
+      internalID: 1374296999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672ea6aceef6df04cadc9f56a5fb389a
+      internalID: -295862516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d1_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d7d3e8987ae5949b05a23f6fca07b5
+      internalID: -1994067271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bf8df1ab32fec4e8838aa00f822e9c
+      internalID: 842394326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a212762197090c744a8efe33abe1e138
+      internalID: -1623260902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5652a4abfae1d74c9996cc2b22dc78a
+      internalID: -165367965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31aad680dcb7914fac41124ea67c14e
+      internalID: -980900097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7fd17df10800a42a3acb64f109bbf3
+      internalID: 1665132085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc86589a5c7f11b479f636a9013f2e5f
+      internalID: 1961028553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b45eaf653a6e574aa70e01584927fc1
+      internalID: -1095996256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d2_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7081f18891c1594b871381286a9968d
+      internalID: -9742012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ecd4e2b8e97b746bf06d0f13dcf95d
+      internalID: 1671808803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637c2424c6711c640b5bb4ddca98de45
+      internalID: -1455983426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45a8d017ff96d349aac73d34d22cab4
+      internalID: -1394742036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5113800eec99c4da258bbdb289edec
+      internalID: 334024473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12efaca87c4744479429c813079b0d1
+      internalID: -862726938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990db7acf1467f04d8453070de35e7dc
+      internalID: 407576507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0080ae02ae9de4e418e7f2cdb6f293b9
+      internalID: -405531620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Poison_walk_d3_f7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d6a7d7f10e27e4fa451f638cafb829
+      internalID: -927284151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d079c9093f28b64a9536c0162bec74e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Poison_walk_0: -8887302076377608478
+      Slime_Poison_walk_1: -5276639128307859634
+      Slime_Poison_walk_10: 5369298934977452468
+      Slime_Poison_walk_11: -5036732953334158050
+      Slime_Poison_walk_12: -1736496524129044470
+      Slime_Poison_walk_13: 1237112389676710668
+      Slime_Poison_walk_14: -2710120873209088960
+      Slime_Poison_walk_15: -4006040601713180399
+      Slime_Poison_walk_16: -1029280282915408490
+      Slime_Poison_walk_17: -172801439229138866
+      Slime_Poison_walk_18: -3997435623877376032
+      Slime_Poison_walk_19: 6749377755606587522
+      Slime_Poison_walk_2: -8650369857550142416
+      Slime_Poison_walk_20: 385164055669799785
+      Slime_Poison_walk_21: -8242960517761433806
+      Slime_Poison_walk_22: -8523022629807527129
+      Slime_Poison_walk_23: -3455214334615481209
+      Slime_Poison_walk_24: 840700614328183769
+      Slime_Poison_walk_25: -6128629997556483276
+      Slime_Poison_walk_26: 4507293579492454352
+      Slime_Poison_walk_27: 7516535542763274589
+      Slime_Poison_walk_28: 7410002787025596442
+      Slime_Poison_walk_29: 4467072468315798617
+      Slime_Poison_walk_3: -7732531897698494253
+      Slime_Poison_walk_30: -5829162386752498100
+      Slime_Poison_walk_31: 8938032997568291087
+      Slime_Poison_walk_32: 4559259469452323888
+      Slime_Poison_walk_33: 6826847817889792931
+      Slime_Poison_walk_34: -317848720102382036
+      Slime_Poison_walk_35: 8610805549869938046
+      Slime_Poison_walk_36: -8288284006116797545
+      Slime_Poison_walk_37: -7240247203692595980
+      Slime_Poison_walk_38: -5797909838633933094
+      Slime_Poison_walk_39: 4979353716911122464
+      Slime_Poison_walk_4: 2992111205037390232
+      Slime_Poison_walk_40: 686558193231364906
+      Slime_Poison_walk_41: 4860036494932028604
+      Slime_Poison_walk_42: -2635813591466784236
+      Slime_Poison_walk_43: -1270328354583723366
+      Slime_Poison_walk_44: -522200275726604878
+      Slime_Poison_walk_45: -5263411473994619715
+      Slime_Poison_walk_46: -3499168541968371749
+      Slime_Poison_walk_47: -6063577898357628748
+      Slime_Poison_walk_48: -350416671872852160
+      Slime_Poison_walk_49: 3189648939037177458
+      Slime_Poison_walk_5: -2472118241955248362
+      Slime_Poison_walk_50: 5452441049313181798
+      Slime_Poison_walk_51: 2984847392504184871
+      Slime_Poison_walk_52: 1977612491023705540
+      Slime_Poison_walk_53: 8577205822118897623
+      Slime_Poison_walk_54: 7314830413030700544
+      Slime_Poison_walk_55: -7438907570642382671
+      Slime_Poison_walk_56: 7900951278930341130
+      Slime_Poison_walk_57: 7067317751224270321
+      Slime_Poison_walk_58: 8961634215201243339
+      Slime_Poison_walk_59: 274473743456145267
+      Slime_Poison_walk_6: 5946824156707403962
+      Slime_Poison_walk_7: 6872442135623449801
+      Slime_Poison_walk_8: 6334196439498359233
+      Slime_Poison_walk_9: -3587643915065190754
+      Slime_Poison_walk_d0_f0: 396056395
+      Slime_Poison_walk_d0_f1: -17190667
+      Slime_Poison_walk_d0_f2: 1038654045
+      Slime_Poison_walk_d0_f3: -864330085
+      Slime_Poison_walk_d0_f4: -1652497818
+      Slime_Poison_walk_d0_f5: 1412001752
+      Slime_Poison_walk_d0_f6: 808113684
+      Slime_Poison_walk_d0_f7: 855161730
+      Slime_Poison_walk_d1_f0: -510005221
+      Slime_Poison_walk_d1_f1: -514969993
+      Slime_Poison_walk_d1_f2: 906947349
+      Slime_Poison_walk_d1_f3: 43064154
+      Slime_Poison_walk_d1_f4: 1404849235
+      Slime_Poison_walk_d1_f5: 1374296999
+      Slime_Poison_walk_d1_f6: -295862516
+      Slime_Poison_walk_d1_f7: -1994067271
+      Slime_Poison_walk_d2_f0: 842394326
+      Slime_Poison_walk_d2_f1: -1623260902
+      Slime_Poison_walk_d2_f2: -165367965
+      Slime_Poison_walk_d2_f3: -980900097
+      Slime_Poison_walk_d2_f4: 1665132085
+      Slime_Poison_walk_d2_f5: 1961028553
+      Slime_Poison_walk_d2_f6: -1095996256
+      Slime_Poison_walk_d2_f7: -9742012
+      Slime_Poison_walk_d3_f0: 1671808803
+      Slime_Poison_walk_d3_f1: -1455983426
+      Slime_Poison_walk_d3_f2: -1394742036
+      Slime_Poison_walk_d3_f3: 334024473
+      Slime_Poison_walk_d3_f4: -862726938
+      Slime_Poison_walk_d3_f5: 407576507
+      Slime_Poison_walk_d3_f6: -405531620
+      Slime_Poison_walk_d3_f7: -927284151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

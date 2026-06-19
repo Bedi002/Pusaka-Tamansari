@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 842a62fde00f4cf4cbfc8ba311c41ae6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1461948088752473028
+    second: Slime_Fire_hurt_0
+  - first:
+      213: -1535440796702117301
+    second: Slime_Fire_hurt_1
+  - first:
+      213: -7038476311809903591
+    second: Slime_Fire_hurt_2
+  - first:
+      213: -1061017326274294466
+    second: Slime_Fire_hurt_3
+  - first:
+      213: 8517540241906969454
+    second: Slime_Fire_hurt_4
+  - first:
+      213: -7360879307564284551
+    second: Slime_Fire_hurt_5
+  - first:
+      213: -6282263694824043565
+    second: Slime_Fire_hurt_6
+  - first:
+      213: 3436908941073362573
+    second: Slime_Fire_hurt_7
+  - first:
+      213: 8066665604051090609
+    second: Slime_Fire_hurt_8
+  - first:
+      213: 2263174042279955408
+    second: Slime_Fire_hurt_9
+  - first:
+      213: -7540236169104134244
+    second: Slime_Fire_hurt_10
+  - first:
+      213: 984589387187095974
+    second: Slime_Fire_hurt_11
+  - first:
+      213: 2371446400450753519
+    second: Slime_Fire_hurt_12
+  - first:
+      213: 2973304331354933053
+    second: Slime_Fire_hurt_13
+  - first:
+      213: 3102430247148197287
+    second: Slime_Fire_hurt_14
+  - first:
+      213: 3230770335717617477
+    second: Slime_Fire_hurt_15
+  - first:
+      213: 4716184132854283528
+    second: Slime_Fire_hurt_16
+  - first:
+      213: 8862647883074155534
+    second: Slime_Fire_hurt_17
+  - first:
+      213: 8558753410726103990
+    second: Slime_Fire_hurt_18
+  - first:
+      213: 7121463598653183479
+    second: Slime_Fire_hurt_19
+  - first:
+      213: 9064052855848277690
+    second: Slime_Fire_hurt_20
+  - first:
+      213: -1598138954446425756
+    second: Slime_Fire_hurt_21
+  - first:
+      213: -8240290209452461334
+    second: Slime_Fire_hurt_22
+  - first:
+      213: -7845581430617131715
+    second: Slime_Fire_hurt_23
+  - first:
+      213: 2056232967130952899
+    second: Slime_Fire_hurt_24
+  - first:
+      213: -746963229163001538
+    second: Slime_Fire_hurt_25
+  - first:
+      213: -7647685767281647212
+    second: Slime_Fire_hurt_26
+  - first:
+      213: -5669832440301576974
+    second: Slime_Fire_hurt_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b351409a98a8f8b4eb03fc6f898140c9
+      internalID: -1521919285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7293e9b7d2506da4a826177271e28604
+      internalID: 229830518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27047a4bebe87042b25895a5442e798
+      internalID: -1359488317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dbc918987478441b32ca8b8e65632e
+      internalID: -1535509978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f313882ada2c9f49a972e1376c8ec2c
+      internalID: 169956733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d982f6ec4b83846b1c032c5de760cd
+      internalID: -702660497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fee4971a995dad45a1b3fac5ae55610
+      internalID: 568464787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406570b21c34fed4fbd0444f2cc36ab9
+      internalID: -1159909117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d425940dfb7ed4459071c42a6a9fcc1
+      internalID: 945346101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665d0a310753af24fbfe9b225f90fdbc
+      internalID: 78983269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ba083078ecb4844aa4283237be9392
+      internalID: -1614764739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c6f8f711f197b4dba2de0a4f751b96
+      internalID: -1798139950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6841337a91af89747af8cda18da809b9
+      internalID: 1127447879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca415a656714db4a891e8e509f819eb
+      internalID: -1637077802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a5f458f24101641a813fb0dfa57b57
+      internalID: 481051988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442b32d5159763841adf907d9c034d04
+      internalID: -1062868005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1302397ff72db74e88f9a6ca7bd3e4e
+      internalID: 42428285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ee1dc244b236948997597f7389aff8
+      internalID: -1583700437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35ccf0bdb5d34541afd1d07e2393e62
+      internalID: -941222865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Fire_hurt_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c153cb4b394a744b0ac80f12baad7b
+      internalID: 904153714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ec9137887b81c79418501ae4c1d19e33
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Fire_hurt_0: 1461948088752473028
+      Slime_Fire_hurt_1: -1535440796702117301
+      Slime_Fire_hurt_10: -7540236169104134244
+      Slime_Fire_hurt_11: 984589387187095974
+      Slime_Fire_hurt_12: 2371446400450753519
+      Slime_Fire_hurt_13: 2973304331354933053
+      Slime_Fire_hurt_14: 3102430247148197287
+      Slime_Fire_hurt_15: 3230770335717617477
+      Slime_Fire_hurt_16: 4716184132854283528
+      Slime_Fire_hurt_17: 8862647883074155534
+      Slime_Fire_hurt_18: 8558753410726103990
+      Slime_Fire_hurt_19: 7121463598653183479
+      Slime_Fire_hurt_2: -7038476311809903591
+      Slime_Fire_hurt_20: 9064052855848277690
+      Slime_Fire_hurt_21: -1598138954446425756
+      Slime_Fire_hurt_22: -8240290209452461334
+      Slime_Fire_hurt_23: -7845581430617131715
+      Slime_Fire_hurt_24: 2056232967130952899
+      Slime_Fire_hurt_25: -746963229163001538
+      Slime_Fire_hurt_26: -7647685767281647212
+      Slime_Fire_hurt_27: -5669832440301576974
+      Slime_Fire_hurt_3: -1061017326274294466
+      Slime_Fire_hurt_4: 8517540241906969454
+      Slime_Fire_hurt_5: -7360879307564284551
+      Slime_Fire_hurt_6: -6282263694824043565
+      Slime_Fire_hurt_7: 3436908941073362573
+      Slime_Fire_hurt_8: 8066665604051090609
+      Slime_Fire_hurt_9: 2263174042279955408
+      Slime_Fire_hurt_d0_f0: -1521919285
+      Slime_Fire_hurt_d0_f1: 229830518
+      Slime_Fire_hurt_d0_f2: -1359488317
+      Slime_Fire_hurt_d0_f3: -1535509978
+      Slime_Fire_hurt_d0_f4: 169956733
+      Slime_Fire_hurt_d1_f0: -702660497
+      Slime_Fire_hurt_d1_f1: 568464787
+      Slime_Fire_hurt_d1_f2: -1159909117
+      Slime_Fire_hurt_d1_f3: 945346101
+      Slime_Fire_hurt_d1_f4: 78983269
+      Slime_Fire_hurt_d2_f0: -1614764739
+      Slime_Fire_hurt_d2_f1: -1798139950
+      Slime_Fire_hurt_d2_f2: 1127447879
+      Slime_Fire_hurt_d2_f3: -1637077802
+      Slime_Fire_hurt_d2_f4: 481051988
+      Slime_Fire_hurt_d3_f0: -1062868005
+      Slime_Fire_hurt_d3_f1: 42428285
+      Slime_Fire_hurt_d3_f2: -1583700437
+      Slime_Fire_hurt_d3_f3: -941222865
+      Slime_Fire_hurt_d3_f4: 904153714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: e0a67de192ad08e49af36e87b2af7ffe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4292762578761333230
+    second: Slime_Ice_hurt_0
+  - first:
+      213: -202693446545262968
+    second: Slime_Ice_hurt_1
+  - first:
+      213: -4371948698580981287
+    second: Slime_Ice_hurt_2
+  - first:
+      213: 5136873301351218399
+    second: Slime_Ice_hurt_3
+  - first:
+      213: 8318803529754610055
+    second: Slime_Ice_hurt_4
+  - first:
+      213: -1998406803063782689
+    second: Slime_Ice_hurt_5
+  - first:
+      213: -4222209408029866585
+    second: Slime_Ice_hurt_6
+  - first:
+      213: -3302161509342535321
+    second: Slime_Ice_hurt_7
+  - first:
+      213: -7685408407640881166
+    second: Slime_Ice_hurt_8
+  - first:
+      213: -4392730281125423137
+    second: Slime_Ice_hurt_9
+  - first:
+      213: 9046022194528875377
+    second: Slime_Ice_hurt_10
+  - first:
+      213: -6845315584541417303
+    second: Slime_Ice_hurt_11
+  - first:
+      213: 1999556410368550121
+    second: Slime_Ice_hurt_12
+  - first:
+      213: 1343610946935444944
+    second: Slime_Ice_hurt_13
+  - first:
+      213: 614296231922403331
+    second: Slime_Ice_hurt_14
+  - first:
+      213: 2297647814123117900
+    second: Slime_Ice_hurt_15
+  - first:
+      213: 8075678985725514693
+    second: Slime_Ice_hurt_16
+  - first:
+      213: 2154519311653297407
+    second: Slime_Ice_hurt_17
+  - first:
+      213: -8824633823770115460
+    second: Slime_Ice_hurt_18
+  - first:
+      213: 4124091619143050754
+    second: Slime_Ice_hurt_19
+  - first:
+      213: -4237461372291200069
+    second: Slime_Ice_hurt_20
+  - first:
+      213: 6655972879357365659
+    second: Slime_Ice_hurt_21
+  - first:
+      213: 7833894880227968504
+    second: Slime_Ice_hurt_22
+  - first:
+      213: -2769463558636618935
+    second: Slime_Ice_hurt_23
+  - first:
+      213: 320990663021444518
+    second: Slime_Ice_hurt_24
+  - first:
+      213: -5443279161331708056
+    second: Slime_Ice_hurt_25
+  - first:
+      213: 7110804326732534831
+    second: Slime_Ice_hurt_26
+  - first:
+      213: 7599294682781287862
+    second: Slime_Ice_hurt_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d0_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8b38719a0fefb4d922a0427bdd5ae9
+      internalID: 902247800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d0_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee18eaf098f9718438188b7a2ff3ae62
+      internalID: 1298433070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d0_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ce2d00397fc594c94ef8e5fb25a877
+      internalID: -808482899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d0_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54042e0265f3f64d95c4fdcb191f562
+      internalID: 360544577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d0_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bbc61257627f24383c565c5f7dc61f
+      internalID: -91559515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d1_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ae22baa6134f7498553ab20d5ef25d
+      internalID: -120805505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d1_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b14d41f2117fb4691f1561941bd3e5
+      internalID: -50197882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d1_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9032d0640f1507b4ea8edbc278ff43e1
+      internalID: 1461140554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d1_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb548c246819b8047b3834ed78a7e4b8
+      internalID: 1170153572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d1_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a983bda8fcd84b43a7e3eaa77aebb35
+      internalID: 1552718385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d2_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474c83c17a46efd498345a11fce3c46c
+      internalID: -1553339669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d2_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845bb946f55671f419b9feabe7ba87a3
+      internalID: -653228328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d2_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c79ba5d15173e8449c3a9c77811e72c
+      internalID: -1768408163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d2_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2da5b542b837d745bf1969e4d4ee103
+      internalID: -2059875780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d2_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5033680dee7cf3d4fbdfb649bc150585
+      internalID: -299132719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d3_f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f098a02f417fe3c408b8860a71a4a2c9
+      internalID: 2034765651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d3_f1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4205e8b6b3090b846b9853bcdc8188ab
+      internalID: 833125219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d3_f2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005ff0c653e16cd42aefa321c99aa05b
+      internalID: 1859291917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d3_f3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26708ed880e50214fb448e0835944c57
+      internalID: -913259555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Ice_hurt_d3_f4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1822f2efde2052b43b6b6b07f31a8c12
+      internalID: 2123757389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c04e4c5135cfa54c9c7aa6ba3506cdd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Ice_hurt_0: -4292762578761333230
+      Slime_Ice_hurt_1: -202693446545262968
+      Slime_Ice_hurt_10: 9046022194528875377
+      Slime_Ice_hurt_11: -6845315584541417303
+      Slime_Ice_hurt_12: 1999556410368550121
+      Slime_Ice_hurt_13: 1343610946935444944
+      Slime_Ice_hurt_14: 614296231922403331
+      Slime_Ice_hurt_15: 2297647814123117900
+      Slime_Ice_hurt_16: 8075678985725514693
+      Slime_Ice_hurt_17: 2154519311653297407
+      Slime_Ice_hurt_18: -8824633823770115460
+      Slime_Ice_hurt_19: 4124091619143050754
+      Slime_Ice_hurt_2: -4371948698580981287
+      Slime_Ice_hurt_20: -4237461372291200069
+      Slime_Ice_hurt_21: 6655972879357365659
+      Slime_Ice_hurt_22: 7833894880227968504
+      Slime_Ice_hurt_23: -2769463558636618935
+      Slime_Ice_hurt_24: 320990663021444518
+      Slime_Ice_hurt_25: -5443279161331708056
+      Slime_Ice_hurt_26: 7110804326732534831
+      Slime_Ice_hurt_27: 7599294682781287862
+      Slime_Ice_hurt_3: 5136873301351218399
+      Slime_Ice_hurt_4: 8318803529754610055
+      Slime_Ice_hurt_5: -1998406803063782689
+      Slime_Ice_hurt_6: -4222209408029866585
+      Slime_Ice_hurt_7: -3302161509342535321
+      Slime_Ice_hurt_8: -7685408407640881166
+      Slime_Ice_hurt_9: -4392730281125423137
+      Slime_Ice_hurt_d0_f0: 902247800
+      Slime_Ice_hurt_d0_f1: 1298433070
+      Slime_Ice_hurt_d0_f2: -808482899
+      Slime_Ice_hurt_d0_f3: 360544577
+      Slime_Ice_hurt_d0_f4: -91559515
+      Slime_Ice_hurt_d1_f0: -120805505
+      Slime_Ice_hurt_d1_f1: -50197882
+      Slime_Ice_hurt_d1_f2: 1461140554
+      Slime_Ice_hurt_d1_f3: 1170153572
+      Slime_Ice_hurt_d1_f4: 1552718385
+      Slime_Ice_hurt_d2_f0: -1553339669
+      Slime_Ice_hurt_d2_f1: -653228328
+      Slime_Ice_hurt_d2_f2: -1768408163
+      Slime_Ice_hurt_d2_f3: -2059875780
+      Slime_Ice_hurt_d2_f4: -299132719
+      Slime_Ice_hurt_d3_f0: 2034765651
+      Slime_Ice_hurt_d3_f1: 833125219
+      Slime_Ice_hurt_d3_f2: 1859291917
+      Slime_Ice_hurt_d3_f3: -913259555
+      Slime_Ice_hurt_d3_f4: 2123757389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

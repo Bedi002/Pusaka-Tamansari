@@ -217,6 +217,7 @@ public class Boss : MonoBehaviour, IDamageable
 
         SafeSetTrigger("Die");
         if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX(AudioManager.Instance.bossDie);
+        if (DungeonManager.Instance != null) DungeonManager.Instance.Shake(0.45f, 0.6f);
 
         var col = GetComponent<Collider2D>(); if (col != null) col.enabled = false;
         if (rb != null) { rb.linearVelocity = Vector2.zero; rb.simulated = false; }

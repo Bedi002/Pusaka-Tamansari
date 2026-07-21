@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     public float dashDuration = 0.2f;
     public float dashCooldown = 1f;
     bool canDash = true;
+    PlayerResources res;
     bool isDashing;
 
     float hitStun = 0f;
@@ -36,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Awake()
     {
+        res = GetComponent<PlayerResources>();
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         if (anim == null) anim = GetComponent<Animator>();
         if (spriteRend == null) spriteRend = GetComponentInChildren<SpriteRenderer>();
@@ -71,7 +73,48 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && movement.sqrMagnitude > 0.01f)
-            StartCoroutine(DashRoutine());
+        {
+            // HeroSpawner memasang PlayerResources SETELAH Instantiate, jadi Awake
+            // di sini bisa berjalan lebih dulu dan mendapat null
+            if (res == null) res = GetComponent<PlayerResources>();
+
+            // dash memakan Tenaga; kalau habis, tolak dengan bunyi berbeda supaya
+            // pemain tahu bedanya "sedang cooldown" dan "kehabisan tenaga"
+            if (res != null && !res.SpendStamina(res.dashCost))
+            {
+                if (AudioManager.Instance != null) AudioManager.Instance.Play("ui_error", 0.35f);
+            }
+            else
+            {
+                if (AudioManager.Instance != null) AudioManager.Instance.Play("dash", 0.75f);
+                StartCoroutine(DashRoutine());
+            }
+        }
+
+        Footsteps();
+    }
+
+    [Header("Langkah kaki")]
+    [Tooltip("Jarak tempuh antar-bunyi langkah, dalam unit dunia")]
+    public float stepDistance = 1.6f;
+    [Tooltip("Bank SFX: step_stone atau step_grass")]
+    public string stepSound = "step_stone";
+    float stepAccum;
+
+    /// <summary>
+    /// Bunyi langkah dipicu per JARAK tempuh, bukan per waktu. Kalau per waktu,
+    /// iramanya tidak ikut berubah saat kecepatan naik oleh jimat, dan langkahnya
+    /// terdengar lepas dari kaki yang bergerak.
+    /// </summary>
+    void Footsteps()
+    {
+        if (movement.sqrMagnitude < 0.01f) { stepAccum = 0f; return; }
+
+        stepAccum += moveSpeed * Time.deltaTime;
+        if (stepAccum < stepDistance) return;
+
+        stepAccum = 0f;
+        if (AudioManager.Instance != null) AudioManager.Instance.Play(stepSound, 0.32f, 0.14f);
     }
 
     void FixedUpdate()

@@ -33,12 +33,70 @@ public class PlayerHealth : MonoBehaviour
     int currentHealth;
     const float gameOverDelay = 1.5f;
 
-    void Start()
+    PlayerStats stats;
+
+    // Awake (bukan Start) supaya PlayerStats boleh mengubah maxHealth lebih awal
+    // tanpa bergantung pada urutan Start antar-komponen.
+    void Awake()
     {
         currentHealth = maxHealth;
         if (anim == null) anim = GetComponent<Animator>();
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         if (spriteRend == null) spriteRend = GetComponentInChildren<SpriteRenderer>();
+        stats = GetComponent<PlayerStats>();
+    }
+
+    void Start() => PushUI();
+
+    [Header("Regenerasi")]
+    [Tooltip("HP pulih per detik saat tidak sedang terluka. 0 = mati regen.")]
+    public float regenPerSecond = 1.5f;
+    [Tooltip("Jeda setelah kena pukul sebelum regen mulai (detik)")]
+    public float regenDelay = 4f;
+    float regenHold, regenCarry;
+
+    void Update()
+    {
+        if (isDead || regenPerSecond <= 0f || currentHealth >= maxHealth) return;
+
+        // regen berhenti sejenak tiap kali terluka; kalau tidak, bertahan terasa
+        // gratis dan tiap pukulan musuh kehilangan arti
+        if (regenHold > 0f) { regenHold -= Time.deltaTime; return; }
+
+        regenCarry += regenPerSecond * Time.deltaTime;
+        if (regenCarry >= 1f)
+        {
+            int whole = Mathf.FloorToInt(regenCarry);
+            regenCarry -= whole;
+            currentHealth = Mathf.Min(maxHealth, currentHealth + whole);
+            PushUI();
+        }
+    }
+
+    /// <summary>HP saat ini (dibaca UI/efek).</summary>
+    public int Current => currentHealth;
+
+    /// <summary>Pulihkan HP, tidak melebihi maksimum.</summary>
+    public void Heal(int amount)
+    {
+        if (isDead || amount <= 0) return;
+        int before = currentHealth;
+        currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
+        if (currentHealth > before)
+            FloatingText.SpawnHeal(transform.position, currentHealth - before);
+        PushUI();
+    }
+
+    /// <summary>
+    /// Ubah HP maksimum dari item. Selisihnya ditambahkan ke HP sekarang supaya
+    /// memakai jimat +HP terasa langsung, bukan cuma memperbesar bar kosong.
+    /// </summary>
+    public void SetMaxHealth(int newMax)
+    {
+        newMax = Mathf.Max(1, newMax);
+        int delta = newMax - maxHealth;
+        maxHealth = newMax;
+        currentHealth = Mathf.Clamp(currentHealth + Mathf.Max(0, delta), 1, maxHealth);
         PushUI();
     }
 
@@ -51,14 +109,43 @@ public class PlayerHealth : MonoBehaviour
         if (GameManager.Instance != null)
             damage = Mathf.RoundToInt(damage * GameManager.Instance.Profile.playerDamageTakenMult);
 
+        // zirah mengurangi damage masuk; duri memantulkan sebagian ke penyerang
+        if (stats != null)
+        {
+            if (stats.Dodge > 0f && UnityEngine.Random.value < stats.Dodge)
+            {
+                FloatingText.SpawnDodge(transform.position);
+                return;
+            }
+            if (stats.Armor > 0f) damage = Mathf.RoundToInt(damage * (1f - stats.Armor));
+            if (stats.Thorns > 0f) ReflectThorns(hitFrom, Mathf.RoundToInt(stats.Thorns));
+        }
+        damage = Mathf.Max(1, damage);
+
         currentHealth = Mathf.Max(0, currentHealth - damage);
+        regenHold = regenDelay;     // tunda regen: baru saja terluka
         PushUI();
 
-        if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX(AudioManager.Instance.playerHurt);
+        if (AudioManager.Instance != null) AudioManager.Instance.Play("player_hurt", 0.9f);
+        FloatingText.Spawn(transform.position, "-" + damage, new Color(0.91f, 0.44f, 0.32f));
         ApplyKnockback(hitFrom);
+        if (DungeonManager.Instance != null) DungeonManager.Instance.Shake(0.22f, 0.16f);
 
         if (currentHealth <= 0) Die();
         else StartCoroutine(InvincibleFlash());
+    }
+
+    /// <summary>Balas damage ke penyerang terdekat di titik pukulan.</summary>
+    void ReflectThorns(Vector2 hitFrom, int amount)
+    {
+        if (amount <= 0) return;
+        var hits = Physics2D.OverlapCircleAll(hitFrom, 1.2f);
+        foreach (var col in hits)
+        {
+            if (col.gameObject == gameObject) continue;
+            var dmg = col.GetComponent<IDamageable>() ?? col.GetComponentInParent<IDamageable>();
+            if (dmg != null) { dmg.TakeDamage(amount, transform.position); return; }
+        }
     }
 
     void ApplyKnockback(Vector2 hitFrom)
@@ -96,6 +183,19 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         if (isDead) return;
+
+        // Kembang Wijayakusuma dan sejenisnya: sekali per run kematian dibatalkan
+        var run = GameManager.Instance != null ? GameManager.Instance.run : null;
+        if (stats != null && stats.RevivePercent > 0f && run != null && !run.reviveUsed)
+        {
+            run.reviveUsed = true;
+            currentHealth = Mathf.Max(1, Mathf.RoundToInt(maxHealth * stats.RevivePercent));
+            PushUI();
+            StartCoroutine(InvincibleFlash());
+            if (HUDController.Instance != null) HUDController.Instance.ShowMessage("WIJAYAKUSUMA MEKAR", 2.2f);
+            return;
+        }
+
         isDead = true;
 
         if (anim != null) SafeSetTrigger("Die");

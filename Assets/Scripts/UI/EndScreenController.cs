@@ -6,6 +6,7 @@ using TMPro;
 /// Controller untuk scene Victory & GameOver. Menampilkan skor akhir dan
 /// menyediakan tombol Retry (ulang dari stage 1, difficulty tetap) & Main Menu.
 /// Sambungkan tombol ke Retry()/MainMenu().
+/// Skor akhir berjalan naik angka demi angka setelah layar selesai dirakit.
 /// </summary>
 public class EndScreenController : MonoBehaviour
 {
@@ -18,9 +19,16 @@ public class EndScreenController : MonoBehaviour
     {
         Time.timeScale = 1f;
         if (scoreText != null && GameManager.Instance != null)
-            scoreText.text = scorePrefix + GameManager.Instance.score;
+            UIMotion.CountTo(scoreText, 0, GameManager.Instance.score, 0.9f, scorePrefix, "", 0.5f);
         if (screenMusic != null && AudioManager.Instance != null)
             AudioManager.Instance.PlayMusic(screenMusic);
+
+        var canvas = FindAnyObjectByType<Canvas>();
+        if (canvas != null)
+        {
+            UIScreenFx.AttachButtonFx(canvas.transform);
+            UIScreenFx.PlayEntrance((RectTransform)canvas.transform);
+        }
     }
 
     public void Retry()

@@ -1,0 +1,646 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDatabase
+  items:
+  - id: keris_lurus
+    displayName: Keris Lurus
+    flavor: Bilah lurus tanpa luk milik prajurit rendahan; tetap setia meski tuannya
+      tiada.
+    category: 0
+    rarity: 0
+    tileIndex: 105
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 4
+      duration: 0
+    price: 15
+    stackMax: 1
+  - id: busur_bambu
+    displayName: Busur Bambu
+    flavor: Busur latihan dari bambu apus. Ringan, jujur, dan tidak pernah mengeluh.
+    category: 0
+    rarity: 0
+    tileIndex: 131
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 14f4694114cc2414286b2f3e465925a4, type: 3}
+    effects:
+    - kind: 1
+      value: 3
+      duration: 0
+    - kind: 5
+      value: 0.5
+      duration: 0
+    price: 15
+    stackMax: 1
+  - id: tongkat_cendana
+    displayName: Tongkat Cendana
+    flavor: Kayu cendana wangi yang menyimpan sisa doa para resi terdahulu.
+    category: 0
+    rarity: 0
+    tileIndex: 130
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 4
+      duration: 0
+    price: 15
+    stackMax: 1
+  - id: pedang_suduk
+    displayName: Pedang Suduk
+    flavor: Pedang pendek pengawal kedhaton, diasah untuk lorong sempit.
+    category: 0
+    rarity: 1
+    tileIndex: 104
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 7
+      duration: 0
+    price: 30
+    stackMax: 1
+  - id: tombak_runcing
+    displayName: Tombak Runcing
+    flavor: Mata tombak bregada; jarak adalah zirah yang paling murah.
+    category: 0
+    rarity: 1
+    tileIndex: 106
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 5
+      duration: 0
+    - kind: 5
+      value: 0.4
+      duration: 0
+    price: 30
+    stackMax: 1
+  - id: gada_wesi
+    displayName: Gada Wesi
+    flavor: Berat di tangan, lebih berat lagi di kepala lawan.
+    category: 0
+    rarity: 1
+    tileIndex: 107
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 7b6270f9a2e2fd5439b1580576c688bc, type: 3}
+    effects:
+    - kind: 1
+      value: 8
+      duration: 0
+    - kind: 4
+      value: -0.1
+      duration: 0
+    price: 30
+    stackMax: 1
+  - id: keris_luk_sanga
+    displayName: Keris Luk Sanga
+    flavor: Sembilan lekuk berlumur warangan; lukanya kecil, tetapi tidak pernah
+      sembuh sendiri.
+    category: 0
+    rarity: 2
+    tileIndex: 105
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 9
+      duration: 0
+    - kind: 2
+      value: 0.08
+      duration: 0
+    price: 60
+    stackMax: 1
+  - id: panah_geni
+    displayName: Panah Geni
+    flavor: Anak panah bersumbu api dari upacara labuhan yang gagal.
+    category: 0
+    rarity: 2
+    tileIndex: 131
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 6
+      duration: 0
+    - kind: 2
+      value: 0.1
+      duration: 0
+    price: 60
+    stackMax: 1
+  - id: candrasa_kelam
+    displayName: Candrasa Kelam
+    flavor: Bilah wayang yang jatuh ke dunia; meminum apa yang ia lukai.
+    category: 0
+    rarity: 3
+    tileIndex: 103
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 7839d9100e1fdcf4c8e0df23b9161412, type: 3}
+    effects:
+    - kind: 1
+      value: 10
+      duration: 0
+    - kind: 8
+      value: 0.08
+      duration: 0
+    price: 120
+    stackMax: 1
+  - id: cakra_baskara
+    displayName: Cakra Baskara
+    flavor: Roda matahari kecil; berputar paling tajam tepat sebelum senja.
+    category: 0
+    rarity: 3
+    tileIndex: 118
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 12
+      duration: 0
+    - kind: 7
+      value: 0.1
+      duration: 0
+    price: 120
+    stackMax: 1
+  - id: baju_lurik
+    displayName: Baju Lurik
+    flavor: Tenun lurik petani; garis-garisnya dianyam dengan sabar dan doa.
+    category: 1
+    rarity: 0
+    tileIndex: 66
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 0
+      value: 10
+      duration: 0
+    price: 15
+    stackMax: 1
+  - id: jarik_parang
+    displayName: Jarik Parang
+    flavor: Motif parang hanya untuk kerabat raja. Kain ini tahu siapa yang pantas.
+    category: 1
+    rarity: 1
+    tileIndex: 66
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 974f00f6fbe19eb46beb506ce466785e, type: 3}
+    effects:
+    - kind: 0
+      value: 15
+      duration: 0
+    price: 30
+    stackMax: 1
+  - id: sabuk_epek_timang
+    displayName: Sabuk Epek Timang
+    flavor: Sabuk upacara berkepala kuningan; menegakkan punggung dan nyali.
+    category: 1
+    rarity: 1
+    tileIndex: 65
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: d9324f14e344ae74f815b5f844821fb5, type: 3}
+    effects:
+    - kind: 6
+      value: 0.05
+      duration: 0
+    price: 30
+    stackMax: 1
+  - id: gelang_akar_bahar
+    displayName: Gelang Akar Bahar
+    flavor: Akar laut hitam penolak bala; yang menyentuh kasar akan tergores balik.
+    category: 2
+    rarity: 1
+    tileIndex: 101
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 9
+      value: 3
+      duration: 0
+    price: 30
+    stackMax: 1
+  - id: blangkon_sukma
+    displayName: Blangkon Sukma
+    flavor: Blangkon milik abdi dalem yang arif; lipatannya menyimpan ingatan.
+    category: 2
+    rarity: 2
+    tileIndex: 64
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 6d9ba7f9181618d40949990982e76418, type: 3}
+    effects:
+    - kind: 6
+      value: 0.05
+      duration: 0
+    - kind: 14
+      value: 0.15
+      duration: 0
+    price: 60
+    stackMax: 1
+  - id: selop_kilat
+    displayName: Selop Kilat
+    flavor: Selop sutra penari srimpi; lantai seakan ikut melangkah.
+    category: 2
+    rarity: 2
+    tileIndex: 62
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 9b5ad50c79d2b6642a55bda3e4270c76, type: 3}
+    effects:
+    - kind: 3
+      value: 0.4
+      duration: 0
+    price: 60
+    stackMax: 1
+  - id: kalung_jimat_aksara
+    displayName: Kalung Jimat Aksara
+    flavor: Rajah aksara Jawa dalam bungkus kain mori; membelokkan niat jahat.
+    category: 2
+    rarity: 2
+    tileIndex: 64
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 13
+      value: 0.12
+      duration: 0
+    price: 60
+    stackMax: 1
+  - id: zirah_bregada
+    displayName: Zirah Bregada
+    flavor: Zirah pasukan bregada keraton. Berat, tetapi begitu pula kesetiaan.
+    category: 1
+    rarity: 3
+    tileIndex: 66
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: b979d3c308faa7641bc8bc7c8b3e9184, type: 3}
+    effects:
+    - kind: 6
+      value: 0.15
+      duration: 0
+    - kind: 0
+      value: 25
+      duration: 0
+    - kind: 3
+      value: -0.2
+      duration: 0
+    price: 120
+    stackMax: 1
+  - id: batik_sidomukti
+    displayName: Batik Sidomukti
+    flavor: 'Sidomukti: doa agar hidup mulia. Kain ini mendoakan pemakainya setiap
+      langkah.'
+    category: 2
+    rarity: 3
+    tileIndex: 66
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: ebdfec6b83df65e4188eee6835b0f269, type: 3}
+    effects:
+    - kind: 0
+      value: 20
+      duration: 0
+    - kind: 14
+      value: 0.2
+      duration: 0
+    price: 120
+    stackMax: 1
+  - id: jamu_kunyit_asam
+    displayName: Jamu Kunyit Asam
+    flavor: Pahit di lidah, hangat di dada. Resep mbok jamu yang tak pernah salah.
+    category: 3
+    rarity: 0
+    tileIndex: 115
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 10
+      value: 30
+      duration: 0
+    price: 15
+    stackMax: 5
+  - id: jamu_beras_kencur
+    displayName: Jamu Beras Kencur
+    flavor: Putih susu, manis pedas; kaki terasa dua puluh tahun lebih muda.
+    category: 3
+    rarity: 0
+    tileIndex: 113
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 10
+      value: 15
+      duration: 0
+    - kind: 3
+      value: 0.5
+      duration: 8
+    price: 15
+    stackMax: 5
+  - id: tape_ketan
+    displayName: Tape Ketan
+    flavor: Ketan hijau fermentasi daun katuk; sedikit memabukkan, sangat memberanikan.
+    category: 3
+    rarity: 0
+    tileIndex: 114
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 10
+      value: 20
+      duration: 0
+    - kind: 2
+      value: 0.1
+      duration: 8
+    price: 15
+    stackMax: 5
+  - id: wedang_ronde
+    displayName: Wedang Ronde
+    flavor: Kuah jahe panas berisi ronde kenyal; malam paling dingin pun menyerah.
+    category: 3
+    rarity: 1
+    tileIndex: 127
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 10
+      value: 50
+      duration: 0
+    price: 30
+    stackMax: 5
+  - id: sekar_setaman
+    displayName: Sekar Setaman
+    flavor: Bokor kembang tujuh rupa; membasuh yang tidak tampak oleh mata.
+    category: 3
+    rarity: 1
+    tileIndex: 56
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 10
+      value: 20
+      duration: 0
+    price: 30
+    stackMax: 5
+  - id: lisah_telon
+    displayName: Lisah Telon
+    flavor: Minyak tiga rupa penjaga bayi; racun tua pun segan mendekat.
+    category: 3
+    rarity: 1
+    tileIndex: 126
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 6
+      value: 0.2
+      duration: 20
+    price: 30
+    stackMax: 5
+  - id: gudeg_komplit
+    displayName: Gudeg Komplit
+    flavor: Nangka muda dimasak semalaman, krecek, telur pindang. Alasan pulang ke
+      Ngayogyakarta.
+    category: 3
+    rarity: 1
+    tileIndex: 66
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 10
+      value: 60
+      duration: 0
+    price: 30
+    stackMax: 5
+  - id: kopi_jos
+    displayName: Kopi Jos
+    flavor: Kopi ditanggap arang membara - jos! Jantung ikut menabuh kendhang.
+    category: 3
+    rarity: 2
+    tileIndex: 125
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 4
+      value: 0.3
+      duration: 12
+    price: 60
+    stackMax: 5
+  - id: wedang_uwuh
+    displayName: Wedang Uwuh
+    flavor: Ramuan dedaunan Imogiri, merah secang; api luar dilawan api dalam.
+    category: 3
+    rarity: 2
+    tileIndex: 127
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 10
+      value: 35
+      duration: 0
+    - kind: 6
+      value: 0.2
+      duration: 15
+    price: 60
+    stackMax: 5
+  - id: keris_kyai_sengkelat
+    displayName: Keris Kyai Sengkelat
+    flavor: Keris agung berpamor api. Ia memilih tangan yang menggenggamnya, bukan
+      sebaliknya.
+    category: 4
+    rarity: 4
+    tileIndex: 105
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 5b6560b9fb1293b419e5328559e1dab8, type: 3}
+    effects:
+    - kind: 1
+      value: 15
+      duration: 0
+    - kind: 2
+      value: 0.12
+      duration: 0
+    price: 250
+    stackMax: 1
+  - id: tombak_kyai_pleret
+    displayName: Tombak Kyai Pleret
+    flavor: Tombak pusaka Mataram; ujungnya pernah menentukan arah sejarah.
+    category: 4
+    rarity: 4
+    tileIndex: 106
+    fromTown: 0
+    iconOverride: {fileID: 21300000, guid: 826f82c650f01764987c9bb109b82a66, type: 3}
+    effects:
+    - kind: 1
+      value: 12
+      duration: 0
+    - kind: 5
+      value: 0.8
+      duration: 0
+    price: 250
+    stackMax: 1
+  - id: songsong_agung
+    displayName: Songsong Agung
+    flavor: Payung kebesaran sultan. Yang bernaung di bawahnya berjalan di antara
+      tetes takdir.
+    category: 4
+    rarity: 4
+    tileIndex: 129
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 13
+      value: 0.2
+      duration: 0
+    - kind: 6
+      value: 0.1
+      duration: 0
+    price: 250
+    stackMax: 1
+  - id: gong_kyai_sekati
+    displayName: Gong Kyai Sekati
+    flavor: Gong perayaan sekaten; gemanya membuat waktu ikut menunduk pelan.
+    category: 4
+    rarity: 4
+    tileIndex: 66
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 6
+      value: 0.1
+      duration: 0
+    - kind: 0
+      value: 15
+      duration: 0
+    price: 250
+    stackMax: 1
+  - id: kembang_wijayakusuma
+    displayName: Kembang Wijayakusuma
+    flavor: Kembang yang hanya mekar tengah malam dan hanya untuk yang belum selesai
+      urusannya.
+    category: 4
+    rarity: 4
+    tileIndex: 130
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 15
+      value: 0.5
+      duration: 0
+    price: 250
+    stackMax: 1
+  - id: cupu_manik_astagina
+    displayName: Cupu Manik Astagina
+    flavor: Cupu wasiat yang memperlihatkan apa yang seharusnya tidak terlihat.
+    category: 4
+    rarity: 4
+    tileIndex: 56
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 14
+      value: 0.25
+      duration: 0
+    - kind: 12
+      value: 1
+      duration: 0
+    price: 250
+    stackMax: 1
+  - id: selendang_nawangwulan
+    displayName: Selendang Nawangwulan
+    flavor: Selendang bidadari yang dahulu dicuri Jaka Tarub; kini ia tahu rasanya
+      dicuri.
+    category: 4
+    rarity: 4
+    tileIndex: 62
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 3
+      value: 0.5
+      duration: 0
+    - kind: 13
+      value: 0.1
+      duration: 0
+    price: 250
+    stackMax: 1
+  - id: batu_akik_geni
+    displayName: Batu Akik Geni
+    flavor: Akik merah delima yang menyimpan satu bara kecil dari gunung.
+    category: 2
+    rarity: 3
+    tileIndex: 102
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 7
+      value: 0.1
+      duration: 0
+    - kind: 8
+      value: 0.05
+      duration: 0
+    price: 120
+    stackMax: 1
+  - id: picis_kuno
+    displayName: Picis Kuno
+    flavor: Koin berlubang segi empat dari zaman yang lupa namanya sendiri.
+    category: 3
+    rarity: 0
+    tileIndex: 101
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 11
+      value: 1
+      duration: 0
+    price: 1
+    stackMax: 5
+  - id: kantong_picis
+    displayName: Kantong Picis
+    flavor: Kantong kain berisi picis; bunyi gemerincingnya menghibur di lorong gelap.
+    category: 3
+    rarity: 1
+    tileIndex: 66
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 11
+      value: 10
+      duration: 0
+    price: 10
+    stackMax: 5
+  - id: wesi_aji
+    displayName: Wesi Aji
+    flavor: Besi bintang jatuh, bahan pamor para empu. Menempa ulang senjata di tangan.
+    category: 3
+    rarity: 2
+    tileIndex: 102
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 1
+      value: 2
+      duration: 0
+    price: 60
+    stackMax: 5
+  - id: mote_sukma
+    displayName: Mote Sukma
+    flavor: Manik cahaya dari jiwa yang akhirnya lega. Hangat di genggaman.
+    category: 3
+    rarity: 2
+    tileIndex: 128
+    fromTown: 0
+    iconOverride: {fileID: 0}
+    effects:
+    - kind: 0
+      value: 2
+      duration: 0
+    price: 60
+    stackMax: 5

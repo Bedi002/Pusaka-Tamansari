@@ -24,10 +24,24 @@ public class GameManager : MonoBehaviour
     [Tooltip("Index hero terpilih (di-set layar CharacterSelect)")]
     public int selectedHero = 0;
 
-    /// <summary>Prefab hero yang sedang dipilih (null bila belum di-set).</summary>
-    public GameObject SelectedHeroPrefab =>
-        (heroPrefabs != null && selectedHero >= 0 && selectedHero < heroPrefabs.Length)
-            ? heroPrefabs[selectedHero] : null;
+    /// <summary>
+    /// Prefab hero terpilih. HeroCatalog (Resources) diutamakan; array heroPrefabs
+    /// hanya cadangan untuk scene lama yang masih menyimpan referensinya.
+    /// </summary>
+    public GameObject SelectedHeroPrefab
+    {
+        get
+        {
+            var hero = HeroCatalog.Get(selectedHero);
+            if (hero != null && hero.prefab != null) return hero.prefab;
+            return (heroPrefabs != null && selectedHero >= 0 && selectedHero < heroPrefabs.Length)
+                ? heroPrefabs[selectedHero] : null;
+        }
+    }
+
+    [Header("Isi tas run ini")]
+    [Tooltip("Bertahan antar-lantai; player di-spawn ulang tiap lantai jadi tas tidak boleh ikut hilang")]
+    public RunInventory run = new RunInventory();
 
     [Header("Scaling per Stage")]
     [Tooltip("Tambahan kekuatan musuh tiap naik stage. 0.25 = +25% per stage")]
@@ -38,7 +52,7 @@ public class GameManager : MonoBehaviour
     public string difficultyScene = "DifficultySelect";
     public string victoryScene = "Victory";
     public string gameOverScene = "GameOver";
-    public string[] stageScenes = { "Floor1", "Floor2", "Floor3" };
+    public string[] stageScenes = { "Floor1", "Floor2", "Floor3", "Floor4", "Floor5" };
 
     // ---- Properti turunan ----
     public DifficultyProfile Profile => DifficultyTable.Get(difficulty);
@@ -69,7 +83,7 @@ public class GameManager : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     static void EnsureExists()
     {
-        if (Instance == null && FindFirstObjectByType<GameManager>() == null)
+        if (Instance == null && FindAnyObjectByType<GameManager>() == null)
         {
             var go = new GameObject("GameManager (auto)");
             go.AddComponent<GameManager>();
@@ -82,6 +96,20 @@ public class GameManager : MonoBehaviour
     {
         currentStageIndex = 0;
         score = 0;
+
+        // run baru = tas kosong + bekal awal sesuai hero
+        run.Clear();
+        var hero = HeroCatalog.Get(selectedHero);
+        if (hero != null && !string.IsNullOrEmpty(hero.startingItemId))
+        {
+            var def = ItemDatabase.Get(hero.startingItemId);
+            if (def != null)
+            {
+                if (def.IsEquipment && def.category == ItemCategory.Weapon) run.weaponId = def.id;
+                else run.slots.Add(new ItemStack(def.id, 1));
+            }
+        }
+
         LoadStage();
     }
 
@@ -123,6 +151,15 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int amount)
     {
+        // jimat penambah perolehan (blangkon/batik) menaikkan skor yang masuk
+        var inv = Inventory.Instance;
+        if (inv != null)
+        {
+            var stats = inv.GetComponent<PlayerStats>();
+            if (stats != null && stats.XpGain != 0f)
+                amount = Mathf.RoundToInt(amount * (1f + stats.XpGain));
+        }
+
         score += amount;
         if (HUDController.Instance != null) HUDController.Instance.SetScore(score);
     }

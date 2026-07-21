@@ -25,6 +25,7 @@ public class DungeonManager : MonoBehaviour
     public float zoomStep = 0.08f;
     float zoom = 1f;          // 1 = paling jauh (fit ruangan) = default
     float baseOrtho = 0f;
+    float shakeT, shakeDur, shakeAmp;   // getar kamera saat pukulan/kena
 
     Room[] rooms;
     Room current;
@@ -32,7 +33,7 @@ public class DungeonManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        rooms = FindObjectsByType<Room>(FindObjectsSortMode.None);
+        rooms = FindObjectsByType<Room>(FindObjectsInactive.Exclude);
         if (cam == null) cam = Camera.main;
         if (player == null)
         {
@@ -58,8 +59,15 @@ public class DungeonManager : MonoBehaviour
 
         if (HUDController.Instance != null && GameManager.Instance != null)
         {
-            HUDController.Instance.SetStage(GameManager.Instance.StageNumber, GameManager.Instance.TotalStages);
+            int stage = GameManager.Instance.StageNumber;
+            HUDController.Instance.SetStage(stage, GameManager.Instance.TotalStages);
             HUDController.Instance.SetScore(GameManager.Instance.score);
+
+            // judul & lore diambil dari FloorCatalog; StoryData hanya cadangan
+            var profile = FloorCatalog.Get(GameManager.Instance.currentStageIndex);
+            string floorName = profile != null ? profile.title : StoryData.FloorName(stage);
+            string floorLore = profile != null ? profile.lore : StoryData.FloorLoreOf(stage);
+            HUDController.Instance.ShowFloorIntro(floorName, floorLore);
         }
         if (AudioManager.Instance != null) AudioManager.Instance.PlayMusic(AudioManager.Instance.battleMusic);
 
@@ -70,6 +78,7 @@ public class DungeonManager : MonoBehaviour
             if (player != null) player.position = startRoom.Center;
             EnterRoom(startRoom, true);
         }
+        PushRoomProgress();
     }
 
     void LateUpdate()
@@ -100,11 +109,48 @@ public class DungeonManager : MonoBehaviour
         float ty = Mathf.Clamp(focus.y, c.y - Mathf.Max(0f, half.y - camHY), c.y + Mathf.Max(0f, half.y - camHY));
         Vector3 target = new Vector3(tx, ty, cameraZ);
         cam.transform.position = Vector3.Lerp(cam.transform.position, target, Time.deltaTime * cameraLerp);
+
+        if (shakeT > 0f && Time.timeScale > 0f)
+        {
+            shakeT -= Time.deltaTime;
+            float k = shakeDur > 0f ? Mathf.Clamp01(shakeT / shakeDur) : 0f;
+            Vector2 o = Random.insideUnitCircle * shakeAmp * k;
+            cam.transform.position += new Vector3(o.x, o.y, 0f);
+        }
+    }
+
+    /// <summary>Getar kamera (dipanggil saat pukulan kena / player terluka / boss mati).</summary>
+    public void Shake(float amp = 0.15f, float dur = 0.12f)
+    {
+        shakeAmp = Mathf.Max(shakeAmp * (shakeT > 0f ? 1f : 0f), amp);
+        shakeDur = dur; shakeT = dur;
+    }
+
+    [Header("Performa")]
+    [Tooltip("Nonaktifkan ruangan yang tidak sedang ditempati")]
+    public bool cullInactiveRooms = true;
+
+    /// <summary>
+    /// Hanya ruangan yang ditempati yang tetap hidup. Satu lantai berisi sampai
+    /// 20 ruangan, masing-masing dengan puluhan sprite dan beberapa obor berkedip
+    /// yang punya Update sendiri; membiarkan semuanya aktif berarti ratusan
+    /// pemanggilan Update dan draw call untuk ruangan yang tidak terlihat.
+    /// </summary>
+    void CullRooms(Room keep)
+    {
+        if (!cullInactiveRooms || rooms == null) return;
+        foreach (var r in rooms)
+        {
+            if (r == null) continue;
+            bool active = r == keep;
+            if (r.gameObject.activeSelf != active) r.gameObject.SetActive(active);
+        }
     }
 
     public void EnterRoom(Room room, bool snap = false)
     {
         current = room;
+        CullRooms(room);
         if (cam != null)
         {
             if (snap) cam.transform.position = new Vector3(room.Center.x, room.Center.y, cameraZ);
@@ -128,6 +174,16 @@ public class DungeonManager : MonoBehaviour
     public void OnRoomCleared(Room room)
     {
         if (MinimapController.Instance != null) MinimapController.Instance.MarkCleared(room);
+        PushRoomProgress();
+    }
+
+    /// <summary>Berapa ruangan sudah bersih dari seluruh ruangan lantai ini.</summary>
+    void PushRoomProgress()
+    {
+        if (HUDController.Instance == null || rooms == null) return;
+        int cleared = 0;
+        foreach (var r in rooms) if (r != null && r.IsCleared) cleared++;
+        HUDController.Instance.SetRooms(cleared, rooms.Length);
     }
 
     public void OnBossDefeated()

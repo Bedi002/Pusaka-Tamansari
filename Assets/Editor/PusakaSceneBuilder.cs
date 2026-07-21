@@ -131,19 +131,30 @@ public static class PusakaSceneBuilder
         var htGO = GameObject.Find("HealthText");
         if (htGO != null) { var tmp = htGO.GetComponent<TextMeshProUGUI>(); if (tmp != null) hud.healthText = tmp; }
 
-        MakeBar(canvasGO.transform, "HealthBar", new Vector2(-650, -460), new Vector2(440, 36),
-            new Color(0.85f, 0.2f, 0.2f), out var hpSlider);
-        hud.healthSlider = hpSlider;
+        BuildVitals(canvasGO.transform, hud);
 
-        hud.stageText = MakeText(canvasGO.transform, "Stage", new Vector2(-720, 480), new Vector2(360, 60), 34);
-        hud.waveText = MakeText(canvasGO.transform, "Wave", new Vector2(0, 480), new Vector2(360, 60), 34);
-        hud.scoreText = MakeText(canvasGO.transform, "Skor: 0", new Vector2(720, 480), new Vector2(360, 60), 34);
+        // Koordinat di bawah ini diverifikasi dengan pemeriksa tumpang-tindih
+        // (scratchpad/hud.py). Versi sebelumnya menaruh "Ruangan" tepat di atas
+        // panel vital (bertimpa 360x52 px) dan boss bar menembusnya (920x33 px).
+        hud.stageText = MakeText(canvasGO.transform, "Stage", new Vector2(-770, 474), new Vector2(300, 52), 30);
+        hud.waveText = MakeText(canvasGO.transform, "Ruangan", new Vector2(-770, 420), new Vector2(300, 46), 24);
+        hud.scoreText = MakeText(canvasGO.transform, "Skor: 0", new Vector2(770, 474), new Vector2(300, 52), 30);
+        hud.levelText = MakeText(canvasGO.transform, "Level 1", new Vector2(770, 420), new Vector2(300, 46), 24);
+        hud.levelText.color = Gold;
         hud.centerMessage = MakeText(canvasGO.transform, "", new Vector2(0, 120), new Vector2(1400, 160), 80);
+        hud.centerMessage.color = Gold; hud.centerMessage.fontStyle = FontStyles.Bold;
+        hud.subMessage = MakeText(canvasGO.transform, "", new Vector2(0, 20), new Vector2(1500, 90), 34);
+        hud.subMessage.color = Parchment;
+
+        // Tanpa petunjuk ini pemain tidak punya cara tahu tas itu ada.
+        var keys = MakeText(canvasGO.transform, "Tab  tas          Spasi  serang          Shift  lari          E  bicara",
+                            new Vector2(0, -512), new Vector2(1500, 40), 22);
+        keys.color = new Color(0.54f, 0.56f, 0.64f);
 
         var bossRoot = new GameObject("BossBar", typeof(RectTransform));
         bossRoot.transform.SetParent(canvasGO.transform, false);
         var brRt = (RectTransform)bossRoot.transform;
-        brRt.anchoredPosition = new Vector2(0, 400);
+        brRt.anchoredPosition = new Vector2(0, 336);
         brRt.sizeDelta = new Vector2(920, 70);
         hud.bossNameText = MakeText(bossRoot.transform, "BOSS", new Vector2(0, 32), new Vector2(920, 44), 32);
         MakeBar(bossRoot.transform, "BossHealth", new Vector2(0, -6), new Vector2(900, 28),
@@ -155,8 +166,8 @@ public static class PusakaSceneBuilder
         var miniPanel = new GameObject("Minimap", typeof(RectTransform), typeof(Image));
         miniPanel.transform.SetParent(canvasGO.transform, false);
         var mpRt = (RectTransform)miniPanel.transform;
-        mpRt.anchoredPosition = new Vector2(740, 280);
-        mpRt.sizeDelta = new Vector2(320, 320);
+        mpRt.anchoredPosition = new Vector2(762, 250);
+        mpRt.sizeDelta = new Vector2(300, 300);
         miniPanel.GetComponent<Image>().color = new Color(0.06f, 0.06f, 0.10f, 0.7f);
         var mapRoot = new GameObject("MapRoot", typeof(RectTransform));
         mapRoot.transform.SetParent(miniPanel.transform, false);
@@ -196,26 +207,23 @@ public static class PusakaSceneBuilder
         AddCameraAndEvent(new Color(0.05f, 0.05f, 0.08f));
 
         var gm = new GameObject("GameManager").AddComponent<GameManager>();
-        gm.stageScenes = new[] { "Floor1", "Floor2", "Floor3" };
+        gm.stageScenes = new[] { "Floor1", "Floor2", "Floor3", "Floor4", "Floor5" };
         gm.heroPrefabs = new[]
         {
             AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Forge/Player_Warrior.prefab"),
-            AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Forge/Player_Archer.prefab"),
-            AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Forge/Player_Mage.prefab"),
         };
         new GameObject("AudioManager").AddComponent<AudioManager>();
 
         var canvas = MakeCanvas();
-        var title = MakeText(canvas.transform, "PUSAKA TAMANSARI", new Vector2(0, 320), new Vector2(1600, 200), 104);
-        title.color = Gold; title.fontStyle = FontStyles.Bold;
-        MakeText(canvas.transform, "Petualangan Dungeon Pusaka", new Vector2(0, 200), new Vector2(1100, 70), 36).color = Parchment;
-        MakeAccent(canvas.transform, new Vector2(0, 248), 760);
-        MakePanel(canvas.transform, new Vector2(0, -75), new Vector2(580, 320), new Color(0.08f, 0.09f, 0.13f, 0.85f));
+        // Latar ilustrasi AI sudah memuat judul, prolog, dan tombol MAIN/KELUAR.
+        // Kita pakai apa adanya dan hanya menaruh area klik di atasnya. Koordinat
+        // tombol diverifikasi dengan overlay hit-box sebelum ditulis.
+        MakeImageBackground(canvas.transform, "Assets/Art/Generated/BG_MainMenu.png");
 
         var menu = new GameObject("Menu").AddComponent<MainMenuController>();
-        menu.difficultyScene = "CharacterSelect";       // MAIN -> pilih hero dulu
-        var play = MakeButton(canvas.transform, "MAIN", new Vector2(0, -10), new Vector2(460, 100));
-        var quit = MakeButton(canvas.transform, "KELUAR", new Vector2(0, -140), new Vector2(460, 100));
+        menu.difficultyScene = "DifficultySelect";      // hanya satu hero: layar pilih hero dilewati
+        var play = MakeSpriteButton(canvas.transform, "Assets/Art/Generated/UI/btn_main.png", new Vector2(657, -188), new Vector2(413, 108));
+        var quit = MakeSpriteButton(canvas.transform, "Assets/Art/Generated/UI/btn_keluar.png", new Vector2(664, -361), new Vector2(434, 101));
         UnityEventTools.AddPersistentListener(play.onClick, new UnityAction(menu.PlayGame));
         UnityEventTools.AddPersistentListener(quit.onClick, new UnityAction(menu.QuitGame));
 
@@ -228,15 +236,13 @@ public static class PusakaSceneBuilder
         AddCameraAndEvent(new Color(0.08f, 0.07f, 0.12f));
 
         var canvas = MakeCanvas();
-        var dtitle = MakeText(canvas.transform, "PILIH KESULITAN", new Vector2(0, 300), new Vector2(1400, 180), 84);
-        dtitle.color = Gold; dtitle.fontStyle = FontStyles.Bold;
-        MakeAccent(canvas.transform, new Vector2(0, 232), 760);
-        MakePanel(canvas.transform, new Vector2(0, -30), new Vector2(580, 420), Panel);
+        // Latar ilustrasi AI sudah memuat judul dan tombol EASY/NORMAL/HARD.
+        MakeImageBackground(canvas.transform, "Assets/Art/Generated/BG_Difficulty.png");
 
         var ctrl = new GameObject("DifficultyMenu").AddComponent<DifficultySelectController>();
-        var easy = MakeButton(canvas.transform, "EASY", new Vector2(0, 90), new Vector2(460, 92));
-        var normal = MakeButton(canvas.transform, "NORMAL", new Vector2(0, -30), new Vector2(460, 92));
-        var hard = MakeButton(canvas.transform, "HARD", new Vector2(0, -150), new Vector2(460, 92));
+        var easy = MakeSpriteButton(canvas.transform, "Assets/Art/Generated/UI/btn_easy.png", new Vector2(25, 62), new Vector2(576, 138));
+        var normal = MakeSpriteButton(canvas.transform, "Assets/Art/Generated/UI/btn_normal.png", new Vector2(25, -112), new Vector2(576, 138));
+        var hard = MakeSpriteButton(canvas.transform, "Assets/Art/Generated/UI/btn_hard.png", new Vector2(25, -273), new Vector2(576, 138));
         UnityEventTools.AddPersistentListener(easy.onClick, new UnityAction(ctrl.SelectEasy));
         UnityEventTools.AddPersistentListener(normal.onClick, new UnityAction(ctrl.SelectNormal));
         UnityEventTools.AddPersistentListener(hard.onClick, new UnityAction(ctrl.SelectHard));
@@ -244,22 +250,26 @@ public static class PusakaSceneBuilder
         EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene(), SceneDir + "DifficultySelect.unity");
     }
 
-    static void BuildEnd(string sceneName, string title, Color bg)
+    static void BuildEnd(string sceneName, string title, Color bg, string lore = null)
     {
         EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
         AddCameraAndEvent(bg);
 
         var canvas = MakeCanvas();
-        var etitle = MakeText(canvas.transform, title, new Vector2(0, 300), new Vector2(1400, 200), 96);
+        // Tata letak diverifikasi pemeriksa tumpang-tindih: versi lama punya empat
+        // tabrakan, termasuk baris lore yang menembus panel skor.
+        var etitle = MakeText(canvas.transform, title, new Vector2(0, 352), new Vector2(1400, 140), 96);
         etitle.color = Gold; etitle.fontStyle = FontStyles.Bold;
-        MakeAccent(canvas.transform, new Vector2(0, 232), 700);
-        MakePanel(canvas.transform, new Vector2(0, 0), new Vector2(620, 440), Panel);
+        MakeAccent(canvas.transform, new Vector2(0, 262), 700);
+        if (!string.IsNullOrEmpty(lore))
+            MakeText(canvas.transform, lore, new Vector2(0, 208), new Vector2(1240, 72), 26).color = Parchment;
+        MakePanel(canvas.transform, new Vector2(0, -58), new Vector2(660, 392), Panel);
 
         var ctrl = new GameObject("EndScreen").AddComponent<EndScreenController>();
-        ctrl.scoreText = MakeText(canvas.transform, "Skor Akhir: 0", new Vector2(0, 130), new Vector2(1000, 90), 48);
+        ctrl.scoreText = MakeText(canvas.transform, "Skor Akhir: 0", new Vector2(0, 62), new Vector2(560, 80), 44);
 
-        var retry = MakeButton(canvas.transform, "ULANGI", new Vector2(0, -30), new Vector2(460, 92));
-        var menu = MakeButton(canvas.transform, "MENU UTAMA", new Vector2(0, -150), new Vector2(460, 92));
+        var retry = MakeButton(canvas.transform, "ULANGI", new Vector2(0, -46), new Vector2(460, 88));
+        var menu = MakeButton(canvas.transform, "MENU UTAMA", new Vector2(0, -160), new Vector2(460, 88));
         UnityEventTools.AddPersistentListener(retry.onClick, new UnityAction(ctrl.Retry));
         UnityEventTools.AddPersistentListener(menu.onClick, new UnityAction(ctrl.MainMenu));
 
@@ -275,8 +285,8 @@ public static class PusakaSceneBuilder
         BuildMainMenu();
         BuildCharacterSelect();
         BuildDifficulty();
-        BuildEnd("Victory", "MENANG!", new Color(0.05f, 0.10f, 0.06f));
-        BuildEnd("GameOver", "GAME OVER", new Color(0.12f, 0.05f, 0.05f));
+        BuildEnd("Victory", "MENANG!", new Color(0.05f, 0.10f, 0.06f), StoryData.Epilogue);
+        BuildEnd("GameOver", "GAME OVER", new Color(0.12f, 0.05f, 0.05f), StoryData.GameOverLine);
         SetupBuildSettingsFloors();
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
@@ -295,8 +305,8 @@ public static class PusakaSceneBuilder
 
         var ctrl = new GameObject("CharacterMenu").AddComponent<CharacterSelectController>();
         string[] folders = { "Warrior", "Archer", "Mage" };
-        string[] names = { "WARRIOR", "ARCHER", "MAGE" };
-        string[] descs = { "Pedang besar.\nKuat & tahan pukul.", "Busur.\nSerang dari jauh.", "Tongkat.\nSihir arkana." };
+        string[] names = StoryData.HeroNames;
+        string[] descs = StoryData.HeroLore;
         float[] xs = { -560f, 0f, 560f };
         var acts = new UnityAction[] { ctrl.SelectWarrior, ctrl.SelectArcher, ctrl.SelectMage };
         for (int i = 0; i < 3; i++)
@@ -341,7 +351,7 @@ public static class PusakaSceneBuilder
 
     static void SetupBuildSettingsFloors()
     {
-        string[] order = { "MainMenu", "CharacterSelect", "DifficultySelect", "Floor1", "Floor2", "Floor3", "Victory", "GameOver" };
+        string[] order = { "MainMenu", "CharacterSelect", "DifficultySelect", "Floor1", "Floor2", "Floor3", "Floor4", "Floor5", "Victory", "GameOver" };
         var list = new List<EditorBuildSettingsScene>();
         foreach (var n in order)
             list.Add(new EditorBuildSettingsScene(SceneDir + n + ".unity", true));
@@ -383,7 +393,7 @@ public static class PusakaSceneBuilder
 
     static void EnsureEventSystem()
     {
-        if (Object.FindFirstObjectByType<EventSystem>() == null)
+        if (Object.FindAnyObjectByType<EventSystem>() == null)
             new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
     }
 
@@ -424,6 +434,107 @@ public static class PusakaSceneBuilder
         var label2 = MakeText(go.transform, label, Vector2.zero, size, 38);
         label2.fontStyle = FontStyles.Bold;
         label2.color = Parchment;
+        return btn;
+    }
+
+    /// <summary>
+    /// Gugus vital di tengah atas: HP, Aji, Tenaga.
+    ///
+    /// Versi lama cuma satu Slider merah polos menempel di pojok kiri bawah,
+    /// tanpa angka, tanpa bingkai, tanpa hubungan visual dengan apa pun. Sekarang
+    /// ketiganya duduk dalam satu panel berbingkai emas dengan angkanya sendiri,
+    /// jadi terbaca sebagai satu perangkat, bukan tiga batang lepas.
+    /// </summary>
+    static void BuildVitals(Transform canvas, HUDController hud)
+    {
+        var root = new GameObject("Vitals", typeof(RectTransform));
+        root.transform.SetParent(canvas, false);
+        var rootRt = (RectTransform)root.transform;
+        rootRt.anchoredPosition = new Vector2(0, 452);
+        rootRt.sizeDelta = new Vector2(1000, 96);
+
+        MakePanel(root.transform, Vector2.zero, new Vector2(1004, 100), Gold * 0.55f);
+        MakePanel(root.transform, Vector2.zero, new Vector2(992, 88), Panel);
+
+        // HP paling lebar: ia yang paling sering dibaca saat panik
+        MakeBar(root.transform, "HealthBar", new Vector2(-232, 20), new Vector2(500, 30),
+                new Color(0.83f, 0.20f, 0.22f), out var hpSlider);
+        hud.healthSlider = hpSlider;
+        hud.healthText = MakeText(root.transform, "HP 120/120", new Vector2(-232, 20), new Vector2(500, 30), 20);
+
+        MakeBar(root.transform, "ManaBar", new Vector2(160, 20), new Vector2(280, 30),
+                new Color(0.26f, 0.52f, 0.90f), out var mpSlider);
+        hud.manaSlider = mpSlider;
+        hud.manaText = MakeText(root.transform, "AJI 80/80", new Vector2(160, 20), new Vector2(280, 30), 18);
+
+        MakeBar(root.transform, "StaminaBar", new Vector2(0, -22), new Vector2(940, 18),
+                new Color(0.36f, 0.74f, 0.38f), out var stSlider);
+        hud.staminaSlider = stSlider;
+        hud.staminaText = MakeText(root.transform, "TENAGA 100/100", new Vector2(0, -22), new Vector2(940, 18), 15);
+
+        // permata pemisah di tengah, seperti gesper pada ikat pinggang
+        MakePanel(root.transform, new Vector2(-2, 20), new Vector2(34, 34), Gold);
+        MakePanel(root.transform, new Vector2(-2, 20), new Vector2(22, 22), new Color(0.72f, 0.15f, 0.18f));
+    }
+
+    /// <summary>
+    /// Latar layar penuh dari ilustrasi AI. Diregangkan mengisi kanvas (anchor
+    /// 0..1) supaya koordinat tombol tetap sejajar dengan tombol yang sudah
+    /// tergambar di ilustrasi, apa pun rasio layarnya.
+    /// </summary>
+    static void MakeImageBackground(Transform canvas, string spritePath)
+    {
+        // paksa impor: di batchmode bersih PNG mungkin belum diimpor
+        AssetDatabase.ImportAsset(spritePath, ImportAssetOptions.ForceSynchronousImport);
+        var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(spritePath);
+        if (sprite == null) { Debug.LogWarning("MENU: latar tak ditemukan -> " + spritePath); return; }
+
+        var go = new GameObject("Background", typeof(RectTransform), typeof(Image));
+        go.transform.SetParent(canvas, false);
+        var rt = (RectTransform)go.transform;
+        rt.anchorMin = Vector2.zero; rt.anchorMax = Vector2.one;
+        rt.offsetMin = Vector2.zero; rt.offsetMax = Vector2.zero;
+        rt.SetAsFirstSibling();
+
+        var img = go.GetComponent<Image>();
+        img.sprite = sprite;
+        img.raycastTarget = false;
+        img.preserveAspect = false;   // regang penuh: alignment tombol tetap terjaga
+    }
+
+    /// <summary>
+    /// Tombol tak terlihat di atas tombol yang sudah tergambar pada ilustrasi.
+    /// Ilustrasi sudah punya art tombol yang bagus; kita cukup menaruh area klik
+    /// dengan sorotan tipis saat hover. Koordinat kanvas 1920x1080, sudah
+    /// diverifikasi dengan overlay hit-box (scratchpad).
+    /// </summary>
+    /// <summary>
+    /// Tombol art AI SUNGGUHAN: sprite tombol yang sudah dipotong (bingkai + teks)
+    /// dipasang tepat di atas tombol yang tergambar pada ilustrasi. Karena
+    /// spritenya identik, saat diam mulus; saat hover sprite tombolnya sendiri
+    /// membesar + menyala (HitButtonFx). Ini menjawab keluhan "tombol cuma lapisan
+    /// tak terlihat di atas gambar" -- sekarang art tombolnya yang bereaksi.
+    /// </summary>
+    static Button MakeSpriteButton(Transform canvas, string spritePath, Vector2 pos, Vector2 size)
+    {
+        AssetDatabase.ImportAsset(spritePath, ImportAssetOptions.ForceSynchronousImport);
+        var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(spritePath);
+
+        var rt = new GameObject("Button", typeof(RectTransform), typeof(Image), typeof(Button));
+        rt.transform.SetParent(canvas, false);
+        var t = (RectTransform)rt.transform;
+        t.anchoredPosition = pos; t.sizeDelta = size;
+
+        var img = rt.GetComponent<Image>();
+        if (sprite != null) { img.sprite = sprite; img.color = Color.white; }
+        else img.color = new Color(1f, 0.85f, 0.4f, 0.001f);   // cadangan: area klik saja
+        img.raycastTarget = true;
+
+        var btn = rt.GetComponent<Button>();
+        btn.targetGraphic = img;
+        btn.transition = Selectable.Transition.None;   // gerak ditangani HitButtonFx
+
+        rt.AddComponent<HitButtonFx>();
         return btn;
     }
 

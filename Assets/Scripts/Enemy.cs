@@ -20,6 +20,12 @@ public class Enemy : MonoBehaviour, IDamageable
     public float knockbackForce = 4f;
     public float deathCleanupDelay = 2f;
 
+    [Header("Suara (nama bank di Resources/Audio)")]
+    [Tooltip("Terdengar saat kena pukul. Musuh berzirah/batu memakai hit_metal.")]
+    public string hitSoundKey = "hit_flesh";
+    [Tooltip("Terdengar saat mati. Slime memakai slime_die.")]
+    public string deathSoundKey = "enemy_die";
+
     /// <summary>Dipicu tepat saat musuh mati (sebelum mayat dibersihkan).</summary>
     public event Action<Enemy> Died;
 
@@ -77,7 +83,8 @@ public class Enemy : MonoBehaviour, IDamageable
         if (isDead) return;
 
         currentHealth -= damage;
-        if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX(AudioManager.Instance.enemyHurt);
+        if (AudioManager.Instance != null) AudioManager.Instance.Play(hitSoundKey, 0.7f);
+        FloatingText.SpawnDamage(transform.position, damage);
 
         if (sprite != null)
         {
@@ -87,6 +94,7 @@ public class Enemy : MonoBehaviour, IDamageable
         ApplyKnockback(hitFrom);
 
         if (currentHealth <= 0) Die();
+        else SafeSetTrigger("Hurt");   // mainkan animasi terluka (flinch)
     }
 
     void ApplyKnockback(Vector2 hitFrom)
@@ -110,8 +118,9 @@ public class Enemy : MonoBehaviour, IDamageable
         isDead = true;
 
         SafeSetTrigger("Die");
-        if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX(AudioManager.Instance.enemyDie);
+        if (AudioManager.Instance != null) AudioManager.Instance.Play(deathSoundKey);
         if (GameManager.Instance != null) GameManager.Instance.AddScore(scoreReward);
+        LootTable.DropFromEnemy(transform.position);
 
         var move = GetComponent<EnemyMovement>();
         if (move != null) move.enabled = false;

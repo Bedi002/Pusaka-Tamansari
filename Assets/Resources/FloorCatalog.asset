@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47cca1a849ed30c4eab4211a2c93bf43, type: 3}
+  m_Name: FloorCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::FloorCatalog
+  floors:
+  - sceneName: Floor1
+    title: PELATARAN BERINGIN
+    lore: Dulu pelataran ini riuh oleh gamelan dan pedagang sekar. Kini akar beringin
+      mencekik gapura, dan prajurit yang telah gugur masih berbaris menjaga tuan
+      yang lama pergi.
+    outdoor: 1
+    water: 0
+    floorTint: {r: 0.64, g: 0.69, b: 0.54, a: 1}
+    wallTint: {r: 0.45882353, g: 0.52156866, b: 0.37254903, a: 1}
+    skyTint: {r: 0.16862746, g: 0.12941177, b: 0.21960784, a: 1}
+    ambientStrength: 0.55
+    lightColor: {r: 1, g: 0.75, b: 0.41, a: 0.3}
+    lightRadius: 4.2
+    layout: 0
+    roomCount: 13
+    loopChance: 0.2
+    propDensity: 1.2
+    enemies:
+    - {fileID: 4790263268984367885, guid: 07d21f0255376a847ac21779049f3f46, type: 3}
+    - {fileID: 8816695064539621126, guid: aa1bb0b6d23a6fc4eb15ca375b7c1431, type: 3}
+    - {fileID: 6125047630857306060, guid: 860032d943b40af468983074eeaab20a, type: 3}
+    elites:
+    - {fileID: 6125047630857306060, guid: 860032d943b40af468983074eeaab20a, type: 3}
+    boss: {fileID: 5429693641953277213, guid: 53d9f686f2061d146bd24746ed6344c8, type: 3}
+    enemiesPerRoom: 5
+  - sceneName: Floor2
+    title: UMBUL PASIRAMAN
+    lore: Di umbul ini para putri dahulu membasuh diri di bawah songsong emas. Airnya
+      tidak pernah surut - ia mengingat setiap wajah yang pernah tenggelam di dalamnya.
+    outdoor: 0
+    water: 1
+    floorTint: {r: 0.59, g: 0.75, b: 0.76, a: 1}
+    wallTint: {r: 0.37254903, g: 0.5411765, b: 0.53333336, a: 1}
+    skyTint: {r: 0.07058824, g: 0.15686275, b: 0.22745098, a: 1}
+    ambientStrength: 0.6
+    lightColor: {r: 0.43, g: 0.82, b: 0.92, a: 0.26}
+    lightRadius: 4
+    layout: 1
+    roomCount: 15
+    loopChance: 0.25
+    propDensity: 1
+    enemies:
+    - {fileID: 4219434595303950418, guid: fd61be1eccd32b44f983e5455aedd117, type: 3}
+    - {fileID: 2130261535433960262, guid: af1a6337a81e73b408a606a2215f5f6f, type: 3}
+    - {fileID: 6125047630857306060, guid: 860032d943b40af468983074eeaab20a, type: 3}
+    - {fileID: 4790263268984367885, guid: 07d21f0255376a847ac21779049f3f46, type: 3}
+    elites:
+    - {fileID: 696923821995009298, guid: 13ae04282a4ceaf46ac1a11a85820c4c, type: 3}
+    boss: {fileID: 6048899752568711634, guid: bfab32b3262ab4e4386eb46d773e0dc5, type: 3}
+    enemiesPerRoom: 6
+  - sceneName: Floor3
+    title: SUMUR GUMULING
+    lore: Sumur berpilin ini dahulu tempat doa dipanjatkan, tangganya melingkar seperti
+      tasbih batu. Kini doa-doa itu berbalik arah, dan sesuatu yang haus menunggu
+      di dasar lingkarannya.
+    outdoor: 0
+    water: 0
+    floorTint: {r: 0.59, g: 0.57, b: 0.67, a: 1}
+    wallTint: {r: 0.41568628, g: 0.39607844, b: 0.49803922, a: 1}
+    skyTint: {r: 0.05882353, g: 0.05882353, b: 0.101960786, a: 1}
+    ambientStrength: 0.74
+    lightColor: {r: 1, g: 0.65, b: 0.31, a: 0.38}
+    lightRadius: 3.4
+    layout: 2
+    roomCount: 17
+    loopChance: 0.3
+    propDensity: 0.8
+    enemies:
+    - {fileID: 696923821995009298, guid: 13ae04282a4ceaf46ac1a11a85820c4c, type: 3}
+    - {fileID: 4697339497613089084, guid: f725bec615e82864fb3738b415370e70, type: 3}
+    - {fileID: 4219434595303950418, guid: fd61be1eccd32b44f983e5455aedd117, type: 3}
+    - {fileID: 2130261535433960262, guid: af1a6337a81e73b408a606a2215f5f6f, type: 3}
+    elites:
+    - {fileID: 7425484363914490002, guid: 20bdd1b52e3579f40a47cc6cd407b972, type: 3}
+    boss: {fileID: 3782612969687576913, guid: 279d091ae26919745ac9230a28738fd6, type: 3}
+    enemiesPerRoom: 7
+  - sceneName: Floor4
+    title: PULO KENONGO
+    lore: Pulo ini dahulu harum oleh kembang kenanga yang mekar untuk sultan. Patih
+      Kelam membakarnya guna menutup jejak, tetapi abunya menolak menjadi dingin.
+    outdoor: 1
+    water: 0
+    floorTint: {r: 0.69, g: 0.59, b: 0.55, a: 1}
+    wallTint: {r: 0.47843137, g: 0.40392157, b: 0.3882353, a: 1}
+    skyTint: {r: 0.22745098, g: 0.101960786, b: 0.078431375, a: 1}
+    ambientStrength: 0.6
+    lightColor: {r: 1, g: 0.55, b: 0.27, a: 0.36}
+    lightRadius: 4
+    layout: 3
+    roomCount: 18
+    loopChance: 0.3
+    propDensity: 1.1
+    enemies:
+    - {fileID: 5687652484466353560, guid: e23539612d9b9fa4b87bb9cfa29a3f73, type: 3}
+    - {fileID: 7425484363914490002, guid: 20bdd1b52e3579f40a47cc6cd407b972, type: 3}
+    - {fileID: 696923821995009298, guid: 13ae04282a4ceaf46ac1a11a85820c4c, type: 3}
+    - {fileID: 4697339497613089084, guid: f725bec615e82864fb3738b415370e70, type: 3}
+    - {fileID: 2130261535433960262, guid: af1a6337a81e73b408a606a2215f5f6f, type: 3}
+    elites:
+    - {fileID: 4950604628080349624, guid: 2a54062dd95d0bf4abfa808758c558e3, type: 3}
+    boss: {fileID: 2972069868519864776, guid: 8af5fafcb4825c54fbbd350ebdfb1cf6, type: 3}
+    enemiesPerRoom: 8
+  - sceneName: Floor5
+    title: GEDHONG PUSAKA
+    lore: Inilah gedhong tempat pusaka keraton disemayamkan, kini penuh oleh barang
+      curian yang menolak tuan barunya. Di tengah ruangan, sang patih menunggu.
+    outdoor: 0
+    water: 0
+    floorTint: {r: 0.75, g: 0.67, b: 0.49, a: 1}
+    wallTint: {r: 0.43137255, g: 0.38431373, b: 0.3137255, a: 1}
+    skyTint: {r: 0.101960786, g: 0.078431375, b: 0.14901961, a: 1}
+    ambientStrength: 0.58
+    lightColor: {r: 1, g: 0.8, b: 0.47, a: 0.32}
+    lightRadius: 4.6
+    layout: 4
+    roomCount: 20
+    loopChance: 0.32
+    propDensity: 1
+    enemies:
+    - {fileID: 4950604628080349624, guid: 2a54062dd95d0bf4abfa808758c558e3, type: 3}
+    - {fileID: 4415428615413483349, guid: c238e15c8d176dd4e8142242db42fc86, type: 3}
+    - {fileID: 7425484363914490002, guid: 20bdd1b52e3579f40a47cc6cd407b972, type: 3}
+    - {fileID: 6125047630857306060, guid: 860032d943b40af468983074eeaab20a, type: 3}
+    - {fileID: 4697339497613089084, guid: f725bec615e82864fb3738b415370e70, type: 3}
+    - {fileID: 5687652484466353560, guid: e23539612d9b9fa4b87bb9cfa29a3f73, type: 3}
+    elites:
+    - {fileID: 4950604628080349624, guid: 2a54062dd95d0bf4abfa808758c558e3, type: 3}
+    - {fileID: 4415428615413483349, guid: c238e15c8d176dd4e8142242db42fc86, type: 3}
+    boss: {fileID: 1862651479987401721, guid: 2079f70d68918c043af82393c2a2f006, type: 3}
+    enemiesPerRoom: 9

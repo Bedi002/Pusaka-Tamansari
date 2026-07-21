@@ -22,10 +22,12 @@ public class PlayerCombat : MonoBehaviour
     float lastAttackTime = 0f;
     float nextAttackTime = 0f;
     PlayerMovement move;
+    PlayerStats stats;
 
     void Awake()
     {
         move = GetComponent<PlayerMovement>();
+        stats = GetComponent<PlayerStats>();
         if (anim == null) anim = GetComponent<Animator>();
     }
 
@@ -42,7 +44,41 @@ public class PlayerCombat : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextAttackTime)
             Attack();
+
+        // Aji Sepuh: serangan berat, jangkauan dua kali lipat dan damage 2.5x,
+        // dibayar dengan Aji. Ini yang membuat bar Aji punya arti.
+        if ((Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(1)) && Time.time >= nextAttackTime)
+            Heavy();
     }
+
+    void Heavy()
+    {
+        if (res == null) res = GetComponent<PlayerResources>();
+        if (res != null && !res.SpendMana(res.heavyCost))
+        {
+            if (AudioManager.Instance != null) AudioManager.Instance.Play("ui_error", 0.35f);
+            return;
+        }
+
+        nextAttackTime = Time.time + comboCooldown * 1.6f;
+        lastAttackTime = Time.time;
+
+        if (anim != null) { ResetTriggers(); anim.SetTrigger("Attack3"); }
+        if (AudioManager.Instance != null) AudioManager.Instance.Play("crit", 0.85f);
+        if (DungeonManager.Instance != null) DungeonManager.Instance.Shake(0.3f, 0.2f);
+
+        if (attackPoint == null) return;
+        var hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange * 2.1f, enemyLayers);
+        int dealt = Mathf.RoundToInt(attackDamage * 2.5f);
+        foreach (var col in hits)
+        {
+            var dmg = col.GetComponent<IDamageable>() ?? col.GetComponentInParent<IDamageable>();
+            if (dmg != null) dmg.TakeDamage(dealt, transform.position);
+        }
+        FloatingText.Spawn(attackPoint.position, "AJI SEPUH", UIKit.Teal, true);
+    }
+
+    PlayerResources res;
 
     void Attack()
     {
@@ -58,15 +94,42 @@ public class PlayerCombat : MonoBehaviour
         }
         if (comboStep >= 3) comboStep = 0;
 
-        if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX(AudioManager.Instance.playerAttack);
+        if (AudioManager.Instance != null) AudioManager.Instance.Play("swing", 0.8f);
 
         if (attackPoint == null) return;
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        int landed = 0, totalDealt = 0;
+
+        bool crit = stats != null && Random.value < stats.CritChance;
+        int dealt = crit ? attackDamage * 2 : attackDamage;
+
         foreach (Collider2D col in hits)
         {
             var dmg = col.GetComponent<IDamageable>();
             if (dmg == null) dmg = col.GetComponentInParent<IDamageable>();
-            if (dmg != null) dmg.TakeDamage(attackDamage, transform.position);
+            if (dmg != null) { dmg.TakeDamage(dealt, transform.position); landed++; totalDealt += dealt; }
+        }
+
+        if (landed > 0)
+        {
+            if (DungeonManager.Instance != null) DungeonManager.Instance.Shake(crit ? 0.22f : 0.12f, crit ? 0.16f : 0.10f);
+            if (crit)
+            {
+                if (AudioManager.Instance != null) AudioManager.Instance.Play("crit", 0.9f);
+                // angka damage-nya sudah dimunculkan tiap musuh; ini penanda kritisnya
+                FloatingText.Spawn(attackPoint.position, "KRITIS", new Color(0.89f, 0.70f, 0.25f), true);
+            }
+
+            // serap darah: sebagian damage yang masuk kembali jadi HP
+            if (stats != null && stats.LifeSteal > 0f)
+            {
+                int healed = Mathf.RoundToInt(totalDealt * stats.LifeSteal);
+                if (healed > 0)
+                {
+                    var hp = GetComponent<PlayerHealth>();
+                    if (hp != null) hp.Heal(healed);
+                }
+            }
         }
     }
 

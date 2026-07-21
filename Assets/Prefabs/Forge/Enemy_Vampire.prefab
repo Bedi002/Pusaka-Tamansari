@@ -1,5 +1,96 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4254307948461104333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8516566619642820303}
+  - component: {fileID: 3176672575611694299}
+  m_Layer: 0
+  m_Name: Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8516566619642820303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254307948461104333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.375, z: 0}
+  m_LocalScale: {x: 0.6828125, y: 0.47796875, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1580387804750125962}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3176672575611694299
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254307948461104333}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 9
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: ee94cecb4a908bd4dbaea41b53794644, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.4}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
 --- !u!1 &4950604628080349624
 GameObject:
   m_ObjectHideFlags: 0
@@ -33,9 +124,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8516566619642820303}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2992914559116627191
@@ -203,7 +295,7 @@ MonoBehaviour:
     - {fileID: 1409933738, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
     fps: 10
     loop: 1
-  - key: idle_left
+  - key: idle_up
     frames:
     - {fileID: 622448178, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
     - {fileID: 565102201, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
@@ -211,7 +303,7 @@ MonoBehaviour:
     - {fileID: 287962309, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
     fps: 10
     loop: 1
-  - key: idle_right
+  - key: idle_left
     frames:
     - {fileID: -2033101837, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
     - {fileID: 518622984, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
@@ -219,7 +311,7 @@ MonoBehaviour:
     - {fileID: 1696045187, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
     fps: 10
     loop: 1
-  - key: idle_up
+  - key: idle_right
     frames:
     - {fileID: -791518320, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
     - {fileID: 802555622, guid: 134d1648d6772774dab48bf70a6323eb, type: 3}
@@ -237,7 +329,7 @@ MonoBehaviour:
     - {fileID: -403741827, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
     fps: 10
     loop: 1
-  - key: walk_left
+  - key: walk_up
     frames:
     - {fileID: -1234344335, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
     - {fileID: 2033445990, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
@@ -247,7 +339,7 @@ MonoBehaviour:
     - {fileID: -579619243, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
     fps: 10
     loop: 1
-  - key: walk_right
+  - key: walk_left
     frames:
     - {fileID: -131234094, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
     - {fileID: 453665178, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
@@ -257,7 +349,7 @@ MonoBehaviour:
     - {fileID: -235734961, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
     fps: 10
     loop: 1
-  - key: walk_up
+  - key: walk_right
     frames:
     - {fileID: -760239442, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
     - {fileID: 1211262870, guid: 7ead359b822105843b956bce699e1c8a, type: 3}
@@ -283,7 +375,7 @@ MonoBehaviour:
     - {fileID: 1264861921, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
     fps: 14
     loop: 0
-  - key: attack_left
+  - key: attack_up
     frames:
     - {fileID: -446692447, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
     - {fileID: -968812761, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
@@ -299,7 +391,7 @@ MonoBehaviour:
     - {fileID: 987316035, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
     fps: 14
     loop: 0
-  - key: attack_right
+  - key: attack_left
     frames:
     - {fileID: 359732107, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
     - {fileID: -51932695, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
@@ -315,7 +407,7 @@ MonoBehaviour:
     - {fileID: 1131715434, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
     fps: 14
     loop: 0
-  - key: attack_up
+  - key: attack_right
     frames:
     - {fileID: -825515975, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
     - {fileID: -1022203367, guid: 14f892bf222fd5941acc1ef4254e9651, type: 3}
@@ -339,7 +431,7 @@ MonoBehaviour:
     - {fileID: -1050961703, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
     fps: 10
     loop: 0
-  - key: hurt_left
+  - key: hurt_up
     frames:
     - {fileID: -1158029573, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
     - {fileID: -871193927, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
@@ -347,7 +439,7 @@ MonoBehaviour:
     - {fileID: -1162676343, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
     fps: 10
     loop: 0
-  - key: hurt_right
+  - key: hurt_left
     frames:
     - {fileID: -2046864123, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
     - {fileID: -578066858, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
@@ -355,7 +447,7 @@ MonoBehaviour:
     - {fileID: -49881995, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
     fps: 10
     loop: 0
-  - key: hurt_up
+  - key: hurt_right
     frames:
     - {fileID: 954436728, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
     - {fileID: -1972313078, guid: 1a113b9bfc315744db0f0552bdfa1419, type: 3}
@@ -378,7 +470,7 @@ MonoBehaviour:
     - {fileID: 398256512, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
     fps: 8
     loop: 0
-  - key: death_left
+  - key: death_up
     frames:
     - {fileID: 1604722603, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
     - {fileID: 670429018, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
@@ -393,7 +485,7 @@ MonoBehaviour:
     - {fileID: 657273637, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
     fps: 8
     loop: 0
-  - key: death_right
+  - key: death_left
     frames:
     - {fileID: -2004224278, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
     - {fileID: 1058020434, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
@@ -408,7 +500,7 @@ MonoBehaviour:
     - {fileID: 962718269, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
     fps: 8
     loop: 0
-  - key: death_up
+  - key: death_right
     frames:
     - {fileID: 1949430103, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
     - {fileID: 235076067, guid: aa239c6e3c86fa546a1cdeb32eec7b74, type: 3}
@@ -437,12 +529,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 302916548a2992c4baa25686d868affb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHealth: 80
-  attackDamage: 16
-  scoreReward: 14
+  maxHealth: 90
+  attackDamage: 15
+  scoreReward: 40
   hitFlashDuration: 0.1
   knockbackForce: 4
   deathCleanupDelay: 2
+  hitSoundKey: hit_flesh
+  deathSoundKey: enemy_die
 --- !u!114 &2219671755788195491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,7 +549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc11c793e2fb3af41a230c788ee4f9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  speed: 2.6
+  speed: 3.2
   attackRange: 0.9
   stopDistance: 0.7
   attackCooldown: 1.5

@@ -35,6 +35,7 @@ public class MinimapController : MonoBehaviour
         for (int i = mapRoot.childCount - 1; i >= 0; i--) Destroy(mapRoot.GetChild(i).gameObject);
         nodes.Clear();
 
+        int order = 0;
         foreach (var r in rooms)
         {
             var go = new GameObject("Node_" + r.name, typeof(RectTransform), typeof(Image));
@@ -44,6 +45,9 @@ public class MinimapController : MonoBehaviour
             rt.anchoredPosition = new Vector2(r.gridPos.x * (cell + spacing), r.gridPos.y * (cell + spacing));
             nodes[r] = go.GetComponent<Image>();
             Paint(r);
+            // peta ikut "dirakit": node muncul beruntun, dibatasi agar lantai besar tidak lelet
+            UIMotion.PopIn(rt, Mathf.Min(0.3f, order * 0.015f), 0.2f);
+            order++;
         }
     }
 
@@ -63,9 +67,22 @@ public class MinimapController : MonoBehaviour
     {
         var prev = current;
         current = r;
-        if (prev != null) Paint(prev);
+        if (prev != null)
+        {
+            Paint(prev);
+            if (nodes.TryGetValue(prev, out var pi) && pi != null)
+                UIMotion.StopPulse((RectTransform)pi.transform);
+        }
         Paint(r);
+        // ruangan aktif berdenyut supaya mata langsung menemukannya
+        if (r != null && nodes.TryGetValue(r, out var img) && img != null)
+            UIMotion.Pulse((RectTransform)img.transform, 0.18f, 1.1f);
     }
 
-    public void MarkCleared(Room r) => Paint(r);
+    public void MarkCleared(Room r)
+    {
+        Paint(r);
+        if (r != null && nodes.TryGetValue(r, out var img) && img != null)
+            UIMotion.Flash(img, Color.white, 0.3f);
+    }
 }

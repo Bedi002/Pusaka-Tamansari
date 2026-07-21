@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d1f2cbaff00ac48addcecc0c1706e6, type: 3}
+  m_Name: PropLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::PropLibrary
+  brazier: {fileID: 21300000, guid: ce426688a7f9df8448edf81e5c188ded, type: 3}
+  statue: {fileID: 21300000, guid: 30d8a3fe13f7d9e4fbbd65fd313923b8, type: 3}
+  mask: {fileID: 21300000, guid: 00fb98816d6391b4393bd8c98f10825c, type: 3}
+  gamelan: {fileID: 21300000, guid: 91382244d1190104899c37078de0df5b, type: 3}
+  pillarBroken: {fileID: 21300000, guid: bc8154e18aaf01744aa5ee0e24fcbe19, type: 3}
+  vines: {fileID: 21300000, guid: 4e76ab43ac0475a4b939a0ce0a343c42, type: 3}
+  skeleton: {fileID: 21300000, guid: 279561bcbec167f48a16f9f46eaecdee, type: 3}
+  cobweb: {fileID: 21300000, guid: 124fde132f0ec8349964e39057b0fac3, type: 3}
+  pots: {fileID: 21300000, guid: 6840029a58e7bc741bd38bc3555ee5b4, type: 3}
+  books: {fileID: 21300000, guid: 6336b7ca1c8084b48a9ba140b5e0e044, type: 3}
+  rubble:
+  - {fileID: 21300000, guid: 76df7755524c7904cbc269d34731aa1e, type: 3}
+  - {fileID: 21300000, guid: 456c05df7544cdf43b24796e825a7abb, type: 3}
+  gems:
+  - {fileID: 21300000, guid: a2a24f4908d276046bc8738c56e58e76, type: 3}

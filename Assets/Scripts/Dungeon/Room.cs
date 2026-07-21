@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum RoomType { Start, Combat, Boss, Treasure, Hidden }
+// Nilai baru DITAMBAH DI BELAKANG supaya angka yang sudah tersimpan di scene lama
+// tidak bergeser artinya.
+public enum RoomType { Start, Combat, Boss, Treasure, Hidden, Elite, Shop, Shrine }
 public enum RoomState { Unvisited, Active, Cleared }
 
 /// <summary>
@@ -19,7 +21,10 @@ public class Room : MonoBehaviour
     public Vector2 size = new Vector2(16, 10);
 
     [Header("Tempur")]
+    [Tooltip("Dipakai bila enemyPrefabs kosong (denah lama)")]
     public GameObject enemyPrefab;
+    [Tooltip("Campuran tipe musuh; tiap spawn mengambil satu secara acak")]
+    public GameObject[] enemyPrefabs;
     public GameObject bossPrefab;
     public int enemyCount = 4;
     public Transform[] spawnPoints;
@@ -45,16 +50,32 @@ public class Room : MonoBehaviour
             spawnPoints = pts.ToArray();
         }
 
-        if (type == RoomType.Start || type == RoomType.Treasure || type == RoomType.Hidden)
+        if (type == RoomType.Start || type == RoomType.Treasure || type == RoomType.Hidden
+            || type == RoomType.Shop || type == RoomType.Shrine)
             State = RoomState.Cleared;
     }
 
     public void OnPlayerEnter()
     {
         if (IsCleared) { OpenDoors(); return; }
-        if (type == RoomType.Combat) StartCombat();
+        if (type == RoomType.Combat || type == RoomType.Elite) StartCombat();
         else if (type == RoomType.Boss) StartBoss();
         else { State = RoomState.Cleared; OpenDoors(); }
+    }
+
+    /// <summary>Satu musuh acak dari campuran; jatuh ke enemyPrefab bila daftar kosong.</summary>
+    GameObject PickEnemy()
+    {
+        if (enemyPrefabs != null && enemyPrefabs.Length > 0)
+        {
+            // coba beberapa kali kalau ada slot null di daftar
+            for (int k = 0; k < 6; k++)
+            {
+                var p = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+                if (p != null) return p;
+            }
+        }
+        return enemyPrefab;
     }
 
     void StartCombat()
@@ -64,13 +85,17 @@ public class Room : MonoBehaviour
 
         var profile = GameManager.Instance != null ? GameManager.Instance.Profile : DifficultyTable.Get(Difficulty.Normal);
         float scale = GameManager.Instance != null ? GameManager.Instance.StageScale : 1f;
+        if (type == RoomType.Elite) scale *= 1.35f;
         int n = Mathf.Max(1, Mathf.RoundToInt(enemyCount * profile.spawnCountMult * scale));
 
         aliveCount = 0;
         for (int i = 0; i < n; i++)
         {
-            if (enemyPrefab == null) break;
-            var go = Instantiate(enemyPrefab, SpawnPos(i), Quaternion.identity);
+            var prefab = PickEnemy();
+            if (prefab == null) break;
+            var go = Instantiate(prefab, SpawnPos(i), Quaternion.identity);
+            if (type == RoomType.Elite) go.transform.localScale *= 1.25f;
+            if (go.GetComponent<YSort>() == null) go.AddComponent<YSort>();
             var e = go.GetComponent<Enemy>();
             if (e != null) { e.Configure(profile, scale); e.Died += OnEnemyDied; aliveCount++; }
         }
@@ -95,6 +120,7 @@ public class Room : MonoBehaviour
         var prefab = bossPrefab != null ? bossPrefab : enemyPrefab;
         if (prefab == null) { Clear(); return; }
         var go = Instantiate(prefab, SpawnPos(0), Quaternion.identity);
+        if (go.GetComponent<YSort>() == null) go.AddComponent<YSort>();
 
         var b = go.GetComponent<Boss>();
         if (b != null) { b.Configure(profile, scale); b.Defeated += OnBossDefeated; }
@@ -117,8 +143,9 @@ public class Room : MonoBehaviour
     {
         State = RoomState.Cleared;
         OpenDoors();
-        if (type == RoomType.Combat && AudioManager.Instance != null)
+        if ((type == RoomType.Combat || type == RoomType.Elite) && AudioManager.Instance != null)
             AudioManager.Instance.PlaySFX(AudioManager.Instance.stageClear);
+        LootTable.DropRoomReward(transform.position, type);
         if (DungeonManager.Instance != null) DungeonManager.Instance.OnRoomCleared(this);
     }
 

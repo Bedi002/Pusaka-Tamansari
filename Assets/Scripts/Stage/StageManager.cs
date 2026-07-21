@@ -73,7 +73,7 @@ public class StageManager : MonoBehaviour
     void CollectSpawnPointsIfEmpty()
     {
         if (spawnPoints != null && spawnPoints.Length > 0) return;
-        var found = FindObjectsByType<Spawner>(FindObjectsSortMode.None);
+        var found = FindObjectsByType<Spawner>(FindObjectsInactive.Exclude);
         if (found.Length > 0)
         {
             spawnPoints = new Transform[found.Length];

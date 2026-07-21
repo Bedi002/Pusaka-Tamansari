@@ -27,11 +27,21 @@ public class Door : MonoBehaviour
         if (c != null) c.isTrigger = true;
     }
 
+    bool stateKnown = false;
+
     public void SetLocked(bool value)
     {
+        // hanya berbunyi saat status benar-benar berubah, bukan tiap kali
+        // ruangan menyegarkan pintunya
+        bool changed = !stateKnown || locked != value;
         locked = value;
+        stateKnown = true;
+
         if (blocker != null) blocker.SetActive(value);
         if (visual != null) visual.color = value ? lockedColor : openColor;
+
+        if (changed && AudioManager.Instance != null)
+            AudioManager.Instance.Play(value ? "door_close" : "door_open", 0.55f);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -39,6 +49,9 @@ public class Door : MonoBehaviour
         if (locked) return;
         if (!other.CompareTag("Player")) return;
         if (DungeonManager.Instance != null && targetRoom != null)
+        {
+            if (AudioManager.Instance != null) AudioManager.Instance.Play("door_open", 0.5f);
             DungeonManager.Instance.TransitionTo(targetRoom, this);
+        }
     }
 }
